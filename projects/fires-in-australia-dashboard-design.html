@@ -1,0 +1,441 @@
+<!-- /contents/page.hbs -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="apple-touch-icon" sizes="57x57" href="../img/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../img/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../img/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../img/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../img/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../img/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../img/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../img/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../img/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="../img/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../img/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="../img/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="../img/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta property="og:title" content="Clare Marie Carroll">
+    <meta property="og:description" content="Clare Marie Carroll : Creative Technologist">
+    <meta property="og:image" content="http://claremarie.info/img/coverphoto.png">
+    <meta property="og:url" content="claremarie.info">
+
+    <meta name="twitter:title" content="Clare Marie Carroll">
+    <meta name="twitter:description" content="Clare Marie Carroll : Creative Technologist">
+    <meta name="twitter:image" content="http://claremarie.info/img/coverphoto.png">
+    <meta name="twitter:card" content="claremarie.info">
+
+    <title>Clare Marie Carroll</title>
+
+    <meta name="description" content="Clare Marie Carroll : Creative Technologist" />
+    <meta name="keywords" content="clare, carroll, clare carroll, clare marie, clare marie carroll, design technologist, creative technologist, nyc" />
+
+    <link rel="stylesheet" type="text/css" href="../css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <link rel="stylesheet" type="text/css" href="../css/style-responsive.css" />
+    <link rel="stylesheet" type="text/css" href="../css/dropdown.css" />
+    <link rel="stylesheet" type="text/css" href="../css/modaal.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400|Roboto+Slab:300,400,700" rel="stylesheet">
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css' rel='stylesheet' type='text/css'>
+    
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+   <![endif]-->
+
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.sticky/1.0/jquery.sticky.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fitvids/1.2.0/jquery.fitvids.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-parallax/1.1.3/jquery-parallax-min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" type="text/javascript"></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.6/handlebars.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vivus/0.4.0/vivus.min.js"></script>
+    <script src="https://npmcdn.com/imagesloaded@4.1/imagesloaded.pkgd.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/ocanvas/2.8.3/ocanvas.min.js"></script>
+
+    <script src="../js/my3.js"></script>
+    <script src="../js/modaal.min.js"></script>
+    <script src="../js/main.js"></script>
+
+
+
+    <script>
+
+        Handlebars.registerHelper( "regex", function ( name ){
+            return "projects/"+ name.replace(/ +/g, '-').toLowerCase()+".html";
+        });
+
+
+    </script>
+
+
+
+    <link rel="stylesheet" type="text/css" href="../css/stylesub.css" />
+
+
+</head>
+
+<body>
+
+
+    <!-- <div class="modal">
+        <div class="modal-overlay">
+            <div class="modal-img">
+                <span class="x">x</span>
+                <img class="modal-image" src="">
+            </div>
+
+        </div>
+    </div> -->
+
+    <a href="#" aria-hidden="true" class="image-modal"></a>
+
+
+    <div class="container">
+
+        <!-- section menu -->
+
+        <section class="menu" id="menu" style="background:#F15B3D !important;">
+
+            
+            <div class="menu-content">
+
+                    <a href="../index.html" class="active menu-item"><div class="logo" id="logo">CLARE MARIE CARROLL</div></a>
+
+                    <ul id="menu">
+<!--                     <li><a href="index.html" class="menu-item">HOME</a>
+                    </li> -->
+                    <div class="dropdown">
+                      <li class="active"><a href="../work.html" class="../menu-item">WORK</a></li>
+                      <div class="dropdown-content">
+                      <a class="drop-link" href="../uxdesign.html">UX DESIGN</a>
+                        <a class="drop-link" href="../development.html">DEVELOPMENT</a>
+                        
+                        <a class="drop-link" href="../visualdesign.html">VISUAL DESIGN</a>
+                      </div>
+                    </div>
+                    <li><a href="../about.html" class="menu-item">ABOUT</a>
+                    </li>
+                    </ul>
+                </div>
+
+                
+
+            <div class="menu-drop" id="menu-drop">
+
+                <div class="content hidden">
+                    <ul id="menu">
+                        <li><a href="../index.html" class="menu-item">HOME</a>
+                        </li>
+                        <li><a href="../uxdesign.html" class="menu-item">UX DESIGN</a>
+                        </li>
+                        <li><a href="../development.html" class="menu-item">DEVELOPMENT</a>
+                        </li>
+                        <li><a href="../visualdesign.html" class="menu-item">VISUAL DESIGN</a>
+                        </li>
+                        <li><a href="../about.html" class="menu-item">ABOUT</a>
+                        </li>
+                        
+                    </ul>
+                </div>
+
+            </div>
+
+                <div id="hamburger">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+            </div>
+
+        </section>
+
+        <div class="project-nav">
+
+
+
+                <div class="prev">
+                    <a href="vrb-foto.html">&#x2190; previous project </a>
+                </div>
+
+
+                <div class="section">
+                    <a href="../visualdesign.html">VISUAL DESIGN PROJECTS</a>
+                </div>
+
+
+                <div class="next">
+                   <a href="backstage-disney---print-report-design.html">next project &#x2192;</a>
+                </div>
+
+        </div>
+
+
+
+        <div class="clear"></div>
+
+
+
+        <section class="project-body" id="">
+
+            <div class="project-row1">
+
+                <div class="header">
+
+                    <h1>Fires in Australia Dashboard Design</h1>
+
+                </div>
+
+            </div>
+
+            <div class="project-row2">
+
+                <div class="desc">
+
+                    <p>This is a design for a real time dashboard displaying information about fires in Australia. Note: this data visualization is purely hypothetical and does not rely on real data.</p>
+
+                </div>
+
+                <div class="facts">
+
+                    <table style="width:100%">
+
+                        <tr>
+                            <td class="category"><span class="type">Year: </span></td>
+                            <td class="result"><span class="value">2017</span></td> 
+                        </tr>
+
+                        <tr>
+                            <td class="category"><span class="type">Client: </span></td>
+                            <td class="result"><span class="value">CMU MHCI</span></td> 
+                        </tr>
+                        
+
+
+
+                        <tr>
+                            <td class="category"><span class="type">Role: </span></td>
+                            <td class="result"><span class="value">Animator and lead visual designer</span></td> 
+                        </tr>
+                        
+
+                        <tr>
+                            <td class="category"><span class="type">Duration: </span></td>
+                            <td class="result"><span class="value">3 weeks</span></td> 
+                        </tr>
+
+
+
+
+                    
+
+                    
+
+
+
+
+                    </table>
+
+                </div>
+                
+            </div>
+
+
+                <div class="project-row3" id="project-row3" >
+                    
+                    <img class="dropshadow" style="width: 100%;"src ="../img/australia/dashboard.png">
+                    
+                </div>
+
+
+
+                <div class="project-row">
+                    
+                        <div class="left"><h1>Prompt</h1></div><div class="right"><p>Our team was tasked with creating a Climate Change + Biodiversity Dashboard for Australia. Our ‘client’ for this project was an advisory board of climate change and biodiversity scientists who want to see the fruits of their research and monitoring efforts acted upon. The users of the dashboard would be national-level policy makers. Secondary and tertiary audiences include NGOs, non-profits, and the public.</p></div>
+                        <hr>
+                </div>
+
+
+
+
+                <div class="project-row">
+                    
+                        <div class="left"><h1>Goals</h1></div><div class="right"><p><ul><li>express the impact that climate change is having on biodiversity for the selected region</li><li>provide policy makers with the information they need to act in terms of modifying current policy or enacting new policy</li></ul></p></div>
+                        <hr>
+
+                </div>
+
+
+
+
+                <div class="project-row">
+                    
+                        <div class="left"><h1>Research Insights</h1></div><div class="right"><p><ul><li>2016 was Australia's fourth-warmest year on record; annual national mean temperature was 1.6 °F above average</li><li>Climate change will cause an increase in extreme weather events (like fires)</li><li>Fires cause a lot of damage: It was estimated that from 1967-1999 bushfires cost about $2.5 billion</li></ul></p></div>
+                        <hr>
+                    
+                </div>
+
+
+
+
+                <div class="project-row">
+                    
+                        <div class="left"><h1>Scoping</h1></div><div class="right"><p>From our research, we scoped down to showing the following in our dashboard:<br><Br><ul><li>What areas in Australia are most affected by fires?</li><li>How is the budget is currently being allocated and what are its effect on costs related to damage?</li></ul></p></div>
+                        <hr>
+                    
+                </div>
+
+
+
+
+                <div class="project-row">
+                    
+                        <div class="left"><h1>Value</h1></div><div class="right"><p>By showing the above, we believe that:<br><br><ul><li>Users will get feedbacks for themselves regarding current policy, and allocate resources to fight or prevent fires.</li><li>Users will directly see the current policy’s effect and its budget usage</li><li>Dashboard will assist users them with policy plans and predictions</li></ul></p></div>
+                        <hr>
+                    
+                </div>
+
+
+
+
+                <div class="project-row">
+                    
+                        <div class="left"><h1>User Scenario</h1></div><div class="right"><p><img class="nodrop" src="../img/australia/policymaker.png"><br><br>Kathryn is a key Environmental Policymaker in Australia. There was quite a bit of damage caused by fires last year, and the Prime Minister is wondering how to prevent that in the future. Kathryn wants to figure out if they need more money in the budget or if they simply need to reassess their spending patterns and reallocate some funds.</p></div>
+                        <hr>
+                    
+                </div>
+
+
+
+
+                <div class="project-row">
+                    
+                        <div class="left"><h1>Current Fires by State</h1></div><div class="right"><p>This visualization shows the percentage of burning in each state in Australia. When a bar turns red, it has entered the emergency levels of burning, when it turns yellow, it has entered the burn deficiency levels of burning. To show what has changed recently, we added a crosshatch animation to show any movement in the last 24 hours and the direction of that movement.<br><br><img class="modalize" src="../img/australia/bystate.gif"></p></div>
+                        <hr>
+                    
+                </div>
+
+
+
+
+                <div class="project-row">
+                    
+                        <div class="left"><h1>Budget Usage this Year</h1></div><div class="right"><p>This visualization displays the percentage of the fire budget used and breakdown of how it was used. Similar to the animation above, this visualization animates with crosshatching to show recent movement.<br><br><img class="modalize" src="../img/australia/budget.gif"></p></div>
+                        <hr>
+
+                </div>
+
+
+
+
+                <div class="project-row">
+                    
+                        <div class="left"><h1>Fire Trends by Month</h1></div><div class="right"><p>This visualization shows the fire trends over the past few months and the predictions for the future based on past data.<br><br><img class="modalize" src="../img/australia/firesbymonth.png"></p></div>
+                        <hr>
+
+                </div>
+
+
+
+
+                <div class="project-row">
+                    
+                        <div class="left"><h1>Budget Allocation</h1></div><div class="right"><p>This visualization shows the budget allocation breakdown over the past few years in relation to the total cost of damage with future predictions.<br><br><img class="modalize" src="../img/australia/budgetallo.png"></p></div>
+                        <hr>
+
+                </div>
+
+
+
+
+                <div class="project-row">
+                    
+                        <div class="left"><h1>Full Dashboard</h1></div><div class="right"><p><div class="video-responsive"><iframe width="560" height="315" src="https://www.youtube.com/embed/Q1T8yiD0M90" frameborder="0" allowfullscreen></iframe></div></p></div>
+                        <hr>
+
+                </div>
+
+
+
+
+                <div class="project-row">
+                    
+                        <div class="left"><h1>Team</h1></div><div class="right"><p>Shunta McDavid, RhoEun Song, Imogen Todd</p></div>
+                        <hr>
+
+                </div>
+
+
+
+            <!-- <div class="project-content"> -->
+            
+<!--                 <div class="left">
+                    <img class="cover" src="../img/covers/australia.png">   
+                </div>
+
+                <div class="right">
+                    <h1>Fires in Australia Dashboard Design</h1>
+                    <br>
+                    PROJECT DETAILS<br>
+                    <br><br>
+
+                    TEAM<br>
+                    <br><Br>
+
+                    MY ROLE<br>
+                    <br><br>
+                    
+                   
+                </div> -->
+
+        <!--     </div> -->
+
+         <!--    <div class="project-description"> -->
+                <!--  -->
+           <!--  </div> -->
+
+
+
+
+            
+        </section>
+
+
+        <div class="clear"></div>
+
+
+
+        <section class="foot">
+            <div class="menu-footer">
+
+                <a href="#home">Home</a>
+                <a href="https://www.linkedin.com/in/claremcarroll" target="_blank">LinkedIn</a>
+                <a href="https://www.behance.net/claremariecarroll" target="_blank">Behance</a>
+                <a href="https://www.instagram.com/_claremarie/" target="_blank">Instagram</a>
+                <a href="https://github.com/claremcarroll" target="_blank">Github</a>
+
+            </div>
+
+            <div class="copyright">© Clare Marie Carroll 2017</div>
+
+
+        </section>
+
+
+    </div>
+    
+
+
+</body>
+
+</html>

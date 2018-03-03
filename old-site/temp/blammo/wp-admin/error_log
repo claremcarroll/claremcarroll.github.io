@@ -1,0 +1,37 @@
+[07-Apr-2015 14:25:13] WordPress database error Table 'claremar_87y4t983njfd98.wp_wfConfig' doesn't exist for query select val from wp_wfConfig where name='disableConfigCaching' made by activate_plugin, include_once('/plugins/wordfence/wordfence.php'), wordfence::install_actions, wordfence::runInstall, wfConfig::get, wfDB->querySingle
+[07-Apr-2015 14:25:13] WordPress database error Table 'claremar_87y4t983njfd98.wp_wfConfig' doesn't exist for query select val from wp_wfConfig where name='cbl_restOfSiteBlocked' made by activate_plugin, include_once('/plugins/wordfence/wordfence.php'), wordfence::install_actions, wordfence::runInstall, wfConfig::get, wfConfig::loadFromDiskCache, wfDB->querySingle
+[07-Apr-2015 14:25:13] WordPress database error Table 'claremar_87y4t983njfd98.wp_wfConfig' doesn't exist for query insert into wp_wfConfig (name, val) values ('cbl_restOfSiteBlocked', '1') ON DUPLICATE KEY UPDATE val='1' made by activate_plugin, include_once('/plugins/wordfence/wordfence.php'), wordfence::install_actions, wordfence::runInstall, wfConfig::set, wfDB->queryWrite
+[22-Jun-2015 22:22:09] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/claremar/public_html/claremarie/blammo/wp-content/plugins/font/Font.php:762) in /home2/claremar/public_html/claremarie/blammo/wp-includes/option.php on line 748
+[22-Jun-2015 22:25:06] WordPress database error Table 'claremar_87y4t983njfd98.wp_2_wfBlockedIPLog' doesn't exist for query SELECT * FROM wp_2_wfBlockedIPLog
+ORDER BY blockCount DESC
+LIMIT 5 made by wp_dashboard, do_meta_boxes, call_user_func, wfActivityReport::outputDashboardWidget, wfActivityReport->toWidgetView, wfActivityReport->getWidgetReport, wfActivityReport->getTopIPsBlocked
+[22-Jun-2015 23:37:24] WordPress database error Table 'claremar_87y4t983njfd98.wp_2_wfBlockedIPLog' doesn't exist for query SELECT * FROM wp_2_wfBlockedIPLog
+ORDER BY blockCount DESC
+LIMIT 5 made by wp_dashboard, do_meta_boxes, call_user_func, wfActivityReport::outputDashboardWidget, wfActivityReport->toWidgetView, wfActivityReport->getWidgetReport, wfActivityReport->getTopIPsBlocked
+[22-Jun-2015 23:38:03] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/claremar/public_html/claremarie/blammo/wp-content/plugins/font/Font.php:762) in /home2/claremar/public_html/claremarie/blammo/wp-includes/option.php on line 748
+[22-Jun-2015 23:38:27] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/claremar/public_html/claremarie/blammo/wp-content/plugins/font/Font.php:762) in /home2/claremar/public_html/claremarie/blammo/wp-includes/option.php on line 748
+[22-Jun-2015 23:39:34] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/claremar/public_html/claremarie/blammo/wp-content/plugins/font/Font.php:762) in /home2/claremar/public_html/claremarie/blammo/wp-includes/option.php on line 748
+[22-Jun-2015 23:41:54] WordPress database error Table 'claremar_87y4t983njfd98.wp_2_wfBlockedIPLog' doesn't exist for query SELECT * FROM wp_2_wfBlockedIPLog
+ORDER BY blockCount DESC
+LIMIT 5 made by wp_dashboard, do_meta_boxes, call_user_func, wfActivityReport::outputDashboardWidget, wfActivityReport->toWidgetView, wfActivityReport->getWidgetReport, wfActivityReport->getTopIPsBlocked
+[22-Jun-2015 23:44:14] WordPress database error Table 'claremar_87y4t983njfd98.wp_2_wfBlockedIPLog' doesn't exist for query SELECT * FROM wp_2_wfBlockedIPLog
+ORDER BY blockCount DESC
+LIMIT 5 made by wp_dashboard, do_meta_boxes, call_user_func, wfActivityReport::outputDashboardWidget, wfActivityReport->toWidgetView, wfActivityReport->getWidgetReport, wfActivityReport->getTopIPsBlocked
+[23-Jun-2015 02:29:34] WordPress database error Table 'claremar_87y4t983njfd98.wp_2_wfBlockedIPLog' doesn't exist for query SELECT * FROM wp_2_wfBlockedIPLog
+ORDER BY blockCount DESC
+LIMIT 5 made by wp_dashboard, do_meta_boxes, call_user_func, wfActivityReport::outputDashboardWidget, wfActivityReport->toWidgetView, wfActivityReport->getWidgetReport, wfActivityReport->getTopIPsBlocked
+[23-Jun-2015 02:29:41] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/claremar/public_html/claremarie/blammo/wp-content/plugins/font/Font.php:762) in /home2/claremar/public_html/claremarie/blammo/wp-includes/option.php on line 748
+[23-Jun-2015 02:31:15] WordPress database error Table 'claremar_87y4t983njfd98.wp_2_wfBlockedIPLog' doesn't exist for query SELECT * FROM wp_2_wfBlockedIPLog
+ORDER BY blockCount DESC
+LIMIT 5 made by wp_dashboard, do_meta_boxes, call_user_func, wfActivityReport::outputDashboardWidget, wfActivityReport->toWidgetView, wfActivityReport->getWidgetReport, wfActivityReport->getTopIPsBlocked
+[23-Jun-2015 02:32:01] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/claremar/public_html/claremarie/blammo/wp-content/plugins/font/Font.php:762) in /home2/claremar/public_html/claremarie/blammo/wp-includes/option.php on line 748
+[27-Jun-2015 23:42:33] WordPress database error Table 'claremar_87y4t983njfd98.wp_2_wfBlockedIPLog' doesn't exist for query SELECT * FROM wp_2_wfBlockedIPLog
+ORDER BY blockCount DESC
+LIMIT 5 made by wp_dashboard, do_meta_boxes, call_user_func, wfActivityReport::outputDashboardWidget, wfActivityReport->toWidgetView, wfActivityReport->getWidgetReport, wfActivityReport->getTopIPsBlocked
+[27-Jun-2015 23:43:56] WordPress database error Table 'claremar_87y4t983njfd98.wp_2_wfBlockedIPLog' doesn't exist for query SELECT * FROM wp_2_wfBlockedIPLog
+ORDER BY blockCount DESC
+LIMIT 5 made by wp_dashboard, do_meta_boxes, call_user_func, wfActivityReport::outputDashboardWidget, wfActivityReport->toWidgetView, wfActivityReport->getWidgetReport, wfActivityReport->getTopIPsBlocked
+[27-Jun-2015 23:47:53] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/claremar/public_html/claremarie/blammo/wp-content/plugins/font/Font.php:762) in /home2/claremar/public_html/claremarie/blammo/wp-includes/option.php on line 748
+[28-Jun-2015 01:22:11] WordPress database error Table 'claremar_87y4t983njfd98.wp_2_wfBlockedIPLog' doesn't exist for query SELECT * FROM wp_2_wfBlockedIPLog
+ORDER BY blockCount DESC
+LIMIT 5 made by wp_dashboard, do_meta_boxes, call_user_func, wfActivityReport::outputDashboardWidget, wfActivityReport->toWidgetView, wfActivityReport->getWidgetReport, wfActivityReport->getTopIPsBlocked

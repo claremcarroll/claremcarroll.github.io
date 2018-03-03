@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Carroll Christmas Card 2016</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui">
+    <style>
+
+      body {
+        margin: 0px;
+        overflow: hidden;
+      }
+
+      #container {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+      }
+
+      #button {
+        position: absolute;
+        width: 10%;
+        min-width: 50px;
+        padding-top: 20px;
+        max-width: 70px;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+      }
+
+    </style>
+  </head>
+  <body>
+  <div id="container"></div>
+  <img id="button" onclick="toggleStereoEffect()" src="images/vr.png"> 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r79/three.min.js"></script>
+  <script src="js/third-party/threejs/StereoEffect.js"></script>
+  <script src="js/third-party/threejs/DeviceOrientationControls.js"></script>
+  <script src="js/third-party/threejs/OrbitControls.js"></script>
+  <script src="js/third-party/reticulum.js"></script>
+  <script src="https://rawgit.com/tweenjs/tween.js/r14/src/Tween.js"></script>
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+
+  <script>
+
+// GLOBAL VARIABLES
+
+    var camera, scene, renderer;
+    var effect, controls;
+    var element, container;
+    var thescene;
+    var treeScale = 0.2;
+    var ornaments = [];
+    var fit;
+    var hover = false;
+    var howfardown = -40;
+    var reticle;
+    var raycaster = new THREE.Raycaster();
+    var mouse = new THREE.Vector2();
+    var mousePressed = false;
+    var stereoEffect = null;
+    var onRenderFcts = [];
+    var clock = new THREE.Clock();
+    var loader = new THREE.TextureLoader();
+
+// LOAD AUDIO
+
+    var audio1 = document.createElement('audio');
+    var source1 = document.createElement('source');
+    source1.src = 'music/1.mp3';
+    audio1.appendChild(source1);
+    audio1.play();
+
+    var audio2 = document.createElement('audio');
+    var source2 = document.createElement('source');
+    source2.src = 'music/2.mp3';
+    audio2.appendChild(source2);
+
+    var audio3 = document.createElement('audio');
+    var source3 = document.createElement('source');
+    source3.src = 'music/3.mp3';
+    audio3.appendChild(source3);
+    
+//SVG PARSER
+
+    function parseSVG(svg) {
+       var points = [];
+       var svgstr = svg;
+       var split1 = svgstr.split("<");
+        var firstLine = split1[4];
+        var formula = /points="([^']*)"/;
+        var matched = formula.exec(firstLine)[1];
+        matched = matched.split(" ");
+        for(i in matched) {
+          var split = matched[i].split(",");
+          if(split.length == 2) {
+            var point = new THREE.Vector3(parseInt(split[0]), parseInt(split[1]), 0);
+            points.push(point);
+          }
+        }
+      return points;
+    }
+
+// IMAGE LOADER
+
+    function loadTexture(img) {
+      var loader = new THREE.TextureLoader();
+      var tex = loader.load(img);
+      return tex;
+    }
+
+// SVG LOADER
+
+    $.get("tree.svg", function(svg){
+      treesvg = svg;
+      init();
+      animate();
+    }, 'text');
+
+    function init() {
+
+// SET UP SCENE
+
+      renderer = new THREE.WebGLRenderer();
+      renderer.setSize( window.innerWidth, window.innerHeight );
+
+      element = renderer.domElement;
+
+      container = document.getElementById('container');
+      container.appendChild(element);
+
+      scene = new THREE.Scene();
+
+      camera = new THREE.PerspectiveCamera(90, 1, 0.001, 1200);
+      camera.position.set(0, 10, 0);
+      scene.add(camera);
+
+// RETICLE
+
+      Reticulum.init(camera, {
+        proximity: false,
+        clickevents: true,
+        reticle: {
+          visible: true,
+          restPoint: 10, //Defines the reticle's resting point when no object has been targeted
+          color: 0xFFFFFF,
+          innerRadius: 0.0001,
+          outerRadius: 0.016,
+          hover: {
+            color: 0x9B1C20,
+            innerRadius: 0.04,
+            outerRadius: 0.05,
+            speed: 5,
+            vibrate: 50 //Set to 0 or [] to disable
+          }
+        },
+        fuse: {
+          visible: false,
+          duration: 2.5,
+          color: 0x00fff6,
+          innerRadius: 0.045,
+          outerRadius: 0.06,
+          vibrate: 0, //Set to 0 or [] to disable
+          clickCancelFuse: false //If users clicks on targeted object fuse is canceled
+        }
+      });  
+
+// CONTROLS
+
+      controls = new THREE.OrbitControls(camera, element);
+      controls.rotateLeft(-(Math.PI / 2));
+      controls.target.set(
+        camera.position.x + 0.1,
+        camera.position.y,
+        camera.position.z
+      );
+      controls.noZoom = true;
+      controls.noPan = true;
+
+// TREE HOLDER
+
+      thescene = new THREE.Object3D();
+      thescene.position.z = -40;
+      thescene.position.y = howfardown;
+      thescene.scale.set(0.7, 0.7, 0.7);
+      scene.add(thescene);
+
+// PRESENT HOLDER
+
+      presentHolder = new THREE.Object3D();
+      presentHolder.position.y = howfardown;
+      scene.add( presentHolder );
+
+// ORNAMENT HOLDER
+
+      ornamentHolder = new THREE.Object3D();
+      thescene.add( ornamentHolder );
+
+// TREE LIGHT HOLDER
+
+      lightHolder = new THREE.Object3D();
+      thescene.add( lightHolder );
+
+// LIGHTS
+
+      var pointLight = new THREE.PointLight(0xffffff);
+      pointLight.position.set(0, 300, 200);
+      scene.add(pointLight);
+
+      var light = new THREE.AmbientLight(0x404040);
+      scene.add(light);
+
+      var light2 = new THREE.PointLight(0xffffff, 1, 100);
+      light2.intensity = 1;
+      scene.add(light2);
+
+// PANORAMA
+
+      loader.load('images/1.jpg', onTextureLoaded);
+
+      function onTextureLoaded(texture) {
+        var geometry = new THREE.SphereGeometry(1000, 32, 32);
+        var material = new THREE.MeshBasicMaterial({ map: texture, side: THREE.BackSide });
+        pano = new THREE.Mesh(geometry, material);
+        pano.position.y = 190;
+        scene.add(pano);
+      }
+
+// TREE
+
+      function makeTree() {
+
+        var points = parseSVG(treesvg);
+
+        var latheGeometry = new THREE.LatheGeometry(points, 30, 0, 6.3);
+        var material = new THREE.MeshLambertMaterial({transparent: true})
+        material.map  = loadTexture('images/treetex.png');
+        latheMesh = new THREE.Mesh(latheGeometry, material);
+
+        latheMesh.scale.set(treeScale, treeScale, treeScale);
+        latheMesh.rotation.x = Math.PI;
+        thescene.add(latheMesh);
+
+      }
+
+      makeTree();
+
+// STAR
+
+      function makeStar() {
+        var tetGeometry = new THREE.TetrahedronGeometry(1);
+        var tet = new Array(5);
+        fit = new THREE.Object3D();
+
+        var t = ((1 + Math.sqrt(5)) / 2);
+        var fturn = 6.283 / 5;
+        var axis = new THREE.Vector3(t, 1, 0);
+        axis.normalize();
+        for (var i = 0; i < 5; i++) {
+          var material = new THREE.MeshLambertMaterial();
+          material.map  = loadTexture('images/glitter.jpg');
+          tet[i] = new THREE.Mesh(tetGeometry, material);
+          tet[i].rotateOnAxis(axis, i * fturn);
+          fit.add(tet[i]);
+        }
+        fit.position.set(0, 95, 0);
+        fit.scale.set(10, 10, 10);
+        thescene.add(fit);
+      }
+
+      makeStar();
+
+// PRESENTS
+
+// PRESENT ANIMATION
+
+      function presentRotate( obj, angles, delay, pause ) {
+        new TWEEN.Tween(obj.rotation).delay(pause).to( {
+                      x: obj.rotation._x + angles.x,            
+                      y: obj.rotation._y + angles.y,
+                      z: obj.rotation._z + angles.z            
+                  }, delay ).onComplete(function() {
+                      setTimeout( presentRotate, pause, obj, angles, delay, pause );
+                  }).start();
+      }
+
+// BOW ANIMATION
+
+      function bowAnimate(obj) {
+        var tween = new TWEEN.Tween(obj.position).to({ x: obj.position.x, y: (obj.position.y + 1), z: obj.position.z }, 1000).start();
+              tween.easing(TWEEN.Easing.Elastic.InOut);
+              tween.repeat(Infinity); 
+              tween.yoyo(true);
+      }
+
+// TEXTURE FROM IMAGE
+
+      function makeLambertMaterial(img) {
+        return new THREE.MeshLambertMaterial({ map: loadTexture(img), transparent:true });
+      }
+
+// MAKE PRESENTS
+
+      function addPresents() {
+
+          present1materials = [];
+          present1materials.push(makeLambertMaterial('images/present2.jpg'));
+          present1materials.push(makeLambertMaterial('images/present2.jpg'));
+          present1materials.push(makeLambertMaterial('images/present1.jpg'));
+          present1materials.push(makeLambertMaterial('images/present1.jpg'));
+          present1materials.push(makeLambertMaterial('images/present2.jpg'));
+          present1materials.push(makeLambertMaterial('images/present2.jpg'));
+
+          present1 = new THREE.Mesh(
+            new THREE.BoxGeometry( 15, 8, 20, 1, 1, 1 ),
+            new THREE.MeshFaceMaterial( present1materials ) );
+          present1.position.set(50, 4, 0);
+          present1.name = "present1";
+          presentHolder.add( present1 );
+
+          var bow1geometry = new THREE.TorusKnotGeometry( 2, 0.6, 100, 16, 2, 7 );
+          var bow1material = new THREE.MeshLambertMaterial( { color: 0x6364AD, transparent: true} );
+          bow1 = new THREE.Mesh( bow1geometry, bow1material );
+          bow1.position.set(50,10,0);
+          bow1.rotation.x = Math.PI / 2;
+          bow1.name = "bow1";
+          presentHolder.add( bow1 );
+        
+          present2materials = [];
+          present2materials.push(makeLambertMaterial('images/present4.jpg'));
+          present2materials.push(makeLambertMaterial('images/present4.jpg'));
+          present2materials.push(makeLambertMaterial('images/present3.jpg'));
+          present2materials.push(makeLambertMaterial('images/present3.jpg'));
+          present2materials.push(makeLambertMaterial('images/present4.jpg'));
+          present2materials.push(makeLambertMaterial('images/present4.jpg'));
+
+          present2 = new THREE.Mesh(
+            new THREE.BoxGeometry( 12, 12, 12, 1, 1, 1 ),
+            new THREE.MeshFaceMaterial( present2materials ) );
+          present2.position.set(-35, 6, -35);
+          present2.name = "present2";
+          presentHolder.add( present2 );
+
+          var bow2geometry = new THREE.TorusKnotGeometry( 2, 0.5, 100, 16, 4, 3 );
+          var bow2material = new THREE.MeshLambertMaterial( { color: 0x496C32, transparent: true} );
+          bow2 = new THREE.Mesh( bow2geometry, bow2material );
+          bow2.position.set(-35,13,-35);
+          bow2.rotation.x = Math.PI / 2;
+          bow2.name = "bow2";
+          presentHolder.add( bow2 );
+
+          present3materials = [];
+          present3materials.push(makeLambertMaterial('images/present6.png'));
+          present3materials.push(makeLambertMaterial('images/present6.png'));
+          present3materials.push(makeLambertMaterial('images/present5.png'));
+          present3materials.push(makeLambertMaterial('images/present5.png'));
+          present3materials.push(makeLambertMaterial('images/present6.png'));
+          present3materials.push(makeLambertMaterial('images/present6.png'));
+
+          present3 = new THREE.Mesh(
+          new THREE.BoxGeometry( 14, 14, 14, 1, 1, 1 ),
+          new THREE.MeshFaceMaterial( present3materials ) );
+          present3.position.set(-35, 7, 35);
+          present3.name = "present3";
+          presentHolder.add( present3 );
+
+          var bow3geometry = new THREE.TorusKnotGeometry( 3, 0.3, 100, 16, 2, 14);
+          var bow3material = new THREE.MeshLambertMaterial( { color: 0xffffff, transparent: true} );
+          bow3 = new THREE.Mesh( bow3geometry, bow3material );
+          bow3.position.set(-35,16,35);
+          bow3.rotation.x = Math.PI / 2;
+          bow3.name = "bow3";
+          presentHolder.add( bow3 );
+
+          presentRotate(present1, {x:0,y:-Math.PI/2,z:0}, 1000, 500 );
+          presentRotate(present2, {x:0,y:-Math.PI/2,z:0}, 1000, 500 );
+          presentRotate(present3, {x:0,y:-Math.PI/2,z:0}, 1000, 500 );
+
+          bowAnimate(bow1);
+          bowAnimate(bow2);
+          bowAnimate(bow3);
+
+      }
+
+      addPresents();
+
+// PRESENT STATES
+
+      function present1click() {
+        audio2.pause();
+        audio3.pause();
+        audio1.currentTime = 0;
+        audio1.play();
+      }
+
+      function present2click() {
+        audio1.pause();
+        audio3.pause();
+        audio2.currentTime = 0;
+        audio2.play();
+      }
+
+      function present3click() { 
+        audio1.pause();
+        audio2.pause();
+        audio3.currentTime = 0;
+        audio3.play();
+      }
+
+      function setPresentGaze(clickfunc) {
+        return {
+          onGazeOver: function(){
+            // do something when user targets object
+            for(i in this.material.materials) {
+              this.material.materials[i].opacity = 0.5;
+            }
+          },
+          onGazeOut: function(){
+            // do something when user moves reticle off targeted object
+            for(i in this.material.materials) {
+              this.material.materials[i].opacity = 1;
+            }
+          },
+          onGazeLong: function(){
+            // do something user targetes object for specific time
+            for(i in this.material.materials) {
+              this.material.materials[i].opacity = 1;
+            }
+          },
+          onGazeClick: function(){
+            // have the object react when user clicks / taps on targeted object
+            clickfunc();
+          }
+        }
+      }
+
+
+      Reticulum.add( present1, setPresentGaze(present1click) );
+      Reticulum.add( present2, setPresentGaze(present2click) );
+      Reticulum.add( present3, setPresentGaze(present3click) );
+
+
+//ORNAMENTS
+
+      function Ornament(mesh, angle) {
+        this.mesh = mesh;
+        this.angle = angle;
+        this.rotationDir;
+        this.direction;
+        this.speed;
+        this.height;
+        this.radius;
+      }
+
+// ORNAMENT STATES
+
+      function setOrnamentGaze() {
+          return {
+            onGazeOver: function(){
+              // do something when user targets object
+              for(i in this.material.materials) {
+                this.material.opacity = 0.5;
+              }
+              hover = true;
+              var scaleup = new TWEEN.Tween(this.scale).to( {x: 1.5, y:1.5, z:1.5} , 500).start();
+              scaleup.easing(TWEEN.Easing.Quartic.Out);
+            },
+            onGazeOut: function(){
+              // do something when user moves reticle off targeted object
+              for(i in this.material.materials) {
+                this.material.opacity = 1;
+              }
+              hover = false;
+              var scaledown = new TWEEN.Tween(this.scale).to( {x: 1, y:1, z:1} , 500).start();
+              scaledown.easing(TWEEN.Easing.Quartic.Out);
+            },
+            onGazeLong: function(){
+              // do something user targetes object for specific time
+              for(i in this.material.materials) {
+                this.material.opacity = 1;
+              }
+              hover = true;
+            
+            },
+            onGazeClick: function(){
+              // have the object react when user clicks / taps on targeted object
+              pano.material.map = this.material.map;
+            }
+          }
+        }
+
+// MAKE ORNAMENTS
+
+      function makeOrnaments() {
+        for (var i = 1; i < 11; i++) {
+
+          var angle;        
+          var height;
+
+          if(i < 6) {
+            var geometry = new THREE.SphereGeometry(6, 32, 32);
+            var map  = loadTexture('images/'+i+'.jpg');
+            var material = new THREE.MeshLambertMaterial( { map: map, transparent: true } );
+            var ornMesh = new THREE.Mesh(geometry, material);
+            angle = ((Math.PI*2) / 5) * i;
+            var orn = new Ornament(ornMesh,angle);
+            orn.height = 25;
+            orn.rotationDir = 0;
+            orn.direction = 0;
+            orn.radius = 25;
+          } else {
+            var geometry = new THREE.SphereGeometry(5, 32, 32);
+            var map  = loadTexture('images/'+i+'.jpg');
+            var material = new THREE.MeshLambertMaterial( { map: map, transparent: true } );
+            var ornMesh = new THREE.Mesh(geometry, material);
+            angle = (Math.PI*2 / 5) * (i-5);
+            var orn = new Ornament(ornMesh,angle);
+            orn.height = 50;
+            orn.rotationDir = 1;
+            orn.direction = 1;
+            orn.radius = 22;
+          }
+          
+          orn.speed = 0.005;
+
+          var x = Math.cos(angle)*orn.radius;
+          var y = Math.sin(angle)*orn.radius;
+
+          ornMesh.position.set(x, orn.height, y);
+
+          Reticulum.add( ornMesh, setOrnamentGaze() );
+
+          ornaments.push(orn);
+
+          ornamentHolder.add(ornaments[i-1].mesh);
+
+        }
+        
+      }
+
+      makeOrnaments();
+
+//TREE LIGHTS
+
+      var spiral1 = new THREE.Line( new THREE.Geometry(), new THREE.LineBasicMaterial());
+      var spiral2 = new THREE.Line( new THREE.Geometry(), new THREE.LineBasicMaterial());
+      var spiral3 = new THREE.Line( new THREE.Geometry(), new THREE.LineBasicMaterial());
+      for (i = 200; i < 500; i++) {
+
+      angle1 = 0.037 * i;
+      x1 = 0 + (1 + 1 * angle1) * Math.cos(angle1);
+      z1 = 0 + (1 + 1 * angle1) * Math.sin(angle1);
+      y1 = 94 - (i/16);
+      spiral1.geometry.vertices.push(new THREE.Vector3(x1, y1, z1));
+
+      angle2 = 0.048 * i;
+      x2 = 0 + (1 + 1 * angle2) * Math.cos(angle2);
+      z2 = 0 + (1 + 1 * angle2) * Math.sin(angle2);
+      y2 = 72 - (i/16);
+      spiral2.geometry.vertices.push(new THREE.Vector3(x2, y2, z2));
+
+      angle3 = 0.05 * i;
+      x3 = 0 + (1 + 1 * angle3) * Math.cos(angle3);
+      z3 = 0 + (1 + 1 * angle3) * Math.sin(angle3);
+      y3 = 50 - (i/16);
+      spiral3.geometry.vertices.push(new THREE.Vector3(x3, y3, z3));
+
+      if(i % 11 == 0){
+          //add
+          var geometry = new THREE.SphereGeometry(0.7, 50, 50);
+          var material = new THREE.MeshBasicMaterial({color:0xffd757, transparent: true});
+          var light1 = new THREE.Mesh(geometry, material);
+          light1.position.set(x1,y1,z1);
+          lightHolder.add(light1);
+
+          var light2 = new THREE.Mesh(geometry, material);
+          light2.position.set(x2,y2,z2);
+          lightHolder.add(light2);
+
+          var light3 = new THREE.Mesh(geometry, material);
+          light3.position.set(x3,y3,z3);
+          lightHolder.add(light3);
+
+          var rand = Math.random() * (3000 - 500) + 500;
+
+          var tween1 = new TWEEN.Tween(light1.material).to( {opacity: 0.1} , rand).start();
+          tween1.easing(TWEEN.Easing.Sinusoidal.InOut);
+          tween1.repeat(Infinity); 
+          tween1.yoyo(true);
+
+      }
+      
+    }
+
+// FLOOR (SNOW)
+
+    function makeFloor() {
+      var geometry = new THREE.PlaneGeometry( 150, 150 );
+      var map = loadTexture('images/floor.png');
+      var material = new THREE.MeshBasicMaterial( {map: map, transparent: true } );
+     // material.side = THREE.FrontSide;
+      var floor = new THREE.Mesh( geometry, material );
+      floor.rotation.x = -(Math.PI / 2);
+      floor.position.y = howfardown;
+      scene.add( floor );
+    }
+    makeFloor();
+
+// ORIENTATION CONTROLS
+
+    function setOrientationControls(e) {
+      if (!e.alpha) {
+        return;
+      }
+
+      controls = new THREE.DeviceOrientationControls(camera, true);
+      controls.connect();
+      controls.update();
+
+      element.addEventListener('click', fullscreen, false);
+      window.removeEventListener('deviceorientation', setOrientationControls, true);
+
+    }
+
+
+      window.addEventListener('deviceorientation', setOrientationControls, true);
+      window.addEventListener('resize', resize, false);
+      setTimeout(resize, 1);
+  }
+
+// INIT END
+
+// TOGGLE STEREO
+
+  function toggleStereoEffect(){
+
+    if( stereoEffect !== null ){
+      stereoEffect  = null;
+    }else{
+      stereoEffect  = new THREE.StereoEffect(renderer);
+      //stereoEffect.separation = 0.003;
+    }
+  }
+  window.toggleStereoEffect = toggleStereoEffect;
+
+  onRenderFcts.push(function(){
+    resize();
+
+    if( stereoEffect ){
+      stereoEffect.render(scene, camera);
+    }else{
+      renderer.render( scene, camera );   
+    }
+  });
+
+// ON RESIZE
+
+  function resize() {
+    var width = container.offsetWidth;
+    var height = container.offsetHeight;
+
+    if( stereoEffect ){
+      stereoEffect.setSize( window.innerWidth, window.innerHeight );
+    }else{
+      renderer.setSize( window.innerWidth, window.innerHeight )
+    }
+
+    camera.aspect = width / height;
+    camera.updateProjectionMatrix();
+
+  }
+
+  function update(dt) {
+
+    resize();
+
+    camera.updateProjectionMatrix();
+
+    controls.update(dt);
+  }
+
+
+  function animate(t) {
+  
+    TWEEN.update();
+    Reticulum.update();
+
+    // STAR
+    fit.rotation.y += 0.01;
+    fit.rotation.x += 0.008;
+
+
+    // ORNAMENTS 
+    if(!hover) {
+
+      for(var i = 0; i < ornaments.length; i++) {
+
+        if(ornaments[i].direction == 0) {
+          ornaments[i].angle += ornaments[i].speed;
+        } else {
+          ornaments[i].angle -= ornaments[i].speed;
+        }
+
+        var x = Math.cos(ornaments[i].angle)*ornaments[i].radius;
+        var y = Math.sin(ornaments[i].angle)*ornaments[i].radius;
+
+        ornaments[i].mesh.position.set(x, ornaments[i].height, y);
+
+        if(ornaments[i].rotationDir == 0) {
+          ornaments[i].mesh.rotation.y += 0.01;
+        } else {
+          ornaments[i].mesh.rotation.y -= 0.01;
+        }
+      }
+    }
+
+    requestAnimationFrame(animate);
+    var lastTimeMsec= null;
+
+    // measure time
+    lastTimeMsec  = lastTimeMsec || t-1000/60;
+    var deltaMsec = Math.min(200, t - lastTimeMsec);
+    lastTimeMsec  = t;
+
+    // call each update function
+    onRenderFcts.forEach(function(onRenderFct){
+      onRenderFct(deltaMsec/1000, t/1000)
+    })
+
+    update(clock.getDelta());
+  }
+
+// FULL SCREEN
+
+  function fullscreen() {
+    if (container.requestFullscreen) {
+      container.requestFullscreen();
+    } else if (container.msRequestFullscreen) {
+      container.msRequestFullscreen();
+    } else if (container.mozRequestFullScreen) {
+      container.mozRequestFullScreen();
+    } else if (container.webkitRequestFullscreen) {
+      container.webkitRequestFullscreen();
+    }
+  }
+
+</script>
+</body>
+</html>

@@ -1,0 +1,434 @@
+
+@media (min-width: 320px) and (max-width: 601px) {
+
+button.mfp-arrow {
+    display: none !important;
+}
+
+#arrow {
+  display:none;
+}
+
+.menu{
+  display:none;
+}
+
+#undefined-sticky-wrapper {
+  display:none !important;
+}
+
+.menu-media{
+  display:block;
+  height: 10px;
+}
+
+.menu-content {
+  display: none;
+}
+
+.start-page .content {
+  width:90%;
+  height:100%;
+}
+
+.start-page, .start-page .opacity{
+  height:80%;
+}
+.start-page .content .text {
+  width:100%;
+}
+
+
+h1 {
+  font-size:36px;
+}
+
+.about-us h1, .skills h1 {
+  margin-top:0;
+}
+.about-us .content{
+    padding-top: 50px;
+}
+.about-us .content, .skills .content{
+  width:90%;
+}
+
+.about-us hr, .skills hr, .portfolio .portfolio-margin hr, .contact hr {
+  width:106px;
+}
+
+.portfolio .portfolio-margin {
+    position: relative;
+    width: 285px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.partners .content{
+  width:100%;
+}
+
+.partners .logo {
+  width:100%;
+}
+
+.partners .logo img {
+  width:80px;
+  padding-bottom:20px;
+}
+
+.contact, .contact .content, .contact .content .form{
+  width:100%;
+}
+
+.contact .content .contact-text{
+  padding-left:0px;
+  width:100%;
+  text-align:center;
+  margin-top:60px;
+}
+
+input{
+  width:320px;
+}
+
+textarea{
+  width:320px;
+}
+
+.grid li{
+  margin:0 15 15px 0;
+}
+
+.contact{ 
+  margin:0 auto;
+}
+
+.footer{
+  position:relative;
+}
+
+.slide {
+  height: 400px !important;
+}
+
+}
+
+/* iPad (portrait) */
+@media (min-width: 602px) and (max-width: 779px) {
+
+button.mfp-arrow {
+    display: none !important;
+}
+
+#arrow {
+  display:none;
+}
+
+.menu{
+  display:none;
+}
+
+.menu-media{
+  display:block;
+  height: 10px;
+}
+
+.menu-content {
+  display: none;
+}
+
+#undefined-sticky-wrapper {
+  display:none !important;
+}
+
+.menu-media .menu-content{
+  width:540px;
+}
+
+.partners .logo img {
+  padding-bottom:20px;
+}
+
+.start-page .content {
+  width:600px;
+  height:100%;
+}
+
+.start-page, .start-page .opacity{
+  height:90%;
+}
+.start-page .content .text {
+  width:600px;
+}
+
+
+h1 {
+  font-size:36px;
+}
+
+.about-us h1, .skills h1 {
+  margin-top:0;
+}
+
+.about-us .content, .skills .content, .skills .content{
+  width:600px;
+}
+
+.skills h2 {
+  color: white;
+}
+
+.about-us .content{
+    padding-top: 50px;
+}
+
+.about-us hr, .skills hr, .portfolio .portfolio-margin hr, .contact hr {
+  width:106px;
+}
+
+
+.column-one, .column-two{
+  width:600px;
+  margin-bottom:20px;
+}
+
+.column-three{
+  width:600px;
+  margin-bottom:70px;
+ }
+
+
+.portfolio .portfolio-margin{
+  width:600px;
+}
+
+.partners .content{
+  width:600px;
+}
+
+.partners .logo {
+  width:600px;
+}
+
+.partners .logo img {
+  width:80px;
+  padding-bottom:20px;
+}
+
+.contact, .contact .content, .contact .content .form{
+  width:600px;
+}
+
+.contact .content .contact-text{
+  padding-left:0px;
+  width:600px;
+  text-align:center;
+  margin-top:60px;
+}
+
+.contact .content .contact-text {
+  width:275px;
+}
+
+.contact .content .form .column, .contact .content .form .column-3{
+  width:420px;
+}
+
+.contact .content .form .column-2{
+  width:420px;
+  padding-left:0;
+}
+
+.contact{ 
+  margin:0 auto;
+}
+
+.footer{
+  position:relative;
+}
+
+input{
+  width:420px;
+}
+
+textarea{
+  width:420px;
+}
+
+
+}
+
+/* iPad (portrait) */
+@media (min-width: 780px) and (max-width: 949px) {
+
+button.mfp-arrow {
+    display: block !important;
+}
+
+.about-us .content{
+    padding-top: 50px;
+    width: 600px;
+}
+
+.menu-content .logo {
+  width: 280px;
+}
+
+.menu-content ul {
+  width: 300px;
+}
+
+.menu-content {
+  width: 600px;
+}
+
+.menu-content li a {
+  padding: 0 0px 0 10px;
+}
+
+.start-page .content {
+  width:600px;
+  height:100%;
+}
+
+.start-page, .start-page .opacity{
+  height:100%;
+}
+.start-page .content .text {
+  width:600px;
+}
+
+
+h1 {
+  font-size:36px;
+}
+
+.portfolio .portfolio-margin{
+  width:600px;
+}
+
+
+.footer{
+  position:relative;
+}
+
+input{
+  width:420px;
+}
+
+textarea{
+  width:420px;
+}
+
+
+}
+
+
+/* iPad (portrait) */
+@media (min-width: 950px) and (max-width: 3000px) {
+
+button.mfp-arrow {
+    display: block !important;
+}
+
+.menu-content .logo{
+  width:350px;
+}
+
+.menu-content ul {
+  width: 350px;
+}
+
+.menu-content{
+  width:800px;
+}
+
+#undefined-sticky-wrapper {
+  display:block !important;
+}
+
+.about-us .content{
+  width:600px;
+  padding-top: 50px;
+}
+
+.about-us h1 {
+  font-size: 22px;
+}
+
+.about-us p.title {
+  font-size: 17px;
+  line-height: 1.8;
+}
+
+.about-us p{
+  width:200px;
+}
+
+.about-us h2, .skills h2{
+  letter-spacing:2px;
+}
+
+.skills .content{
+  width:800px;
+}
+
+.skills p{
+  width:200px;
+}
+
+.skills h2{
+  font-size: 16px;
+  color: white;
+}
+
+.skills .column-one,.skills .column-two ,.skills .column-three{
+  width:233px;
+}
+
+
+.portfolio .portfolio-margin {
+  width:900px;
+}
+
+
+.contact{ 
+  margin:0 auto;
+}
+
+.contact .content {
+  width:800px
+}
+
+.footer{
+  position:relative;
+}
+
+.contact .content .form{
+  width:600px;
+}
+
+input{
+  width:320px;
+}
+
+textarea{
+  width:320px;
+}
+
+.contact .content .contact-text {
+  width:275px;
+}
+
+.contact .content .form .column, .contact .content .form .column-3{
+  width:450px;
+}
+
+.contact .content .form .column-2{
+  width:450px;
+  padding-left:0;
+}
+
+
+}

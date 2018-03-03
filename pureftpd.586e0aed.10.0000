@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Clare Marie Carroll</title>
+
+    <meta name="description" content="Clare Marie Carroll : Creative Technologist" />
+    <meta name="keywords" content="clare, carroll, clare carroll, clare marie, clare marie carroll, design technologist, creative technologist, nyc" />
+
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/style-responsive.css" />
+    <link rel="stylesheet" type="text/css" href="css/magnific-popup.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,700,300,100|Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+   <![endif]-->
+
+    <script src="js/jquery-1.11.0.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $.preloadImages = function() {
+          for (var i = 0; i < arguments.length; i++) {
+            $("<img />").attr("src", arguments[i]);
+          }
+        }
+        $.preloadImages("loading.gif");
+    </script>
+
+</head>
+
+<body>
+    <div class="preloader" id="preloader">
+    <div class="item">
+      <img src="img/loading.gif">
+    </div>
+</div>
+
+
+    <canvas id="canvas"></canvas>
+
+    <div class="container">
+
+
+        <!-- section start-page -->
+
+        <section class="start-page parallax-background" id="home">
+            <script id="profile-template" type="text/x-handlebars-template">
+
+                <div class="content">
+                    <div class="text">
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100%" height="192.919px" viewBox="0 0 636.942 192.919" enable-background="new 0 0 404.7 354" id="hi-there"  onclick="hi.reset().play();">
+
+                            <polyline fill="#6fc9c8" id="box-line" class="opacity-zero" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="square" stroke-miterlimit="10" points="1.75,1.75 
+      635.192,1.75 635.192,191.169 1.75,191.169 1.75,1.75   " />
+
+                            <text text-anchor="middle" class="" transform="matrix(1 0 0 1 319 123.5747)" fill="#FFFFFF" text-align="center" font-family="'Montserrat'" letter-spacing="4px" font-size="65">CLARE MARIE</text>
+                        </svg>
+                    </div>
+                    <a href="#about-us" class="menu-item">
+                        <div id="arrow" class="arrow-wrap">
+                            <div class="arrow-down"></div>
+                        </div>
+                    </a>
+                </div>
+            </script>
+        </section>
+
+        <!-- section menu mobile -->
+
+        <section class="menu-media">
+
+            <div class="menu-content">
+
+                <div class="logo">CLARE MARIE</div>
+
+                <div class="icon">
+                    <a href="#"><img src="img/icons/menu-media.png" />
+                    </a>
+                </div>
+
+            </div>
+
+        </section>
+
+        <ul class="menu-click">
+            <a href="#home" class="menu-item">
+                <li href="#home">HOME</li>
+            </a>
+            <a href="#about-us" class="menu-item">
+                <li href="#about-us">ABOUT</li>
+            </a>
+            <a href="#portfolio" class="menu-item">
+                <li href="#portfolio">PORTFOLIO</li>
+            </a>
+
+        </ul>
+
+
+        <!-- section menu -->
+
+        <section class="menu">
+
+            <div class="menu-content">
+
+                <div class="logo">CLARE MARIE</div>
+
+                <ul id="menu">
+                    <li><a href="#home" class="menu-item">HOME</a>
+                    </li>
+                    <li><a href="#about-us" class="menu-item">ABOUT</a>
+                    </li>
+                    <li><a href="#portfolio" class="menu-item">PORTFOLIO</a>
+                    </li>
+                </ul>
+            </div>
+
+
+        </section>
+
+
+        <!-- section about us -->
+
+        <section class="about-us" id="about-us">
+
+            <div class="content">
+                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100%" height="80px" viewBox="0 0 115.138 53.815" id="hi-there2" onclick="hi2.reset().play();">
+                    <path fill="none" stroke="#010101" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M0.5,53.014
+        c11.447-3.093,31.474-49.951,27.012-52.35c-2.998-1.612-7.865,8.92-9.041,19.948c-2.087,19.562-0.444,33.76-3.867,32.582
+        c-2.853-0.982,0.773-13.596,7.509-20.279c5.323-5.281,10.527-5.13,11.869-0.3c1.509,5.434-6.695,23.08,1.605,20.193
+        c9.378-3.261,15.629-11.853,17.73-18.375c1.682-5.222-3.253-7.385-8.598-2.495c-6.734,6.161-6.122,22.964,4.858,21.256
+        C63.732,50.992,80.386,1.224,70.81,0.668s-15.683,52.526-6.523,52.526s38.03-52.53,24.01-52.53c-10.131,0-19.112,52.289-7.772,52.53
+        c5.829,0.124,18.582-21.007,15.377-23.754c-1.943-1.665-7.505,1.136-9.171,9.602c-1.539,7.825,0.522,13.988,7.468,13.988
+        c5.019,0,9.559-5.511,9.769-13.302c0.172-6.391-2.099-10.516-5.569-10.516c0,0,9.021,4.164,16.238,0" />
+                </svg>
+
+                <hr/>
+                <h1>UNDER CONSTRUCTION</h1>
+                <p class="title">My name is Clare Marie Carroll and I have a passion for creating interactive experiences.
+                    <br>I am currently a masters student at Carnegie Mellon University studying Human-Computer Interaction.
+                    <h2><a href="resume.pdf" target="_blank">RESUME</a></h2>
+                </p>
+
+            </div>
+        </section>
+
+        <div class="clear"></div>
+
+        <!-- portoflio-->
+
+        <section class="portfolio" id="portfolio">
+
+
+
+            <div class="portfolio-margin">
+
+                <!--       <h1>PORTFOLIO</h1> -->
+                <!-- 1 item portoflio-->
+
+                <ul class="grid" id="portfolio-grid">
+
+                    <script id="portfolio-template" type="text/x-handlebars-template">
+
+                        {{#each projects}}
+
+
+                        <li>
+                            <a href="#gallery1" data-slideid="{{@index}}" class="open-gallery-link ">
+
+        {{#if this.covers.[404]}}
+        <img src="{{this.covers.[404]}}" alt="{{this.name}}" title="{{this.name}}">
+        {{else}}
+        {{#if this.covers.[230]}}
+        <img src="{{this.covers.[230]}}" alt="{{this.name}}">
+        {{else}}
+        <img src="{{this.covers.[202]}}" alt="{{this.name}}">
+        {{/if}}
+        {{/if}}
+        <div class="text">
+          <h2>{{this.name}}</h2>
+        <p class="description">{{this.fields}}</p> 
+          // <p class="index">{{@index}}</p>  
+          </div>
+          </a>
+                        </li>
+
+                        {{/each}}
+
+                    </script>
+
+                </ul>
+            </div>
+
+
+
+        </section>
+
+
+        <div class="clear"></div>
+
+
+
+
+        <!-- partners-->
+
+        <section class="partners parallax-background-partners" id="partners">
+
+
+        </section>
+
+
+        <section class="foot">
+            <div class="menu-footer">
+
+                <a href="#home">Home</a>
+                <a href="https://www.linkedin.com/in/claremcarroll" target="_blank">LinkedIn</a>
+                <a href="https://www.behance.net/claremariecarroll" target="_blank">Behance</a>
+                <a href="https://www.instagram.com/_claremarie/" target="_blank">Instagram</a>
+                <a href="https://www.facebook.com/clare.marie.357" target="_blank">Facebook</a>
+                <a href="https://github.com/claremcarroll" target="_blank">Github</a>
+
+
+
+
+
+            </div>
+
+            <div class="copyright">© Clare Marie Carroll 2016</div>
+
+
+        </section>
+
+
+    </div>
+    
+
+
+    <div id="gallery1" class="mfp-hide">
+
+        <!-- Swivel -->
+        <div class="slide">
+            <h1>Swivel</h1>
+            <div class="popup-scroll">
+            <center>
+                <p>Interaction Design Studio Project with Bo Kim and Shannon Sullivan</p><br><br>
+                <iframe src="https://player.vimeo.com/video/196141320" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<Br>
+<a href="https://www.behance.net/gallery/46479781/Swivel">Process Work</a>
+
+            </center>
+
+            </div>
+        </div>
+
+
+        <!-- VRCADE -->
+        <div class="slide">
+            <h1>VRCADE</h1>
+            <div class="popup-scroll">
+            <center>
+                <p>Advertisement for Samsung Accelerator's VRCade Event</p>
+                   <img src="img/vrcade1.png">
+                   <Br>
+                    <img src="img/vrcade2.png">
+
+            </center>
+
+            </div>
+        </div>
+
+
+
+        <!-- VRB SITE -->
+        <div class="slide">
+            <h1>VRB Website Redesign</h1>
+            <div class="popup-scroll">
+            <center>
+                <p>Website Redesign for VRB at the Samsung Accelerator</p>
+                    <p>OLD SITE</p><br>
+                    <img class="vrb-img" src="img/vrbold.png">
+                    <br>
+                <a href="http://vrb.is" target="_blank">
+                    <p>NEW SITE</p><br>
+                    <img class="vrb-img" src="img/vrbnew.png">
+                </a>
+            </center>
+
+            </div>
+        </div>
+
+
+        <!-- BODY LABS BLUE -->
+        <div class="slide">
+            <h1>Body Labs Blue</h1>
+            <div class="popup-scroll">
+                <center>
+                <p>Lead UX Designer for Body Labs Blue.</p><p>Screenshots coming Soon.</p><br>
+                
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/33qBnhdWQ7w" frameborder="0" allowfullscreen></iframe>
+            </center>
+
+            </div>
+        </div>
+
+        <!-- HOLOJAM -->
+        <div class="slide">
+            <h1>Holojam</h1>
+            <div class="popup-scroll">
+                <p>SIGGRAPH Demo 2015</p>
+                <h2>The guests at SIGGRAPH</h2>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/zB9Vw1vPo20" frameborder="0" allowfullscreen></iframe>
+                <h2>What you see in the experience </h2>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/kzx5igORwk4?start=55" frameborder="0" allowfullscreen></iframe>
+                <p>PRESS/PUBLICITY</p>
+                <p>Demos: SIGGRAPH 2015, FMX 2016</p>
+                <p>TV: NBC News, Fox 5 TV, ABC News</p>
+                <p>Articles: Motherboard, Vice Media, MIT Technology Review</p>
+                <p>Panels / Talks: Versions, Samsung Accelerator,FMX 2016</p>
+            </div>
+        </div>
+
+
+        <!-- GOOGLE CARDBOARD -->
+        <div class="slide">
+            <h1>Google Cardboard Demo</h1>
+            <div class="popup-scroll">
+                <h2>Demo made for Body Labs for CES 2016</h2>
+                <iframe src="https://player.vimeo.com/video/160151843" width="500" height="282" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                <p>Tools: Unity, Maya</p>
+            </div>
+        </div>
+
+
+        <!-- PAPER AIRPLANE -->
+        <div class="slide">
+            <h1>Paper Airplane<a href="https://github.com/claremcarroll/Leap-Motion-Paper-Airplane" target="_blank"><img class="icon" src="img/icons/git.svg"> </a></h1>
+            <div class="popup-scroll">
+                <iframe src="https://player.vimeo.com/video/110022729" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                <p>A Leap Motion driven flying game. The user moves the paper airplane around the universe with hand movement. The objective of this game is to collect as many coins as you can in one minute.</p>
+                <p>Tools: Processing, Maya, Illustrator</p>
+            </div>
+        </div>
+
+        <!-- AR ALPHABET -->
+        <div class="slide" data-slideid="6">
+            <h1>AR Alphabet <a href="https://github.com/claremcarroll/ARAlphabet" target="_blank"><img class="icon" src="img/icons/git.svg"> </a></h1>
+            <iframe src="https://player.vimeo.com/video/109347305" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            <p>An augmented reality alphabet designed to make it fun to learn how to spell. Alphabet now calles out to a dictionary API and will animate the letters if they spell out a real word.</p>
+            <p>Tools: Processing, Font Constructior, Illustrator</p>
+        </div>
+
+        <!-- MOTIVATE -->
+        <div class="slide" data-slideid="5">
+            <h1>Motivate</h1>
+            <iframe src="https://player.vimeo.com/video/123574576" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            <p>My teams submission for the NYU Body Labs Hackathon 2015. This entry landed me a job at Body Labs as a UX/UI Designer from 2015-2016 Check out the demo <a href="https://popapp.in/w/projects/5516caf84458993e2db1f1fe/preview/5516f1a1ea7d7f9f2c3f4e64" target="_blank">here</a>.</p>
+            <p>Tools: Illustrator, POP</p>
+        </div>
+
+        <!-- FONT -->
+        <div class="slide">
+            <h1>clar3</h1>
+            <div class="popup-scroll">
+                <p>clar3 is a font that is programmed to simulate handwritting by rotating between 3 glyphs for every character</p>
+                <p>Try it here:</p>
+                <form>
+                 <input type='text' class='font-tester' size='15' placeholder='Your text' />
+                </form>
+
+                <br>
+                <a href="clar3-font.zip" download>Click here to download</a></p>
+                <p>Tools: Illustrator, Intuos Pro, Glyphs</p>
+            </div>
+        </div>
+
+        <!-- MICKEY MIRROR -->
+        <div class="slide">
+            <h1>Mickey Mirror <a href="https://github.com/claremcarroll/Mickey-Mirror-Project/tree/master" target="_blank"><img class="icon" src="img/icons/git.svg"> </a></h1>
+            <div class="popup-scroll">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/0qBMnFzkMAs?start=12" frameborder="0" allowfullscreen></iframe>
+                <p>A software mirror where you can try on Mickey Mouse Ears</p>
+                <p>I wanted to create an experience that could be implemented in a theme park setting. Disneyland has a plethora of different “ears” that you can purchase throughout the park, but not all of them are available at each location. The objective of this project was to make an interactive interface that could be installed throughout the park for guests to order any hat and pick it up on their way out.</p>
+                <p>Tools: Illustrator, Processing</p>
+            </div>
+        </div>
+        
+
+        <!-- NYU EVENTS -->
+        <div class="slide" data-slideid="7">
+            <h1>NYU Events</h1>
+            <div class="popup-scroll">
+                <p>Miscellaneous event advertisements for NYU Student Resource Center and NYU Inter Residence Hall Council</p>
+                <img src="img/portfolio/description/event3.jpg">
+                <img src="img/portfolio/description/event1.jpg">
+                <img src="img/portfolio/description/event2.jpg">
+                <img src="img/portfolio/description/event4.jpg">
+                <img src="img/portfolio/description/event5.png">
+                <img src="img/portfolio/description/event6.png">
+            </div>
+        </div>
+
+        <!-- POTTERY-->
+        <div class="slide" data-slideid="11">
+            <h1>Pottery with<br>Computer Graphics<a href="https://github.com/claremcarroll/PotteryProcessing" target="_blank"><img class="icon" src="img/icons/git.svg"></a></h1>
+            <p>Final for Ken Perlin's Computer Graphics Course</p>
+            <iframe src="https://player.vimeo.com/video/115201450" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            <p>Collaborators: Sebastian Herscher</p>
+            <p>Tools: Javacript, Processing, Leap Motion</p>
+        </div>
+
+        <!-- GENESIS -->
+        <div class="slide" data-slideid="8">
+            <h1>Genesis Diyed</h1>
+            <iframe src="https://player.vimeo.com/video/81892131" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            <p>A redundant augmented reality board project in which users can draw their own characters and scan them into a 3D universe. Using the augmented reality markers, users can zoom in on their characters and plant trees around the universe. This project was featured at NYU's ITP showcase in winter</p>
+            <p>Tools: Processing, Maya, Photoshop, Illustrator</p>
+            <p>Collaborators: Yuji Tsuchikawa and Rock Zou </p>
+        </div>
+
+        <!-- PHOTOGRAPHY -->
+        <div class="slide" data-slideid="9">
+            <h1>Photography</h1>
+            <div class="popup-scroll">
+                <img src="img/portfolio/description/photography1.jpg">
+                <img src="img/portfolio/description/photography2.jpg">
+                <img src="img/portfolio/description/photography3.jpg">
+                <img src="img/portfolio/description/photography4.jpg">
+                <img src="img/portfolio/description/photography5.jpg">
+                <img src="img/portfolio/description/photography6.jpg">
+                <img src="img/portfolio/description/photography7.jpg">
+                <img src="img/portfolio/description/photography8.jpg">
+                <img src="img/portfolio/description/photography9.jpg">
+            </div>
+
+        </div>
+
+        <!-- Illustrations -->
+        <div class="slide">
+            <h1>Illustrations</h1>
+            <div class="popup-scroll">
+                <p>Personal illustrations done for fun.</p>
+                <img src="img/portfolio/elephant.png">
+                <br>
+                <img src="img/portfolio/description/illustration.png">
+                <br>
+                <img src="img/portfolio/description/illustration2.png">
+                <br>
+                <img src="img/portfolio/description/illustration3.png">
+                <br>
+                <img src="img/portfolio/description/illustration4.png">
+                <br>
+                <img src="img/portfolio/description/illustration5.png">
+                <br>
+                <img src="img/portfolio/description/illustration6.png">
+                <br>
+            </div>
+        </div>
+
+        <!-- SPOTLIGHT -->
+        <div class="slide" data-slideid="12">
+            <h1>Spotlight</h1>
+            <div class="popup-scroll">
+                <p>Promotional materials for the Music Center's <a href="http://www.musiccenter.org/education/Students-at-the-Center/Spotlight/" target="_blank">Spotlight</a> competition.</p>
+                <img src="img/portfolio/spotlight.png" alt="Portfolio item" />
+                <img src="img/portfolio/description/spotlight1.png" alt="Portfolio item" />
+                <img src="img/portfolio/description/spotlight2.png" alt="Portfolio item" />
+                <img src="img/portfolio/description/spotlight3.png" alt="Portfolio item" />
+            </div>
+        </div>
+
+        <!-- GLOBALL -->
+
+        <div class="slide">
+            <h1>Globall</h1>
+            <div class="popup-scroll">
+                <p>Media and Advertising campaign for NYU's Welcome Week dance "Globall." </p>
+                <img src="img/portfolio/globall.png" alt="Portfolio item" />
+                <img src="img/portfolio/description/globall1.jpg" alt="Portfolio item" />
+                <img src="img/portfolio/description/globall2.jpg" alt="Portfolio item" />
+            </div>
+        </div>
+
+        <!-- UVL -->
+
+        <div class="slide">
+            <h1>UVL</h1>
+            <div class="popup-scroll">
+                <p>Media and Advertising campaign for NYU's Ultra Violet Live Talent competition</p>
+                <img src="img/portfolio/uvl1.jpg" alt="Portfolio item" /><br>
+                <img src="img/portfolio/uvl2.jpg" alt="Portfolio item" /><br>
+                <img src="img/portfolio/uvl3.jpg" alt="Portfolio item" /><br>
+                <img src="img/portfolio/uvl4.png" alt="Portfolio item" /><br>
+                <img src="img/portfolio/uvl5.jpg" alt="Portfolio item" />
+            </div>
+        </div>
+
+        <!-- ORIGINALS -->
+        <div class="slide" data-slideid="10">
+            <h1>Original Music</h1>
+            <div class="popup-scroll">
+                <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/93580621%3Fsecret_token%3Ds-warKA&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+                <br>
+                <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/84706873%3Fsecret_token%3Ds-GgyKA&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+                <br>
+                <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/84702192%3Fsecret_token%3Ds-JjEde&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+                <br>
+                <iframe width="420" height="315" src="https://www.youtube.com/embed/U_GmXraQYLw" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <!-- Elegance -->
+
+        <div class="slide">
+            <h1>Elegance at the Met</h1>
+            <div class="popup-scroll">
+                <p>Graphic Design and Branding for the New York University Inter-Residence Hall Council's dance for over 1,000 students: Elegance at the Metropolitan Museum of Art.</p>
+                <img src="img/portfolio/elegance1.jpg" alt="Portfolio item" /><br>
+                <img src="img/portfolio/elegance2.png" alt="Portfolio item" /><br>
+                <img src="img/portfolio/elegance3.jpg" alt="Portfolio item" /><br>
+                <img src="img/portfolio/elegance4.png" alt="Portfolio item" />
+            </div>
+        </div>
+
+
+        <!-- COVERS -->
+        <div class="slide">
+            <h1>Covers</h1>
+            <div class="popup-scroll">
+                <h2>Musical Theatre</h2>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/5eRRkCOBUOQ" frameborder="0" allowfullscreen></iframe>
+                <br>
+                <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/254928330%3Fsecret_token%3Ds-H8uWK&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+                <br>
+                <h2>Other Covers</h2>
+                <iframe width="420" height="315" src="https://www.youtube.com/embed/GPl8PeCJjIg" frameborder="0" allowfullscreen></iframe>
+                <br>
+                <iframe width="420" height="315" src="https://www.youtube.com/embed/-Dbabd9BBwo" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        
+
+        
+
+
+
+
+        <!-- UVL -->
+        <!-- <div class="slide">
+ <h1>UVL</h1>
+</div>
+ -->
+
+
+
+
+
+    </div>
+
+
+    <!-- Scripts -->
+    <script src="js/vivus.js"></script>
+    <script src="js/pathformer.js"></script>
+    <script src="js/jquery-ui-1.10.4.min.js" type="text/javascript"></script>
+
+
+    <script src="js/handlebars-v2.0.0.js"></script>
+    <script src="js/script-api.js"></script>
+    <script src="js/masonry.pkgd.min.js"></script>
+    <script src="https://npmcdn.com/imagesloaded@4.1/imagesloaded.pkgd.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/ocanvas/2.8.3/ocanvas.min.js"></script>
+    
+
+    <script src="js/jquery.fitvids.js" type="text/javascript"></script>
+    <script src="js/jquery.parallax.js"></script>
+    <script src="js/jquery.nicescroll.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/magnific-popup.js"></script>
+
+    
+    <script src="js/my.js"></script>
+
+</body>
+
+</html>

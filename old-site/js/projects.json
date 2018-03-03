@@ -1,0 +1,118 @@
+{
+	"projects": [{
+			"index": "maisy",
+			"name": "Maisy Mouse AR",
+			"url": "https:\/\/www.behance.net\/gallery\/47333721\/Maisy-Mouse-AR",
+			"description":"<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/VQLr3wcSa_U\" frameborder=\"0\" allowfullscreen></iframe><p>This is an augmented reality scavenger hunt and playroom for <i>Maisy's Pop-up Playhouse<\/i> by Lucy Cousins made using Unity and Vuforia.<br><br>I took a beloved childhood book and thought about how I could give it new life through adding new stories in augmented reality. The application has two parts: the scavenger hunt and the AR playroom.<br><br> The scavenger hunt portion of the application gives users hints and asks them to find and click on different items throughout Maisy's house. To create this, I created Vuforia image targets of items throughout the pop-up book and created corresponding After Effects animations that are played when the image target is in view.<br><br>For the playroom, I surveyed many of Cousins’s books and created different scenes for Maisy and her friends to play in. The purpose of this was to link the many of Cousins’s books to the pop-up books so that users get excited about reading the books and apply what they read about to their playtime. I also created an AR marker for Maisy and one for her friend. By tapping on Maisy, users can cycle between the scene. When this happens, both Maisy and her friends’ costumes change to fit the scene.<\/p>",
+			"cover": "img\/covers\/maisy.png",
+			"tags":"Augmented reality experience designed to encourage reading. ",
+			"year":"2016",
+			"filters":"augmented-reality unity motion-graphics 3d"
+		}, {
+			"index": "swivel",
+			"name": "Swivel",
+			"url": "https:\/\/www.behance.net\/gallery\/46479781\/Swivel",
+			"description":"<iframe src=\"https://player.vimeo.com/video/196141320\" width=\"640\" height=\"360\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><p>This project was created for my Interaction Design Studio course at Carnegie Mellon with  Bo Kim and Shannon Sullivan.<br><br>For this project we were given 5 different kinds of technologies and were asked to pick one and design a product around it. We surveyed each piece of technology and brainstormed possible solutions. After this we determined the idea which we thought was most viable.<br><br>My team chose the connected scale technology and created a product called <i>Swivel<\/i>, an ergonomic office chair. Using the weight sensors in the seat and back, <i>Swivel<\/i> can determine when it is occupied, who is occupying it, and can provide real-time feedback regarding the occupant’s posture.<br><br>Swivel fulfills several needs in commercial office spaces, where poor ergonomics harmfully impact employee health and productivity. Additionally, it provides a rich set of data which employers can use to make their office space more intelligent and adaptive.<br><br>We created a concept video to demonstrate our idea.<\/p>",
+			"cover": "img\/covers\/swivel.png",
+			"tags":"Concept video for an ergonomic connected office chair.",
+			"year":"2016",
+			"filters":"concept-video motion-graphics creative-direction"
+		},{
+			"index": "holidaycard",
+			"name": "360 Holiday Card",
+			"url": "https:\/\/www.behance.net\/gallery\/47077635\/360-Holiday-Card",
+			"description": "<center><a target=\"_blank\" href=\"http://claremarie.info/christmas2016/desktop.html\"> <img style=\"display: inline; width: 45%;\"src=\"http://claremarie.info/img/portfolio/cardlinks1.png\" target=\"_blank\"></a> <a target=\"_blank\" href=\"http://claremarie.info/christmas2016/desktop.html\"> <img style=\"display: inline; width: 45%;\"src=\"http://claremarie.info/img/portfolio/cardlinks2.png\" target=\"_blank\"></a></center><p>This was my final project for a course called Software Structures for Usable Interfaces. The prompt was to scope a web-based project that would take three weeks to build and include course topics.<br><br>I used three.js to create a holiday card to send to my family and friends using 360 photos I had taken throughout the year.<br><br>The primary class topic I focused on was library extension. Three.js has a lathe geometry object which takes a set of points and wraps them about an axis to create a geometry. I created an SVG parser which takes an SVG file and extracts the path to automatically create a geometry. This is how I constructed my tree.<br><br>I created the project for cardboard, but created a desktop version as well because of the differing navigational mental models.<\/p>",
+			"cover": "img\/covers\/holidaycard.png",
+			"tags":"Three.js holiday card made with 360 photos.",
+			"year":"2016",
+			"filters":"3d virtual-reality development ux-design"
+		},{
+			"index": "mickeymirror2",
+			"name": "Mickey Mirror 2.0",
+			"url": "https:\/\/www.behance.net\/gallery\/20538895\/Mickey-Mirror",
+			"description": "Version 1.0<br><br><iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/McqPx7qup-c\" frameborder=\"0\" allowfullscreen></iframe><p>This is a software mirror I created for an interactive computing course. The prompt was to use video input to create an application.<br><BR>For this project, I wanted to create an experience that could be implemented in a theme park setting. Disneyland has a plethora of different \"ears\" that you can purchase throughout the park, but not all of them are available at each location. The objective of this project was to make an interactive interface that could be installed throughout the park for guests to order any hat and pick it up on their way out.<br><br><\/p><p>Version 2.0</p><br><iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/LHlkcxul75I\" frameborder=\"0\" allowfullscreen></iframe><p>In 2016, I decided to rework this experience as a modular photo booth based on feedback on the original project. I also reworked the codebase to make it easier for others to understand and adapt for their own uses. I was awarded the Delphix Diversity in Technology Scholarship for this piece.<\/p>",
+			"cover": "img\/covers\/mickey.png",
+			"tags":"Software mirror \/ photo booth for trying on \"mickey ears.\"",
+			"year":"2013/2016",
+			"github":"https://github.com/claremcarroll/Mickey-Mirror-Project",
+			"filters":"development ux-design graphic-design"
+		}, {
+			"index": "vrbfoto",
+			"name": "VRB Foto",
+			"url": "https://www.behance.net/gallery/47022465/VRB-Foto",
+			"description": "<p>I worked on the VRB team at the Samsung accelerator where we created an application for the Gear VR called VRB Foto. I assisted the Project Manager and Creative Director in exploring different user interfaces to interact with the VRB Foto world. Specifically, I worked with the \"grenu,\" VRB Foto's menu system. We wanted to create a menu that could scale easily to add more and more effects. Here are some of my ideation animations:<br><br><img style=\" margin: none; max-width: none;\" width=\"100%\" src=\"https://mir-s3-cdn-cf.behance.net/project_modules/1400/58729647022465.58b1ca7c80697.gif\"><br>Get the app <a href=\"https://www.oculus.com/experiences/gear-vr/1297827283571813/\">here</a>.<br><br>I also designed the web portal for VRB Foto which you can view <a href=\"http://vrbfoto.com/\">here</a>. The most challenging part about the web portal was deciding how users would preview photospheres. This is the interaction I designed and implemented for the website:<br><br><img width=\"100%\" style=\" margin: none; max-width: none;\" src=\"https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/dc414d47022465.586df3e56456e.gif\"></p>",
+			"cover": "img\/covers\/vrbfoto.png",
+			"tags":"VRB Foto 360 photo sharing application for the Gear VR.",
+			"year":"2016",
+			"filters":"ux-design graphic-design 3d unity"
+		}, {
+			"index": "blue",
+			"name": "Body Labs Blue",
+			"url": "https:\/\/www.behance.net\/gallery\/41917453\/Body-Labs-Blue",
+			"description": "<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/33qBnhdWQ7w\" frameborder=\"0\" allowfullscreen><\/iframe><br><br><p>This is a project I lead as a UX Designer at Body Labs. Essentially, Body Labs Blue is a tool for creating custom clothing through six key measurements. The main goal of this product is to allow users to feel confident buying custom clothing when entering only a few measurements. Although we want users to trust our predictive algorithm, we also want to enable them to add more specific information accurately. <br><br><center><a target=\"_blank\" href=\"https:\/\/www.bodylabs.com\/solutions\/spectrum\/blue\/\">View Blue Here<\/a><\/center><br><br><img class=\"fullw\" src=\"http:\/\/claremarie.info\/img\/portfolio\/blscreenshot.png\"><\/p>",
+			"cover": "img\/covers\/blue.png",
+			"tags":"Interface for creating virtual bodies from measurements.",
+			"year":"2016",
+			"filters":"ux-design user-research"
+		}, {
+			"index": "holojam",
+			"name": "Holojam",
+			"url": "https:\/\/www.behance.net\/gallery\/35388195\/Holojam",
+			"description": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/zB9Vw1vPo20\" frameborder=\"0\" allowfullscreen></iframe><br><iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/kzx5igORwk4?start=55\" frameborder=\"0\" allowfullscreen></iframe><p>This is an experience I helped design and manage at the NYU Media Research Lab under Ken Perlin. We created an experience where up to five people can draw in virtual reality together.<br><center><a href=\"http:\/\/mrlholojam.tumblr.com\">Official Website<\/a><\/center>",
+			"cover": "img\/covers\/holojam.png",
+			"tags":"Multi-user VR drawing experience.",
+			"year":"2015",
+			"filters":"ux-design virtual-reality project-management 3d"
+		}, {
+			"index": "bodylabsvr",
+			"name": "Body Labs VR Demo",
+			"url": "https:\/\/www.behance.net\/gallery\/35388107\/Body-Labs-VR-Demo",
+			"description": "<iframe src=\"https://player.vimeo.com/video/160151843\" width=\"500\" height=\"282\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><p>This is an experience I created for Body Labs for CES 2015. The goal was to demonstrate the value of our Body Model through multiple visualizations. I created the application in Unity for cardboard and created animated models by applying motion capture data to some of our Body Models.<\/p>",
+			"cover": "img\/covers\/bodylabsvr.png",
+			"tags":"VR demo for CES 2015.",
+			"year":"2015",
+			"filters":"unity virtual-reality ux-design 3d"
+		}, {
+			"index": "motivate",
+			"name": "Motivate - Body Labs Hackathon Submission",
+			"url": "https:\/\/www.behance.net\/gallery\/25338009\/Motivate-Body-Labs-Hackathon-Submission",
+			"description": "<iframe src=\"https://player.vimeo.com/video/123574576\" width=\"500\" height=\"281\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><p>This is my team's submission for the Body Labs Hackathon @ NYU with Yoland Yan and Chris Jimenez. This project was done over the course of 10 hours and landed me a UX position at Body Labs. Motivate is a social fitness platform which utilizes body scanning to help you explore the fitness routines of individuals with similar body shapes.<br><br>Check out the interactive demo <a href=\"https:\/\/marvelapp.com\/c7ah14g\/screen\/21277833\">here<\/a>.<\/p>",
+			"cover": "img\/covers\/motivate.jpg",
+			"tags":"Mobile UI for a social fitness platform.",
+			"year":"2015",
+			"filters":"ux-design graphic-design project-management creative-direction"
+		}, {
+			"index": "cgpottery",
+			"name": "CG Pottery",
+			"url": "https:\/\/www.behance.net\/gallery\/35401589\/CG-Pottery",
+			"description": "<iframe src=\"https://player.vimeo.com/video/115201450\" width=\"500\" height=\"281\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p>This is a project I created with Sebastian Herscher for Ken Perlin’s Computer Graphics course. The project consists of two pieces: both centered on creating lathe geometries, much like pottery! The first piece is a Leap Motion application that creates virtual pottery based on lines drawn in the air by pinching two of your fingers together. The second piece creates the geometries through drawing with a mouse and creates a 3D printable file.<\/p>",
+			"cover": "img\/covers\/pottery.png",
+			"tags":"Virtual pottery creation tool using the Leap Motion.",
+			"year":"2014",
+			"github":"https://github.com/claremcarroll/PotteryProcessing",
+			"filters":"development ux-design 3d"
+		},{
+			"index": "aralphabet",
+			"name": "Augmented Reality Alphabet",
+			"url": "https:\/\/www.behance.net\/gallery\/20632059\/Augmented-Reality-Alphabet",
+			"description": "<iframe src=\"https://player.vimeo.com/video/109347305\" width=\"500\" height=\"281\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p>An augmented reality alphabet designed to make it fun to learn how to spell</p>",
+			"cover": "img\/covers\/aralphabet.png",
+			"tags":"Augmented reality alphabet designed to help children learn how to spell.",
+			"year":"2014",
+			"github":"https://github.com/claremcarroll/ARAlphabet",
+			"filters":"development ux-design typography 3d augmented-reality"
+		}, 
+		{
+			"index": "genesisdiyed",
+			"name": "Genesis DIYed",
+			"url": "https:\/\/www.behance.net\/gallery\/20539775\/Genesis-DIYed",
+			"description": "<iframe src=\"https://player.vimeo.com/video/81892131\" width=\"500\" height=\"281\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p>A redundant augmented reality board project in which users can draw their own characters and scan them into a 3D universe. Built with Yuji Tsuchikawa and Rock Zou. Presented at the ITP Winter Showcase in 2013.</p>",
+			"cover": "img\/covers\/genesis.png",
+			"tags":"Augmented reality virtual universe created by drawing and scanning in characters.",
+			"year":"2013",
+			"filters":"creative-direction project-management development ux-design augmented-reality"
+		}
+
+	]
+
+}

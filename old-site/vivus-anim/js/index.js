@@ -1,0 +1,1 @@
+			var hi = new Vivus('hi-there', {type: 'delayed', duration: 120, start: 'autostart', forceRender: false, dashGap: 20});

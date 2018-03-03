@@ -1,0 +1,19 @@
+			@font-face {
+
+				font-family: 'Blammo';
+
+				font-style: normal;
+
+				src: url('//blammo.claremarie.info/wp-content/uploads/sites/2/useanyfont/150912082819Blammo.eot');
+
+				src: local('Blammo'), url('//blammo.claremarie.info/wp-content/uploads/sites/2/useanyfont/150912082819Blammo.eot') format('embedded-opentype'), url('//blammo.claremarie.info/wp-content/uploads/sites/2/useanyfont/150912082819Blammo.woff') format('woff');
+
+			}
+
+						h1, h2, h3, h4, h5, h6, li{
+
+					font-family: 'Blammo' !important;
+
+				}
+
+		

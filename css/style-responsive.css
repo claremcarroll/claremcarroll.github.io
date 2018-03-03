@@ -1,0 +1,793 @@
+/* Small */
+@media (max-width: 601px) {
+  
+
+  .menu-content ul {
+    display: none;
+  }
+
+  #logo {
+    padding-top: 0px;
+    font-size: 14px;
+    width: 240px;
+  }
+
+  #hamburger {
+    display: inline-block;
+  }
+
+  .start-page .content {
+    width:90%;
+    height:100%;
+  }
+
+  .start-page, .start-page .opacity{
+    height:80%;
+  }
+  .start-page .content .text {
+    width:100%;
+  }
+
+
+  h1 {
+    font-size:36px;
+  }
+
+  .about-us h1, .skills h1 {
+    margin-top:0;
+  }
+  .about-us .content{
+      
+  }
+  .about-us .content, .skills .content{
+    width:90%;
+  }
+
+  .about-us hr, .skills hr, .portfolio .portfolio-margin hr, .contact hr {
+    width:106px;
+  }
+
+  #sortfilter {
+    display: none;
+  }
+
+  .button{
+    font-size: 9px !important;
+  }
+
+
+  .contact, .contact .content, .contact .content .form{
+    width:100%;
+  }
+
+  .contact .content .contact-text{
+    padding-left:0px;
+    width:100%;
+    text-align:center;
+    margin-top:60px;
+  }
+
+  input{
+    width:320px;
+  }
+
+  textarea{
+    width:320px;
+  }
+
+
+  .contact{ 
+    margin:0 auto;
+  }
+
+  .footer{
+    position:relative;
+  }
+
+  .slide {
+    height: 400px !important;
+  }
+
+  .flex-container {
+      flex-wrap: wrap;
+  }
+
+  .flex-item {
+      width: 80%;
+  }
+
+  .overlay h1 {
+    text-align: center;
+    font-size: 20px;
+    position: absolute;
+/*    bottom: 40%;*/
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    letter-spacing: 10px;
+    font-weight: 100;
+    line-height: 50px;
+  }
+
+  .project-row2 {
+  
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    display: -webkit-flex;
+    -webkit-flex-wrap: wrap;
+    -webkit-flex-direction: column;
+    align-content: stretch;
+}
+
+  .project-row2 .facts{
+    padding-left: 0;
+  }
+
+  .project-row2 .category{
+    padding-left: 0;
+  }
+
+  .project-row2 table{
+    margin-top: 50px;
+  }
+
+  .project-row2 .desc{
+      min-width: 100%;
+      flex-basis: 100%;
+  }
+
+  .project-row .left{
+      min-width: 100%;
+  }
+
+  .project-row .left h1{
+      padding-bottom: 20px;
+  }
+
+  .project-row .right{
+      min-width: 100%;
+  }
+
+  .project-row .right{
+    margin-left: 0;
+  }
+
+  .project-row hr {
+    display:block;
+  }
+
+  .about {
+    width: 80%;
+  }
+
+  .about-row {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    display: -webkit-flex;
+    -webkit-flex-wrap: wrap;
+    -webkit-flex-direction: column;
+    align-content: stretch;
+
+    margin-top: 30px;
+  }
+
+  .about-row button {
+    width: 100%;
+    /*background-color: rgba(143,181,196,0.7) !important;*/
+  }
+
+  .about-row .left{
+    min-width: 100%;
+    order: 2;
+  }
+
+  .about-row .right{
+    margin-left: 0;
+    order: 1;
+  }
+
+  .about hr {
+    display: none;
+  }
+
+  .bigonly {
+    display: none;
+  }
+
+
+
+  #news .row{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    display: -webkit-flex;
+    -webkit-flex-wrap: wrap;
+    -webkit-flex-direction: column;
+    align-content: stretch;
+  }
+
+  #news .left{
+    min-width: 100%;
+  }
+
+  #news .right{
+      padding-left: 0px;
+  }
+
+  #news h2 {
+    padding-top: 20px;
+  }
+
+
+  .section a{
+    display: none !important;
+  }
+
+  .work-div {
+    display: flex;
+    flex-direction: column;
+    flex-basis: auto;
+    width: 100%;
+    height:100%;
+    
+  }
+
+  .work {
+    background-size:  100% auto !important;
+  }
+
+  .work-dummy {
+    justify-content: center;
+  }
+
+  .work-dummy:hover h1{
+    font-size: 22px !important;
+  }
+
+  .work-div h1{
+    font-size: 20px;
+  }
+
+  #d1{
+    padding-top: 30px;
+  }
+
+  #w1{
+    padding-top: 30px;
+  }
+
+  .grid li {
+    width: 100%;
+  }
+
+
+}
+
+/* Medium 1 */
+@media (min-width: 602px) and (max-width: 779px) {
+
+  .bigonly {
+    display: none;
+  }
+
+  #logo {
+    width: 280px;
+  }
+  
+  .menu-content ul {
+    display: none;
+  }
+  
+  #sortfilter {
+    display: none;
+  }
+  
+  #hamburger {
+    display: inline-block;
+  }
+  
+  .button{
+    font-size: 9px !important;
+  }
+  
+  /*.menu-content {
+    width: 80%;
+  }*/
+  
+  .menu-content li a {
+    padding: 0 0px 0 20px;
+  }
+  
+  .start-page .content {
+    width:600px;
+    height:100%;
+  }
+  
+  .start-page, .start-page .opacity{
+    height:90%;
+  }
+  .start-page .content .text {
+    width:600px;
+  }
+  
+  
+  h1 {
+    font-size:36px;
+  }
+  
+  .about-us h1, .skills h1 {
+    margin-top:0;
+  }
+  
+  .about-us .content, .skills .content, .skills .content{
+    width:600px;
+  }
+  
+  .skills h2 {
+    color: white;
+  }
+  
+  .about-us .content{
+      
+  }
+  
+  .about-us hr, .skills hr, .portfolio .portfolio-margin hr, .contact hr {
+    width:106px;
+  }
+  
+  
+  .column-one, .column-two{
+    width:600px;
+    margin-bottom:20px;
+  }
+  
+  .column-three{
+    width:600px;
+    margin-bottom:70px;
+   }
+  
+  
+  
+  button {
+    padding: 4px 8px;
+    font-size: 10px;
+  }
+  
+  .contact, .contact .content, .contact .content .form{
+    width:600px;
+  }
+  
+  .contact .content .contact-text{
+    padding-left:0px;
+    width:600px;
+    text-align:center;
+    margin-top:60px;
+  }
+  
+  .contact .content .contact-text {
+    width:275px;
+  }
+  
+  .contact .content .form .column, .contact .content .form .column-3{
+    width:420px;
+  }
+  
+  .contact .content .form .column-2{
+    width:420px;
+    padding-left:0;
+  }
+  
+  .contact{ 
+    margin:0 auto;
+  }
+  
+  .footer{
+    position:relative;
+  }
+  
+  input{
+    width:420px;
+  }
+  
+  textarea{
+    width:420px;
+  }
+  
+  .flex-container {
+      flex-wrap: wrap;
+  }
+  
+  .flex-item {
+      width: 80%;
+  }
+
+  .overlay h1 {
+    text-align: center;
+    font-size: 40px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    letter-spacing: 10px;
+    font-weight: 100;
+    line-height: 70px;
+  }
+
+  .about-row .left{
+    min-width: 100%;
+    order: 2;
+  }
+
+  .about-row .right{
+    margin-left: 0;
+    order: 1;
+  }
+
+  .about-row button {
+    width: 100%;
+    /*background-color: rgba(143,181,196,0.7) !important;*/
+  }
+
+
+/*  #subpage {
+    padding-bottom: 40px;
+  }
+
+  .portfolio {
+    margin-top: 0;
+  }
+
+  #news {
+    margin-top: 0;
+  }*/
+
+  .work-div {
+    display: flex;
+    flex-direction: column;
+    flex-basis: auto;
+    width: 100%;
+    height:100%;
+    
+  }
+
+  .work {
+    background-size:  100% auto  !important;
+  }
+
+  .work-dummy:hover h1{
+    font-size: 26px !important;
+  }
+
+  .work-dummy {
+    justify-content: center;
+  }
+
+  .work-div h1{
+    font-size: 24px;
+  }
+
+  #d1{
+    padding-top: 30px;
+  }
+
+  #w1{
+    padding-top: 30px;
+  }
+
+  .grid li {
+    width: calc( 50% - 15px);
+  }
+
+}
+
+/* Medium 2 */
+@media (min-width: 780px) and (max-width: 949px) {
+
+  button.mfp-arrow {
+      display: block !important;
+  }
+
+  .about-us .content{
+      width: 600px;
+  }
+
+  #logo {
+    width: 280px;
+  }
+
+  .menu-content ul {
+    width: 50%;
+  }
+
+  button {
+    padding: 4px 8px;
+    font-size: 10px;
+  }
+
+
+  .menu-content li a {
+    padding: 0 0px 0 20px;
+  }
+
+  .start-page .content {
+    width:600px;
+    height:100%;
+  }
+
+  .start-page, .start-page .opacity{
+    height:100%;
+  }
+  .start-page .content .text {
+    width:600px;
+  }
+
+
+  h1 {
+    font-size:36px;
+  }
+
+
+
+  .portfolio .content {
+      width:100%;
+  }
+
+  .footer{
+    position:relative;
+  }
+
+  input{
+    width:420px;
+  }
+
+  textarea{
+    width:420px;
+  }
+
+  .about .right {
+    padding-top: 0;
+  }
+
+  .work-dummy:hover h1{
+    font-size: 18px !important;
+  }
+
+  .work-div h1{
+    font-size: 16px;
+  }
+
+
+}
+
+
+/* Large */
+@media (min-width: 950px) and (max-width: 1024px) {
+
+  button.mfp-arrow {
+      display: block !important;
+  }
+
+  #logo{
+    width:350px;
+  }
+
+  .menu-content ul {
+    width: 50%;
+  }
+
+  /*.menu-content{
+    width:925px;
+  }*/
+
+  #undefined-sticky-wrapper {
+    display:block !important;
+  }
+
+  .about-us .content{
+    width:600px;
+  }
+
+  .about-us h1 {
+    font-size: 22px;
+  }
+
+  .about-us p.title {
+    font-size: 17px;
+    line-height: 1.8;
+  }
+
+  .about-us p{
+    width:200px;
+  }
+
+  .about-us h2, .skills h2{
+    letter-spacing:2px;
+  }
+
+  .skills .content{
+    width:800px;
+  }
+
+  .skills p{
+    width:200px;
+  }
+
+  .skills h2{
+    font-size: 16px;
+    color: white;
+  }
+
+  .skills .column-one,.skills .column-two ,.skills .column-three{
+    width:233px;
+  }
+
+  .portfolio .content {
+      width:100%;
+  }
+
+
+  .contact{ 
+    margin:0 auto;
+  }
+
+  .contact .content {
+    width:800px
+  }
+
+  .footer{
+    position:relative;
+  }
+
+  .contact .content .form{
+    width:600px;
+  }
+
+  input{
+    width:320px;
+  }
+
+  textarea{
+    width:320px;
+  }
+
+  .contact .content .contact-text {
+    width:275px;
+  }
+
+  .contact .content .form .column, .contact .content .form .column-3{
+    width:450px;
+  }
+
+  .contact .content .form .column-2{
+    width:450px;
+    padding-left:0;
+  }
+
+  .work-dummy:hover h1{
+    font-size: 22px !important;
+  }
+
+  .work-div h1{
+    font-size: 20px;
+  }
+
+
+}
+
+/* XL */
+@media (min-width: 1024px) {
+
+  button.mfp-arrow {
+    display: block !important;
+  }
+
+  #logo{
+    width:350px;
+  }
+
+  .menu-content ul {
+    width: 50%;
+  }
+
+/*  .menu-content{
+    width:1000px;
+  }*/
+
+  #undefined-sticky-wrapper {
+    display:block !important;
+  }
+
+  .about-us .content{
+    width:600px;
+  }
+
+  .about-us h1 {
+    font-size: 22px;
+  }
+
+  .about-us p.title {
+    font-size: 17px;
+    line-height: 1.8;
+  }
+
+  .about-us p{
+    width:200px;
+  }
+
+  .about-us h2, .skills h2{
+    letter-spacing:2px;
+  }
+
+  .skills .content{
+    width:800px;
+  }
+
+  .skills p{
+    width:200px;
+  }
+
+  .skills h2{
+    font-size: 16px;
+    color: white;
+  }
+
+  .skills .column-one,.skills .column-two ,.skills .column-three{
+    width:233px;
+  }
+
+
+  .portfolio .content {
+      width:100%;
+  }
+
+
+  .contact{ 
+    margin:0 auto;
+  }
+
+  .contact .content {
+    width:800px
+  }
+
+  .footer{
+    position:relative;
+  }
+
+  .contact .content .form{
+    width:600px;
+  }
+
+  input{
+    width:320px;
+  }
+
+  textarea{
+    width:320px;
+  }
+
+  .contact .content .contact-text {
+    width:275px;
+  }
+
+  .contact .content .form .column, .contact .content .form .column-3{
+    width:450px;
+  }
+
+  .contact .content .form .column-2{
+    width:450px;
+    padding-left:0;
+  }
+
+  .work-dummy:hover h1{
+    font-size: 26px !important;
+  }
+
+  .work-div h1{
+    font-size: 24px;
+  }
+
+}

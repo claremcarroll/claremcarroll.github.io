@@ -1,0 +1,230 @@
+			body {
+				background-color: #ffffff;
+				margin: 0;
+				overflow: hidden;
+				font-family: 'Montserrat', sans-serif;
+			}
+			h1 {
+				font-family: 'Shrikhand', cursive;
+				font-size: 34px;
+				padding-left: 8px;
+			}
+			canvas {
+				height: 100%;
+			}
+
+			#chartWrap {
+				position: relative;
+				width: 32.3% !important;
+				display: inline-block;
+			}
+			
+			.label {
+			  width:100px;
+			  height:20px;
+			  text-align: center;
+			}
+
+			.beginning {
+				padding-left: 15px; 
+				margin-top: 15px !important;
+			}
+
+			a {
+				color: #000000;
+			}
+
+			.buttons{
+				border: 1px solid;
+				display: inline-block;
+				margin-right:5px;
+				margin-bottom: 5px;
+				cursor: pointer;
+				padding: 3px 6px;
+				background-color:#fff;
+			}
+
+			.years{
+				border: 1px solid;
+				display: inline-block;
+				margin-right:5px;
+				cursor: pointer;
+				padding: 3px 6px;
+				background-color:#fff;
+			}
+
+			#currentCompany {
+				padding-left: 10px;
+				font-size: 15px;
+				margin:0;
+			}
+
+			#top {
+				position: absolute;
+				top:0;
+				left:0;
+				z-index: 10000000;
+				padding:10px;
+			}
+
+			#top h1{
+				margin: 2px;
+			}
+
+			#top-right {
+				position: absolute;
+				top:0;
+				right:0;
+				z-index: 10000000;
+				padding:10px;
+				text-align: right;
+			}
+
+			#hover-company {
+				padding:10px;
+				text-align: right;
+				color: black;
+				font-size: 12px;
+			}
+
+			#top-wrap{
+				width: 63%;
+				position: absolute;
+				top:0;
+				left:0;
+				z-index: 10000000;
+				padding:10px;
+			}
+
+			#bottom {
+				display: inline-block;
+			}
+
+			#container {
+				position: relative;
+				cursor:pointer;
+				z-index: 0;
+				width: 66%;
+				height: 450px;
+				right:0;
+				min-height:400px;
+				min-width: 400px;
+				margin: 0;
+				display: inline-block;
+				border-width: 10px;
+    			border: black;
+    			border-style: solid;
+			}
+			.colorKey {
+				display: inline-block;
+				text-align: left;
+				padding-left: 0px;
+				padding-right: 20px;
+				padding-bottom: 10px;
+			}
+
+			#colors {
+				position: relative;
+				width: 100%;
+				font-size: 8pt;
+				display: inline-block;
+				padding: 10px;
+				padding-bottom: 0;
+			}
+
+			.grid .tick {
+			  stroke: lightgrey;
+			  opacity: 0.7;
+			}
+
+			.grid path {
+			  stroke-width: 0;
+			}
+
+			.chart {
+				display: inline-block;
+				width: 100%;
+			}
+
+			.main text {
+			  font: 10px sans-serif;
+			}
+
+			.axis line,
+			.axis path {
+			  shape-rendering: crispEdges;
+			  stroke: black;
+			  fill: none;
+			}
+
+			.domain {
+				stroke-width: 0;
+			}
+
+			.tick line {
+				stroke-width: 0;
+			}
+
+			.selected {
+				opacity: 1 !important;
+				stroke-width: 2;
+				stroke: #353535;
+			}
+
+
+			circle {
+				opacity: 0.2;
+			}
+
+			line {
+				opacity: 0.2;
+			}
+
+			#about {
+				width: 100%;
+				height: 200px;
+				overflow-y:scroll;
+				background-color: #ececec;
+			}
+
+			#about::-webkit-scrollbar {
+    			-webkit-appearance: none;
+			}
+
+			#about::-webkit-scrollbar:vertical {
+			    width: 11px;
+			}
+
+			#about::-webkit-scrollbar:horizontal {
+			    height: 11px;
+			}
+
+			#about::-webkit-scrollbar-thumb {
+			    border: 2px #ececec;
+			    background-color: rgba(0, 0, 0, .5);
+			}
+
+			#about::-webkit-scrollbar-track { 
+			    background-color: #ececec; 
+			} 
+
+			#about p {
+				font-size: 12px;
+			}
+
+			#about h2 {
+				margin-top: 0;
+			}
+
+			#aboutText{
+			    display: block;
+			    padding-left: 15px;
+			    padding-right: 15px;
+			}
+
+			#descriptionText{
+				display: block;
+				padding-left: 15px;
+			}
+
+

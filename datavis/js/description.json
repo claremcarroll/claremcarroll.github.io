@@ -1,0 +1,830 @@
+{  
+   "Deloitte":{  
+      "Description":"The Deloitte U.S. Firms have more than 70,000 professionals with a single focus: serving our clients and helping them solve their toughest problems. We work in four key business areas — audit, advisory, consulting and tax — but our real strength comes from combining the talents of those groups to address clients’ needs. FORTUNE consistently ranks our organization among the best places to work, which is good news for our talent and our clients alike. Come explore what a career with Deloitte might look like for you and see what impact you can make.",
+      "Mission":"",
+      "Website":"",
+      "GlassdoorAwards":""
+   },
+   "BAE Systems":{  
+      "Description":"BAE Systems is a global defense, aerospace and security company delivering a full range of products and services for air, land and naval forces, as well as advanced electronics, security, information technology solutions and customer support and services. Headquartered in Arlington, Virginia, BAE Systems, Inc. employs approximately 32,300 in the United States, United Kingdom, Sweden, and Israel.",
+      "Mission":"Mission: We’re working to deliver the highest quality solutions to our customers at the lowest possible cost. And we’re working to fuel economic development, scientific research and technology innovation throughout the country.",
+      "Website":"",
+      "GlassdoorAwards":""
+   },
+   "Boeing":{  
+      "Description":"Boeing is the world's largest aerospace company and leading manufacturer of commercial jetliners and defense, space and security systems. We are engineers and technicians. Skilled scientists and thinkers. Bold innovators and dreamers. We all work together to do amazing things.\n<br><br>In more than 65 countries, you’ll find our people working on advances like remarkable aircraft comprised mostly of composite materials. Versatile and powerful jet fighters and rotorcraft that explore new uses of technology. Aircraft powered by hydrogen and biofuels. And even blended wing body and hybrid-electric aircraft. <br><br>Join us, and you can build something better for yourself, for our customers and for the world. <br><br>Boeing is an Equal Opportunity Employer. Employment decisions are made without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, veteran status or other characteristics protected by law.",
+      "Mission":"",
+      "Website":"",
+      "GlassdoorAwards":""
+   },
+   "General Dynamics":{  
+      "Description":"General Dynamics is a global aerospace and defense company that offers a broad portfolio of products and services. Our Aerospace group is at the forefront of the business-jet industry and delivers a family of Gulfstream aircraft, provides aircraft services and performs completions for aircraft produced by other OEMs. Our Combat Systems group offers a full-spectrum of combat vehicles, weapons systems and munitions for the United States and its allies around the world. Our Information Systems and Technology group provides technologies, products and services in support of hundreds of programs for a wide range of military, federal/civilian, state, local and commercial customers. Our Marine Systems group is a market-leading designer and builder of nuclear-powered submarines, surface combatants and auxiliary and combat-logistics ships for the U.S. Navy, and Jones Act ships for commercial customers.",
+      "Mission":"",
+      "Website":"",
+      "GlassdoorAwards":""
+   },
+   "L-3 Communications Holdings, Inc":{  
+      "Description":"Headquartered in New York City, L-3 employs approximately 48,000 people worldwide and is a prime contractor in aerospace systems and national security solutions. L-3 is also a leading provider of a broad range of communication and electronic systems and products used on military and commercial platforms. The company reported 2013 (revised) sales of $12.6 billion.\n<br><br>To learn more about L-3, please visit the company’s website at www.L-3com.com.",
+      "Mission":"",
+      "Website":"www.l3t.com",
+      "GlassdoorAwards":""
+   },
+   "U.S. Department of Defense":{  
+      "Description":"No matter how you measure it, by aircraft, ships, or active-duty military personnel, the US Department of Defense (DoD) is big. Except for Social Security, the Department of Defense -- comprising the Army, Navy, Air Force, Marines, National Guard, Reserves, and more than a dozen defense agencies -- is the largest component of US government spending. The 2012 budget for the Department of Defense is more than $670 billion, 18% of which will be used to fund the ongoing military engagements in Afghanistan and Iraq. The DoD maintains a force of about 1.4 million active duty service members and operates thousands of facilities around the world.",
+      "Mission":"",
+      "Website":"www.defense.gov",
+      "GlassdoorAwards":""
+   },
+   "Abbott Laboratories":{  
+      "Description":"Filling baby bottles and soothing aching joints are a habit for Abbott. Abbott Laboratories is a top health care products manufacturer. Its pharmaceuticals include HIV treatments Norvir and Kaletra, rheumatoid arthritis therapy Humira, and Lupron to treat endometriosis and prostate cancer. Its nutritional products division makes such well-known brands as Similac infant formula and the Ensure line of nutrition supplements. The company also makes diagnostic instruments (including tests and assays), vascular medical devices such as its Xience drug-eluting stents, and the FreeStyle diabetes care line, as well as products for the eye. Abbott has announced it will split apart its medical products and research drug units.",
+      "Mission":"",
+      "Website":"www.abbott.com",
+      "GlassdoorAwards":""
+   },
+   "Amgen Inc":{  
+      "Description":"Amgen is committed to unlocking the potential of biology for patients suffering from serious illnesses by discovering, developing, manufacturing and delivering innovative human therapeutics. This approach begins by using tools like advanced human genetics to unravel the complexities of disease and understand the fundamentals of human biology.\n<br><br>Amgen focuses on areas of high unmet medical need and leverages its biologics manufacturing expertise to strive for solutions to improve health outcomes and improve people’s lives. A biotechnology pioneer since 1980, Amgen has grown to be the world’s largest independent biotechnology company, has reached millions of patients around the world and is developing a pipeline of medicines with breakaway potential.<br><br>Amgen is an Equal Opportunity employer and will consider all qualified applicants for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, protected veteran status, or disability status.",
+      "Mission":"Mission: To serve patients",
+      "Website":"www.amgen.com",
+      "GlassdoorAwards":""
+   },
+   "Bristol-Myers Squibb":{  
+      "Description":"Bristol-Myers Squibb (BMS) may be a giant in transition, but its still a pharmaceutical giant. The company's blockbuster cardiovascular lineup includes heart disease drug Plavix and Avapro for hypertension. BMS also makes antipsychotic medication Abilify and HIV treatments Reyataz and Sustiva. Most of the company's sales come from products in the therapeutic areas of cardiovascular, immunoscience, metabolics, neuroscience, oncology, and virology. BMS, which has 12 manufacturing plants worldwide and conducts research and development in four countries, sells its products globally; the US accounts for two thirds of sales.",
+      "Mission":"",
+      "Website":"www.bms.com",
+      "GlassdoorAwards":"Best Places to Work:2015 (#40), 2011 (#28)"
+   },
+   "Johnson & Johnson":{  
+      "Description":"It's nearly impossible to get well without Johnson & Johnson (J&J). The diversified health care giant operates in three segments through more than 250 operating companies located in some 60 countries. Its Medical Devices division offers surgical equipment, monitoring devices, orthopedic products, and contact lenses, among other things. J&J's Pharmaceuticals division makes drugs for an array of ailments, such as neurological conditions, blood disorders, autoimmune diseases, and pain. Top sellers are psoriasis drug Remicade and anemia medication Procrit. Its Consumer segment makes over-the-counter drugs and products for baby, skin, and oral care, as well as first aid and women's health.",
+      "Mission":"Mission: The values that guide our decision making are spelled out in Our Credo. Put simply, Our Credo challenges us to put the needs and well-being of the people we serve first.\n <br><br>Our Credo is more than just a moral compass. We believe it’s a recipe for business success. The fact that Johnson & Johnson is one of only a handful of companies that have flourished through more than a century of change is proof of that",
+      "Website":"www.jnj.com",
+      "GlassdoorAwards":"Highest Rated CEOs:2016 (#16), 2015 (#27), 2014 (#37)\nBest Places to Work:2017 (#26), 2012 (#28)"
+   },
+   "Medtronic":{  
+      "Description":"Together, we will change healthcare worldwide. At Medtronic, we push the limits of what technology can do to help alleviate pain, restore health and extend life. We challenge ourselves and each other to make tomorrow better than yesterday. It is what makes this an exciting and rewarding place to be.\n<br><br>We can accelerate and advance our ability to create meaningful innovations - but we will only succeed with the right people on our team. Let’s work together to address universal healthcare needs and improve patients’ lives. Help us shape the future.",
+      "Mission":"Mission: To contribute to human welfare by application of biomedical engineering in the research, design, manufacture, and sale of instruments or appliances that alleviate pain, restore health, and extend life.",
+      "Website":"www.medtronic.com",
+      "GlassdoorAwards":"Highest Rated CEOs:2016 (#48), 2015 (#24)\nBest Places to Work:2010 (#18)"
+   },
+   "Novartis International AG":{  
+      "Description":"Novartis has been aggressive in attacking illnesses on multiple fronts, including pharmaceuticals, vaccines, and consumer health. Its largest division, Pharmaceuticals, develops and manufactures prescription drugs for blood pressure, cancer, and other ailments. Novartis' Sandoz subsidiary produces generic drugs and active pharmaceutical ingredients, while the Vaccine and Diagnostics segment makes immune health and blood-screening tools. Its Alcon division makes ophthalmic drugs, surgery systems, and contact lenses. The Consumer Health unit includes OTC medications such as Excedrin and Theraflu, as well as Animal Health's agricultural animal and pet care products.",
+      "Mission":"",
+      "Website":"www.novartis.com",
+      "GlassdoorAwards":""
+   },
+   "Pfizer":{  
+      "Description":"Pfizer Inc.: Working together for a healthier world®\n <br><br>At Pfizer, we apply science and our global resources to bring therapies to people that extend and significantly improve their lives. We strive to set the standard for quality, safety and value in the discovery, development and manufacture of health care products. Our global portfolio includes medicines and vaccines as well as many of the world's best-known consumer health care products. Every day, Pfizer colleagues work across developed and emerging markets to advance wellness, prevention, treatments and cures that challenge the most feared diseases of our time. Consistent with our responsibility as one of the world's premier innovative biopharmaceutical companies, we collaborate with healthcare providers, governments and local communities to support and expand access to reliable, affordable healthcare around the world. For more than 150 years, Pfizer has worked to make a difference for all who rely on us.",
+      "Mission":"Mission: To be the premier, innovative biopharmaceutical company.",
+      "Website":"www.pfizer.com",
+      "GlassdoorAwards":""
+   },
+   "Ernst & Young":{  
+      "Description":"EY is a global leader in assurance, tax, transaction and advisory services. The insights and quality services we deliver help build trust and confidence in the capital markets and in economies the world over. We develop outstanding leaders who team to deliver on our promises to all of our stakeholders. In so doing, we play a critical role in building a better working world for our people, for our clients and for our communities.\n<br><br>EY refers to the global organization and may refer to one or more of the member firms of Ernst & Young Global Limited, each of which is a separate legal entity. Ernst & Young Global Limited, a UK company limited by guarantee, does not provide services to clients. For more information about our organization, please visit ey.com.",
+      "Mission":"Mission: Building a better working world",
+      "Website":"www.ey.com",
+      "GlassdoorAwards":"Highest Rated CEOs:2016 (#14), 2015 (#18), 2013 (#4)\nBest Places to Work:2015 (#49), 2012 (#38), 2009 (#23)"
+   },
+   "HCL Global":{  
+      "Description":"HCL Global Systems Inc, is a Leader in the Business of Software Development & Leading provider of Information Technology Consulting Services to Fortune 500 companies. HCL Global Systems is a leading consulting, business solution and systems integration firm with a unique blend of services.",
+      "Mission":"",
+      "Website":"www.hclglobal.com",
+      "GlassdoorAwards":""
+   },
+   "IBM":{  
+      "Description":"IBM is the largest technology and consulting employer in the world, serving clients in 170 countries. In this new era of Cognitive Business, IBM is helping to reshape industries by bringing together our expertise in Cloud, Analytics, Security, Mobile, and the Internet of Things. We are changing how we create. How we collaborate. How we analyze. How we engage. IBM is a leader in this global transformation so there is no better place to launch your career or further your career.\n<br><br>Transforming healthcare, improving the retail shopping experience, rerouting traffic and even designing the next generation fan experience in sports stadiums around the world – this is what IBMers do. <br><br>Join us and be part of a diverse and global team of thinkers and doers. Work with extraordinary, insightful, imaginative people in an environment that cultivates creativity and individuality.",
+      "Mission":"",
+      "Website":"www.ibm.com",
+      "GlassdoorAwards":""
+   },
+   "Adecco":{  
+      "Description":"Adecco is the world's largest employment agency, serving some 100,000 clients from more than 5,500 offices worldwide. The company primarily provides temporary staffing services (more than 90% of sales), but also offers permanent employee placement, project assistance, outsourcing, and other human resources-related services. Besides its core industrial and office staffing services, Adecco maintains six professional lines: Engineering & Technical; Finance & Legal; Human Capital Solutions; Information Technology; Medical & Scientific; and Sales, Marketing & Events. Adecco traces its roots to 1957 and has a history of growing through mergers and acquisitions.",
+      "Mission":"",
+      "Website":"www.adecco.co.uk",
+      "GlassdoorAwards":""
+   },
+   "Robert Half":{  
+      "Description":"Robert Half carries the full load of personnel services. The company places temporary and permanent staff through eight divisions: Accountemps, Robert Half Finance & Accounting, Robert Half Legal, OfficeTeam (general administrative), Robert Half Technology (information technology), Robert Half Management Resources (senior level professionals), and The Creative Group (advertising, marketing, and Web design). The firm also has an established internal audit and risk consulting division in Protiviti. Robert Half operates from more than 330 staffing locations worldwide.",
+      "Mission":"",
+      "Website":"www.roberthalf.com",
+      "GlassdoorAwards":""
+   },
+   "Parsons Corporation":{  
+      "Description":"Parsons is a technology-driven engineering services firm with more than 70 years of experience in the engineering, construction, technical, and professional services industries. The corporation is a leader in many diversified markets with a focus on infrastructure, defense, security, and construction. Parsons delivers design/design-build, program/construction management, systems design/engineering, cyber/converged security, and other professional services packaged in innovative alternative delivery methods to federal, regional, and local government agencies, as well as to private industrial customers worldwide. For more about Parsons, please visit www.parsons.com\nAll across the world, at every time of day, Parsons is keeping people moving toward a brighter, safer world. For more about Parsons, please visit www.parsons.com.",
+      "Mission":"Mission: Parsons will be the leader in the engineering and construction industry, measured by our performance, integrity, diversity, and commitment to safety and sustainability. Employees will be challenged by a professional environment of innovation, opportunity, development, and continuous improvement. We will provide high-quality services in a team-oriented, long-term relationship environment with our customers, employees, business associates, subcontractors, and suppliers across the globe.",
+      "Website":"www.parsons.com",
+      "GlassdoorAwards":""
+   },
+   "Bank of America":{  
+      "Description":"Bank of America is one of the world's largest financial institutions, serving individuals, small- and middle-market businesses and large corporations with a full range of banking, investing, asset management and other financial and risk management products and services. The company serves approximately 56 million U.S. consumer and small business relationships. It is among the world's leading wealth management companies and is a global leader in corporate and investment banking and trading.",
+      "Mission":"",
+      "Website":"www.bankofamerica.com",
+      "GlassdoorAwards":""
+   },
+   "Capital One":{  
+      "Description":"Capital One Financial Corporation, incorporated in November 16, 1994, is a diversified banking company focused primarily on consumer and commercial lending and deposit origination. Its principal business segments are Local Banking and National Lending. Local Banking includes consumer, small business and commercial deposits, and lending conducted within its branch network. The National Lending segment consists of three sub-segments: the U.S. Card sub-segment, which consists of domestic consumer credit and debit card activities; the Auto Finance sub-segment, which includes automobile and other motor vehicle financing activities, and the Global Financial Services sub-segment consisting of international lending activities, small business lending, installment loans, home loans, healthcare financing and other diversified activities.",
+      "Mission":"Mission: At Capital One, we dare to dream, disrupt and deliver a better way for our customers, the financial industry and for each other.",
+      "Website":"www.capitalonecareers.com",
+      "GlassdoorAwards":"Highest Rated CEOs:2014 (#28), 2013 (#38)\nBest Places to Work:2011 (#50), 2009 (#38)"
+   },
+   "Wells Fargo":{  
+      "Description":"Wells Fargo (NYSE: WFC) is a diversified, community-based financial services company with $1.9 trillion in assets. Founded in 1852, headquartered in San Francisco. We provide banking, insurance, investments, mortgage, & consumer and commercial finance through more than 8,600 locations, 13,000 ATMs, the internet (wellsfargo.com) and mobile banking, and has offices in 42 countries and territories to support customers who conduct business in the global economy. Our vision is to satisfy our customers’ financial needs and help them succeed financially. In 2015, we donated $281.3 million to 16,300 nonprofits, ranking No. 3 on the Chronicle of Philanthropy’s rankings of the top corporate cash philanthropists. Team members volunteered 1.86 million hours in 2015, serving over 40,000 nonprofits. Corporate social responsibility efforts are focused on three priorities: economic empowerment in underserved communities, environmental sustainability, and advancing diversity and social inclusion.",
+      "Mission":"Mission: We have five primary values that are based on our vision and provide the foundation for everything we do:<br><br>People as a competitive advantage<br><br>Ethics <br><br>What’s right for customers <br><br>Diversity and inclusion <br><br>Leadership <br><br>People as a competitive advantage <br><br>We value and support our team members as a competitive advantage. We say “team members, not “employees, because our people are resources to be invested in, not expenses to be managed.",
+      "Website":"www.wellsfargo.com",
+      "GlassdoorAwards":"Best Places to Work:2009 (#45)"
+   },
+   "Western Union Financial Services":{  
+      "Description":"Western Union provides vital financial services to individuals and businesses that may lack access to, or whose needs are not being met by, the mainstream financial system. We have a distinctive business model and a distinctive purpose: we aim to move money for better anytime, anywhere and any way our customers choose.\n<br><br>Our customers are diverse. The financial needs of the person who sends money from an Agent location in Dubai to his family in India may be different than the person who lives in New York who sends a mortgage payment to a bank in California. Yet, they both need to move money to grow and prosper, and they have needs that are not met by the financial services industry as a whole.<br><br>Western Union Business Solutions with it's expertise in moving funds around the globe and access to over 135 currencies, and a global financial network spanning more than 200 countries, help companies spend less time managing international financial transactions and more time growing their businesses",
+      "Mission":"Mission: Western Union does business each day with absolute integrity, honesty, and passion, partnering as a team to meet our consumers' needs. We shape our culture by being:\n<br><br>Inspired <br><br>Connected <br><br>Driven <br><br>Game Changer <br><br>Responsible <br><br>We didn't become the worldwide leader in money movement services overnight. The employees of Western Union have been the backbone of our innovative spirit. And it’s a proud tradition that continues today with the next dedicated, creative individual that joins our team - hopefully, you!",
+      "Website":"corporate.westernunion.com",
+      "GlassdoorAwards":""
+   },
+   "Citigroup":{  
+      "Description":"Citi is more than a global financial services company. It’s an engine for progress. Join us, and you’ll have the chance to get involved in progress in all its shapes and forms, right across the world. From the micro to the macro, from Australia to Zambia, the work we do has real positive impact. Wherever you are and whatever you do, progress starts here.\n<br><br>We’ve built a world famous, trusted brand over 200 years of continuously evolving financial services. And today, our influence continues to grow: with financial operations in 160 countries and 100 currencies. We have 200 million different clients, including some of the biggest names in the industries, sectors, businesses and governments that we serve every day. It all adds up to an exciting place to be for talented, ambitious people who want to build a truly remarkable career.",
+      "Mission":"Mission: Citi's mission is to serve as a trusted partner to our clients by responsibly providing financial services that enable growth and economic progress. Our core activities are safeguarding assets, lending money, making payments and accessing the capital markets on behalf of our clients. We are Citi, the global bank – an institution connecting millions of people across hundreds of countries and cities.",
+      "Website":"www.citigroup.com",
+      "GlassdoorAwards":""
+   },
+   "Citibank":{  
+      "Description":"Citibank represents the consumer banking operations of financial services giant Citigroup. The unit has more than 1,000 branches in about a dozen US states. California and Texas are its largest markets, but the bank also has a significant presence in the Northeast, as well as in Chicago and Miami. It has about 300 international locations in some 40 countries, with a focus on emerging markets in Asia, Latin America, and Central and Eastern Europe. Citibank provides standard banking fare such as deposit accounts, credit cards, and loans to consumers and small businesses, and utilizes its parent's breadth of financial services to also offer investment and financial planning services.",
+      "Mission":"",
+      "Website":"www.citibank.com",
+      "GlassdoorAwards":""
+   },
+   "Fidelity Investments":{  
+      "Description":"At Fidelity, we are focused on making our financial expertise broadly accessible and effective in helping people live the lives they want— from the 23 million people investing their life savings, to the 20,000 businesses managing their employee benefits programs, to the 10,000 advisors and institutions needing innovative technology solutions to invest their clients’ money. To do this well, as a privately held company, we place a high degree of value in nurturing a work environment that attracts the best talent and reflects our commitment to being an employer of choice.",
+      "Mission":"",
+      "Website":"www.fidelity.com",
+      "GlassdoorAwards":"Highest Rated CEOs:2014 (#15), 2013 (#31)"
+   },
+   "GE Capital Bank":{  
+      "Description":"GE Capital - We’ve completely transformed ourselves into a smaller, simpler company... focused on customers and markets aligned with GE's industrial businesses. GE Capital is the unique industrial partner that can deliver cutting-edge financial solutions while uncovering new opportunities.",
+      "Mission":"Mission: GE (NYSE: GE) works on things that matter. The best people and the best technologies taking on the toughest challenges. Finding solutions in energy, health and home, transportation and finance. Building, powering, moving and curing the world. Not just imagining. Doing. GE works.",
+      "Website":"www.gecapital.com",
+      "GlassdoorAwards":""
+   },
+   "JPMorgan Chase":{  
+      "Description":"J.P. Morgan has been doing first-class business in a first-class way for more than 200 years. We have been a leading player in helping companies grow and markets develop throughout our history. We work in collaboration across the globe to deliver the best solutions and advice to meet our clients' needs anywhere in the world. We operate in 150 countries, and hold global leadership positions across our businesses.",
+      "Mission":"Mission: We have an exceptional team of employees who work hard to do the right thing for our clients and the firm every day. This is why we are the most respected financial institution in the world — and why we can offer you an outstanding career.",
+      "Website":"www.jpmorgan.com",
+      "GlassdoorAwards":"Highest Rated CEOs:2013 (#33)"
+   },
+   "Morgan Stanley":{  
+      "Description":"Morgan Stanley is a leading global financial services Firm providing investment banking, securities, wealth management and investment management services. With offices in more than 43 countries, the Firm's employees serve clients worldwide including corporations, governments, institutions and individuals. Solving complex challenges and fueling economic growth is what we do. We’re guided by our promise of doing first-class business in a first-class way. This means we help our clients create value by steering capital to fuel innovation and advance ideas that bring markets, communities and causes to life. We stand on 80 years of thoughtful investing, our rich heritage shaping our vision for the future.\n<br><br>Discover what makes Morgan Stanley such a great place to work by using the resources on this page to learn more about our people, our business, and our heritage.",
+      "Mission":"",
+      "Website":"www.morganstanley.com",
+      "GlassdoorAwards":"Best Places to Work:2011 (#37)"
+   },
+   "PNC Financial Services Group, Inc.":{  
+      "Description":"PNC Financial Services has returned to its traditional banking roots. Its flagship PNC Bank subsidiary operates about 2,500 branches in more than a dozen states in the mid-Atlantic, the Midwest, and Florida. In addition to retail and corporate banking, the company offers insurance, investments, personal and institutional asset management, and capital markets products and services. It owns boutique investment bank Harris Williams and about a quarter of money management giant BlackRock. PNC purchased RBC Bank (USA) from Royal Bank of Canada. The nearly $3.5 billion acquisition, which will extend PNC's retail banking franchise in the Southeast, will also cement its place among the five largest banks in the US.",
+      "Mission":"",
+      "Website":"www.pnc.com",
+      "GlassdoorAwards":"Highest Rated CEOs:2013 (#27)"
+   },
+   "Prudential":{  
+      "Description":"At Prudential, we understand that a company is only as good as its people. This simple fact is central to all that we do. We call it “the Talent Mindset – a company-wide commitment to attract and develop the dedicated professionals whose insights, innovation, and hard work fuel our success and make us a global leader in financial services.\n<br><br>Prudential is a company of smart, ambitious professionals working together across a multitude of disciplines. In 43 countries across the globe, we are building a better financial future for our customers and our communities around the globe.<br><br>pru.us/disclaimer",
+      "Mission":"Mission: As one of the world’s largest financial services companies, Prudential’s individual and institutional customers rely on us to protect and grow their financial well-being. Delivering on our promises – and the financial security they represent – is the foundation of our success, now and in the future.",
+      "Website":"jobs.prudential.com",
+      "GlassdoorAwards":"Best Places to Work:2010 (#47)"
+   },
+   "Union Bank":{  
+      "Description":"MUFG Union Bank, N.A., is a full -service bank with offices across the United States. We provide a wide spectrum of corporate, commercial, retail banking and wealth management solutions to meet the needs of customers. The bank also offers an extensive portfolio of value-added solutions for customers, including investment banking, personal trust, capital markets, global treasury management, transaction banking and other services. With assets of $106.7 billion (USD), as of March 31, 2014, the bank has strong capital reserves, credit ratings and capital ratios relative to peer banks. MUFG Union Bank is a proud member of the Mitsubishi UFJ Financial Group (NYSE: MTU), one of the world’s largest financial organizations.",
+      "Mission":"",
+      "Website":"www.unionbank.com",
+      "GlassdoorAwards":""
+   },
+   "Quicken Loans, Inc.":{  
+      "Description":"Looking for a career in technology? Make your idea the next “big thing at Quicken Loans.\nQuicken Loans revolutionized the fintech industry with the introduction of Rocket Mortgage, the world’s first completely online mortgage experience. What will our next revolutionary idea be? Well, that’s up to you.<br><br>We’re much more than a group of people working together to advance the goals of our company. We are a powerful force revolutionizing the way people work together to make a difference – for our companies, our communities and each other. <br><br>Our movement is Powered By Purpose, Driven By You, Insistently Different and Distinctly Detroit. We believe exceptional team members deserve exceptional benefits. It’s why we’ve been named Computerworld’s “Best Place to Work in IT four years in a row.<br><br>We are the Movement, and we want you to join us. Learn more about career opportunities in technology and beyond at QLCareers.com. #TheQLMovement<br><br>NMLS #3030. Quicken Loans is a proud Equal Opportunity Employer.",
+      "Mission":"Mission: At Quicken Loans, we’re on a never-ending quest to find a better way for everything we do, everything we touch and everything we see. We don’t settle for less because it’s not in our DNA to accept anything less than amazing. It’s a key priority – an obsession. That’s why we created our ever-expanding set of ISMs, which are our foundation and the philosophy we live by. They’re who we are, more than what we do. Learn more about us at QuickenLoans.com.",
+      "Website":"www.quickenloans.com",
+      "GlassdoorAwards":"Highest Rated CEOs:2015 (#44)"
+   },
+   "NASA":{  
+      "Description":"National Aeronautics and Space Administration (NASA) boldly goes where no one has gone before. The federal agency's Aeronautics division conducts research on new flight technologies while its Exploration Systems works on human and robotic exploration and its Science unit studies climate, gravitation, and the atmosphere. The Space Operations division mans and maintains the International Space Station in conjunction with several other nations; it also ran the space shuttle program until that was retired in 2011. NASA was founded in 1958, partly in response to Russia's launch of the Sputnik satellite, to research space and flight technology. It successfully landed two Americans on the moon in 1969.",
+      "Mission":"",
+      "Website":"www.nasa.gov",
+      "GlassdoorAwards":""
+   },
+   "Kaiser Permanente":{  
+      "Description":"Joining our team means contributing to a legacy of quality, affordability, innovation, and service that spans six decades. Here, integrated care teams empower our nearly ten million members to live up to their health potential. Working beside them, business experts drive our goals and advance our mission. Together, we inspire improvements that will turn our vision of expert, affordable care for all into reality. Join us.",
+      "Mission":"Mission: Our mission is to provide high-quality, affordable health care services and to improve the health of our members and the communities we serve. Care for members and patients is focused on their total health and guided by their personal physicians, specialists and team of caregivers. Our expert medical teams are supported by industry-leading technology advances and tools for health promotion, disease prevention, care delivery and chronic disease management.",
+      "Website":"www.kaiserpermanente.org",
+      "GlassdoorAwards":""
+   },
+   "Merck & Co.":{  
+      "Description":"We come from many backgrounds and do different things, but we all strive to deliver on the same promise: finding new ways to create a healthier future.\n<br><br>This is the common goal that unites and guides us at Merck. Uncompromising dedication to the people who depend on our products is a passion we all share.<br><br>At Merck, you'll find rewarding opportunities, diverse experiences and an unwavering commitment to ethics and integrity. As part of our global team, you'll collaborate with talented and dedicated colleagues whose sense of purpose complements your own.<br><br>Whatever your career path – whether it's pursuing original science in the laboratory, working directly with our customers, manufacturing quality products or supporting our business in another way – Merck offers opportunities to develop and expand your career while making a true difference in people's lives.",
+      "Mission":"Mission: Improving Life – We embrace our quest to tackle health challenges for people throughout the world.\n <br><br>Ethics & Integrity – We are committed to the highest standards of ethics and integrity. <br><br>Innovation – We are dedicated to the highest level of scientific excellence. <br><br>Access to Health – We aspire to improve the health and wellness of people around the world. <br><br>Diversity & Teamwork – Our ability to excel depends on the diversity and teamwork of our employees.",
+      "Website":"www.merck.com",
+      "GlassdoorAwards":""
+   },
+   "Philips Electronics":{  
+      "Description":"Royal Philips (NYSE: PHG, AEX: PHIA) is a leading health technology company focused on improving people’s health and enabling better outcomes across the health spectrum from healthy living and prevention to diagnosis, treatment and home care. We leverage advanced technology and deep clinical and consumer insights to deliver integrated solutions and are leaders in diagnostic imaging, image-guided therapy, patient monitoring and health informatics, as well as in consumer health and home care. Headquartered in the Netherlands, we posted sales of EUR 24 billion in 2015 and employ over 80,000+ people with sales and services in more than 100+ countries.",
+      "Mission":"Mission: At Philips, we strive to make the world a healthier and more sustainable place through meaningful innovation. Our goal is to improve the lives of 3 billion people a year by 2025. We will be the best place to work for people who share our passion. Together we will deliver superior value for our customers and shareholders.",
+      "Website":"www.philips.com",
+      "GlassdoorAwards":""
+   },
+   "Adobe Systems Incorporated":{  
+      "Description":"",
+      "Mission":"Mission: Adobe is changing the world through digital experiences.",
+      "Website":"www.adobe.com",
+      "GlassdoorAwards":"Highest Rated CEOs:2016 (#20), 2015 (#47)\nBest Places to Work:2017 (#9), 2016 (#19), 2015 (#18), 2011 (#39), 2010 (#29), 2009 (#4)"
+   },
+   "Advanced Micro Devices":{  
+      "Description":"At AMD, we are working to change the world for the better by driving innovation in high-performance computing, graphics, and visualization technologies ― the building blocks for gaming, immersive platforms, and the datacenter. Our passionate employees around the globe build great products that push the boundaries of what is possible. And we’re looking for creative people to join us in that work – people who want to challenge themselves and the status quo, collaborate with other brilliant minds, and help deliver the next-generation technologies that will change the world. Sound like you? Explore the opportunities available to come join our team.",
+      "Mission":"Mission: At AMD, our mission is simple: to become the recognized leader in powering the life-changing products and experiences that allow users to create, consume, and share seamlessly across billions of immersive devices.",
+      "Website":"www.amd.com",
+      "GlassdoorAwards":""
+   },
+   "Apple":{  
+      "Description":"Apple revolutionized personal technology with the introduction of the Macintosh in 1984. Today, Apple leads the world in innovation with iPhone, iPad, the Mac and Apple Watch. Apple’s three software platforms — iOS, OS X and watchOS — provide seamless experiences across all Apple devices and empower people with breakthrough services including the App Store, Apple Music, Apple Pay and iCloud. Apple’s 100,000 employees are dedicated to making the best products on earth, and to leaving the world better than we found it.",
+      "Mission":"",
+      "Website":"www.apple.com",
+      "GlassdoorAwards":"Highest Rated CEOs:2016 (#8), 2015 (#10), 2014 (#18), 2013 (#18)\nBest Places to Work:2017 (#36), 2016 (#25), 2015 (#22), 2014 (#35), 2013 (#34), 2012 (#10), 2011 (#20), 2010 (#22), 2009 (#19)"
+   },
+   "Cisco Systems":{  
+      "Description":"Our edge doesn’t come from technology, but from our people! From entertainment, retail, healthcare, and education, to public and private sectors, smart cities, and everyday devices, we strive for an inclusive culture that has earned Cisco recognition as a multinational Great Place To Work.\n<br><br>Leading in 12 of 18 markets, Cisco is building teams around the globe - expanding our technology solutions in the Mobile, Cloud, Security, IT, and Big Data spaces, including Software, Sales, and Consulting Services. We are focused on innovation, collaboration, and transformation to allow Cisco to connect what's been previously unconnected around the world.<br><br>Cisco's Corporate Functions directly shape our future by acting as key business partners. These areas are core to successfully running our organization with the future in mind — Legal, Corporate Development, Global Business Services, HR, Finance IT, Global Marketing Services, and Supply Chain.<br><br>So come and be you, with us! #WeAreCisco",
+      "Mission":"Mission: Cisco wants you to bring your uniqueness, join teams to solve challenges, and work together to get results. Be you, with us! #WeAreCisco!\n<br><br>We connect everything – people, process, data and things – and we use those connections to change our world for the better. <br><br>We innovate everywhere to create fresh ideas and possibilities. Bold risks shape the future. We understand every failure is a success if we learn from it.<br><br>We make a meaningful difference for our people, our customers and the world around us.",
+      "Website":"www.cisco.com",
+      "GlassdoorAwards":"Best Places to Work:2009 (#35)"
+   },
+   "Hewlett-Packard":{  
+      "Description":"Hewlett-Packard has become two Fortune 50 companies. With two industry-leading organizations to choose from, you have even more opportunities to build your future. Share your experiences of working at HP or Hewlett Packard Enterprise. Write a review on our NEW company pages.",
+      "Mission":"",
+      "Website":"www.hp.com",
+      "GlassdoorAwards":""
+   },
+   "Honeywell":{  
+      "Description":"A career at Honeywell offers infinite possibilities within a diversified, global organization that is helping to solve the world’s toughest challenges and improving quality of life for people globally. We invite you to join our quest.",
+      "Mission":"Mission: We are building a world that’s safer and more secure, more comfortable and energy efficient, more innovative and productive.",
+      "Website":"www.honeywell.com",
+      "GlassdoorAwards":""
+   },
+   "Intel":{  
+      "Description":"You know us best for our processors, but we do so much more. We are makers, catalysts and inventors. We innovate at the boundaries of technology to make amazing experiences possible for business, society, and every person on Earth.\n<br><br>With more than 100,000 employees in 63 countries, Intel’s products and services create the foundation for limitless invention. Our innovations are bringing sight, touch, depth-perception and the ability to communicate to devices, objects and spaces to make them smart and connected. We harness the capability of the cloud and the Internet of Things to disrupt industries while solving global challenges.<br><br>Intel has transformed to a company which now also powers the majority of the world’s data centers, connecting hundreds of millions of mobile and Internet of Things devices, Our manufacturing advantage, fueled by our pursuit of Moore’s Law, lets us continuously push the limits of performance and create experiences which can be made possible.",
+      "Mission":"Mission: Our mission is to use the power of Moore’s Law to bring smart, connected devices to every person on Earth.",
+      "Website":"www.intel.com",
+      "GlassdoorAwards":"Highest Rated CEOs:2015 (#39), 2013 (#21)\nBest Places to Work:2014 (#33), 2013 (#31), 2012 (#32), 2011 (#45), 2010 (#41)"
+   },
+   "Intuit, Inc.":{  
+      "Description":"At Intuit, it’s everyone’s job to innovate. Whether you work in our product and technology teams or in any role across the globe, you’ll play a part in designing and launching industry-leading products like Mint, TurboTax and QuickBooks.\n <br><br>We build intuitive web, mobile, and cloud solutions that enable 42 million consumers and small businesses around the world to take charge of their money and do what they love. Learn how your ideas will help shape how we grow and what we do in an agile environment with fast-moving teams and experimentation. Help us solve complex problems and continuously deliver meaningful innovation to our customers.<br><br>Our culture and entrepreneurial spirit have earned us a spot on Fortune’s “Best Companies to Work For year after year, as well as many other recognitions across the globe. Join us in our mission.",
+      "Mission":"Mission: Powering prosperity around the world",
+      "Website":"www.intuit.com",
+      "GlassdoorAwards":"Highest Rated CEOs:2015 (#36), 2014 (#7), 2013 (#23)\nBest Places to Work:2017 (#20), 2014 (#19), 2012 (#42), 2010 (#44), 2009 (#11)"
+   },
+   "McAfee":{  
+      "Description":"McAfee is a global organization with a 30-year history and a brand known the world over for innovation, collaboration and trust. McAfee’s historical accomplishments are founded upon decades of threat and vulnerability research, product innovation, practical application and a brand which individuals, organizations and governments have come to trust.",
+      "Mission":"",
+      "Website":"www.mcafee.com",
+      "GlassdoorAwards":""
+   },
+   "Microsoft":{  
+      "Description":"Our drive to change the world unites us!\n <br><br>Microsoft is the ideal place for people who have passion for their work and the desire to make an impact—in their careers, in the community and on the world. Microsoft is a unique company; and not just within the tech industry. Here, smart people thrive on their own terms and push their intelligence to its limit. The variety of job opportunities and career advancement at Microsoft is incredible and empowers you to constantly challenge yourself and chart your own course.",
+      "Mission":"Mission: Come to Microsoft to empower every person and every organization on the planet to achieve more.",
+      "Website":"www.microsoft.com",
+      "GlassdoorAwards":"Best Places to Work:2017 (#37)"
+   },
+   "Qualcomm":{  
+      "Description":"Billions, maybe trillions of times a day…\n <br><br>That’s how often people around the world touch something made better by Qualcomm. It could be the smartphone in your pocket, the tablet on your coffee table, that wireless modem in your briefcase… it could even be that navigation system in your car or that action camera strapped to your chest.<br><br>Who is Qualcomm, and what do we do? We are engineers, scientists and business strategists. We are from many different countries and speak many different languages. We come from diverse cultures and have unique perspectives. Together, we focus on a single goal—invent mobile technology breakthroughs. <br><br>We've been called dreamers, inventors, rebels, risk takers, pioneers and geeks. We embrace those labels because in many ways, they’re true. We dream big. We invent bigger. And most importantly, we often do what many thought was impossible.",
+      "Mission":"Mission: To continually push the boundaries of what's possible in technology.",
+      "Website":"www.qualcomm.com",
+      "GlassdoorAwards":"Highest Rated CEOs:2014 (#5), 2013 (#8)\nBest Places to Work:2015 (#14), 2014 (#13), 2013 (#38), 2012 (#21), 2011 (#36), 2010 (#25), 2009 (#39)"
+   },
+   "Ricoh":{  
+      "Description":"Ricoh may be best known for its imaging equipment, but the company is more than just another copycat. One of the world's leading manufacturers of copiers and supplies, Ricoh also makes fax machines, scanners, and printers. Other products from the company, which operates about 235 subsidiaries and affiliates in more than 180 countries, include digital cameras, servers, software for its products, semiconductors, printed circuit boards, thermal paper labels, and optical equipment. Ricoh is represented in the US and across the Americas by its Ricoh Americas subsidiary and distributes and services office equipment through IKON Office Solutions.",
+      "Mission":"",
+      "Website":"www.ricoh.com",
+      "GlassdoorAwards":""
+   },
+   "SAP":{  
+      "Description":"As market leader in enterprise application software, SAP (NYSE: SAP) helps companies of all sizes and industries run better. From back office to boardroom, warehouse to storefront, desktop to mobile device – SAP empowers people and organizations to work together more efficiently and use business insight more effectively to stay ahead of the competition. SAP people, applications, and services enable approximately 300,000 customers to operate profitably, adapt continuously, and grow sustainably.",
+      "Mission":"Mission: Helping our customers run at their best.",
+      "Website":"http://www.sap.com/careers",
+      "GlassdoorAwards":"Highest Rated CEOs:2016 (#27), 2013 (#2)\nBest Places to Work:2017 (#15), 2013 (#42), 2009 (#8)"
+   },
+   "Symantec":{  
+      "Description":"Symantec is a global leader in providing security, information management solutions to help our customers – from consumers and small businesses to the largest global organizations – secure and manage their information against more risks at more points, more completely and efficiently than any other company. Our company’s unique focus is to eliminate risks to information, technology and processes independent of the device, platform, interaction or location.",
+      "Mission":"Mission: Symantec makes the world a safer place by helping people, businesses, and governments protect and manage their information so they can focus on achieving their goals.",
+      "Website":"www.symantec.com",
+      "GlassdoorAwards":""
+   },
+   "VMware, Inc.":{  
+      "Description":"With 2016 revenue of $7.09 billion, VMware has more than 500,000 customers, more than 75,000 partners, and 20,000+ employees in 120+ locations around the world. At the core of what we do are our people who deeply value execution, passion, integrity, customers, and community.",
+      "Mission":"Mission: VMware, a global leader in cloud infrastructure and business mobility, helps customers accelerate their digital transformation. VMware enables enterprises to master a software-defined approach to business and IT with VMware Cross-Cloud Architecture™ and solutions for the data center, mobility, and security.",
+      "Website":"www.vmware.com",
+      "GlassdoorAwards":""
+   },
+   "General Electric":{  
+      "Description":"BUILDING - GE is building the world by providing capital, expertise and infrastructure for a global economy. We build appliances, lighting, and other products that help millions of homes, offices, factories and retail around the world work better.\n<br><br>CURING - GE is supplying the healthcare technology that saves nearly 3,000 lives every day. Our focus is on helping medical professionals make an earlier, more accurate diagnosis of disease and then better equipping them to treat it.<br><br>MOVING - From airlines on the world’s largest and most efficient jet engine to freight using the most advanced locomotives and signaling systems to helicopter engines that perform life-saving rescue mission. If there is a better way to move people and goods, GE is behind it. <br><br>POWERING - GE powers the world with the cleanest, most advanced technologies and energy solutions. From FlexEfﬁciency power, to smart grids to engines that run on organic waste, we currently help to deliver a quarter of the world’s electricity.",
+      "Mission":"Mission: GE is the world’s Digital Industrial Company, transforming industry with software-defined machines and solutions that are connected, responsive and predictive. GE is organized around a global exchange of knowledge through which each business shares the same technology, markets, structure and intellect. With people, services, technology and scale, GE delivers better outcomes for customers by speaking the language of industry. www.ge.com",
+      "Website":"www.ge.com",
+      "GlassdoorAwards":"Highest Rated CEOs:2014 (#51), 2013 (#50)"
+   },
+   "Juniper Networks":{  
+      "Description":"At Juniper Networks, we are leading the charge to architecting the new network. At the heart of the new network is our promise to transform the economics and experience of networking for our customers. We offer a high-performance network infrastructure built on simplicity, security, openness, and scale. We are innovating in ways that empower our customers, our partners, and ultimately everyone in a connected world.",
+      "Mission":"",
+      "Website":"www.juniper.net",
+      "GlassdoorAwards":"Highest Rated CEOs:2016 (#24)\nBest Places to Work:2010 (#10), 2009 (#20)"
+   },
+   "NetApp":{  
+      "Description":"NetApp creates innovative storage and data management solutions that help accelerate business breakthroughs and deliver outstanding cost efficiency. Our dedication to principles of simplicity, innovation, and customer success has made us one of the fastest-growing storage and data management providers today.\n <br><br>Customers around the world choose us for our “go beyond approach and broad portfolio of solutions for cloud computing, flash storage, business applications, data storage for virtual servers, disk-to-disk backup, and more. Our solutions provide nonstop availability of critical business data and simplify business processes so you can deploy new capabilities with confidence and get to revenue faster than ever before.",
+      "Mission":"",
+      "Website":"www.netapp.com",
+      "GlassdoorAwards":"Highest Rated CEOs:2014 (#32), 2013 (#22)\nBest Places to Work:2014 (#41), 2012 (#30), 2011 (#15), 2010 (#15), 2009 (#10)"
+   },
+   "Oracle":{  
+      "Description":"Oracle offers a comprehensive and fully integrated stack of cloud applications, platform services, and engineered systems. With more than 400,000 customers—including 100 of the Fortune 100—in more than 145 countries, Oracle provides a complete technology stack both in the cloud and in the data center. Oracle’s industry-leading cloud-based and on-premises solutions give customers complete deployment flexibility and unmatched benefits including application integration, advanced security, high availability, scalability, energy efficiency, powerful performance, and low total cost of ownership. For more information about Oracle (NYSE:ORCL), visit oracle.com.",
+      "Mission":"Mission: At Oracle, we foster an inclusive environment that leverages the diverse backgrounds and perspectives of all our employees, suppliers, customers, and partners to drive a sustainable global competitive advantage.",
+      "Website":"www.oracle.com",
+      "GlassdoorAwards":"Highest Rated CEOs:2013 (#46)"
+   },
+   "Rackspace US, Inc.":{  
+      "Description":"Rackspace (NYSE: RAX), the #1 managed cloud company, helps businesses tap the power of cloud computing without the complexity and cost of managing it on their own. Rackspace engineers deliver specialized expertise, easy-to-use tools, and Fanatical Support® for leading technologies developed by AWS, Google, Microsoft, OpenStack, VMware and others. The company serves customers in 120 countries, including more than half of the FORTUNE 100. Rackspace was named a leader in the 2015 Gartner Magic Quadrant for Cloud-Enabled Managed Hosting, and has been honored by Fortune, Forbes, and others as one of the best companies to work for. Learn more at www.rackspace.com.",
+      "Mission":"Mission: Our mission is to make computing simple and powerful for businesses.\n<br><br>Our vision is to be recognized as one of the world's greatest service companies.",
+      "Website":"",
+      "GlassdoorAwards":"Best Places to Work:2014 (#30), 2013 (#15), 2012 (#12), 2010 (#40)"
+   },
+   "Sabre Holdings":{  
+      "Description":"Drive solutions, software and innovations. Whatever you do at Sabre – from IT to consulting to engineering – your fresh perspective and innovative thinking aligned with new and cutting edge methodologies can drive creativity and results. Join Sabre and join a team driven by values and strategic tenets.\n<br><br>Headquartered in Southlake, TX, USA, we have approximately 10,000 employees in 60 countries. As a global company, we have won numerous awards for being a top employer and corporate citizen, and offer many opportunities for career growth and personal development.<br><br>Apply online at: sabre.com/careers.",
+      "Mission":"Mission: As an innovative technology company that leads the travel industry by helping our customers (and employees) succeed, we’re looking for forward-thinking, creative people who take ownership of results and \"make things happen\". We achieve success by building extraordinary teams with exceptional people – that means finding the best and brightest to join Sabre.",
+      "Website":"www.sabre.com",
+      "GlassdoorAwards":""
+   },
+   "SAIC":{  
+      "Description":"SAIC is a premier technology integrator providing full life cycle services and solutions in the technical, engineering, intelligence, and enterprise information technology markets. SAIC is Redefining Ingenuity through its deep customer and domain knowledge to enable the delivery of systems engineering and integration offerings for large, complex projects. SAIC’s approximately 15,000 employees are driven by integrity and mission focus to serve customers in the U.S. federal government. Headquartered in McLean, Virginia, SAIC has annual revenues of approximately $4.3 billion.",
+      "Mission":"",
+      "Website":"www.saic.com",
+      "GlassdoorAwards":""
+   },
+   "Thomson Reuters":{  
+      "Description":"Thomson Reuters provides professionals with the intelligence, technology and human expertise they need to find trusted answers. We enable leading decision makers to make the decisions that matter most across the financial and risk, legal, tax and accounting, and media markets, powered by the world's most trusted news organization.\n<br><br>Bring your passion and discover opportunity on a global scale. Build a career without boundaries. Do work that matters, with the flexibility to pursue your passion wherever it leads. Bring your ambition to make a difference. We’ll bring a world of opportunities.",
+      "Mission":"Mission: We provide professionals with the intelligence, technology and human expertise they need to find trusted answers.",
+      "Website":"www.thomsonreuters.com",
+      "GlassdoorAwards":""
+   },
+   "Verizon":{  
+      "Description":"We help people, businesses, and things communicate better.\n <br><br>The digital world promises consumers a better, more connected life, and we’re the ones delivering it. We make it possible for people to stay in touch and businesses to connect with their customers. We’re also bringing technology and hands-on learning opportunities directly to kids who need it most. Our goal is to inspire tomorrow’s creators to use technology to build brighter futures for themselves, their families and the world.",
+      "Mission":"",
+      "Website":"www.verizon.jobs",
+      "GlassdoorAwards":""
+   },
+   "eBay":{  
+      "Description":"eBay is where the world goes to shop, sell, and give. Every day, our professionals connect millions of buyers and sellers around the globe, empowering people and creating opportunity. We're on a mission to build a better, more connected form of commerce that benefits individuals, businesses, and society. We create stronger connections between buyers and sellers, offering product experiences that are fast, mobile and secure. At eBay, we develop technologies that enable connected commerce and make every interaction effortless—and more human. And we are doing it on a global scale, providing everyone with the chance to participate and create value.\n<br><br>Our mission inspires us to be open, honest, and direct, and we believe in the power of inclusion and opportunity. If you’re ready to create, collaborate, and connect, bring your unique skills to a team that’s pushing the boundaries of commerce. Join us at eBay and help us create more economic opportunity for everyone—including you.",
+      "Mission":"Mission: eBay connects people through technology and enables commerce that creates greater opportunity for people, business and society.",
+      "Website":"www.ebayinc.com",
+      "GlassdoorAwards":"Highest Rated CEOs:2014 (#20)\nBest Places to Work:2014 (#49)"
+   },
+   "Google":{  
+      "Description":"Google is not a conventional company, and we don’t intend to become one. True, we share attributes with the world’s most successful organizations – a focus on innovation and smart business practices comes to mind – but even as we continue to grow, we’re committed to retaining a small-company feel. At Google, we know that every employee has something important to say, and that every employee is integral to our success. We provide individually-tailored compensation packages that can be comprised of competitive salary, bonus, and equity components, along with the opportunity to earn further financial bonuses and rewards.\n<br><br>Googlers thrive in small, focused teams and high-energy environments, believe in the ability of technology to change the world, and are as passionate about their lives as they are about their work. For more information, visit www.google.com/careers.",
+      "Mission":"Mission: Google’s mission is to organize the world’s information and make it universally accessible and useful.",
+      "Website":"www.google.com",
+      "GlassdoorAwards":"Highest Rated CEOs:2016 (#7), 2015 (#1), 2014 (#11), 2013 (#11)\nBest Places to Work:2017 (#4), 2016 (#8), 2015 (#1), 2014 (#8), 2013 (#6), 2012 (#5), 2011 (#30), 2010 (#14), 2009 (#7)"
+   },
+   "PayPal":{  
+      "Description":"At PayPal, we believe that now is the time to democratize financial services so that moving and managing money is a right for all citizens, not just the affluent. We are driven by this purpose, and we uphold our cultural values of collaboration, innovation, wellness and inclusion as our guide for making decisions and conducting business every day. It is our duty and privilege to be customer champions and put those we serve at the center of everything we do.\nWe are one team that respects and values diversity of thought for everyone, everywhere, and we actively seek to create an energizing workplace that brings out the best in all of us. If you’re ready to shape the future of money, join the team at PayPal. We're proud to work here. You will be too.",
+      "Mission":"Mission: At PayPal (Nasdaq: PYPL), we put people at the center of everything we do. Founded in 1998, we continue to be at the forefront of the digital payments revolution, last year we processed 4 billion payments, of which 1 billion were made on mobile devices. PayPal gives people better ways to connect to their money and to each other, helping them safely access and move their money and offering a choice of how they would like to pay or be paid.",
+      "Website":"www.paypal.com",
+      "GlassdoorAwards":""
+   },
+   "Yahoo":{  
+      "Description":"Yahoo! wants to spread some cheer to Internet users around the world. Its network of websites offers news, entertainment, and shopping, as well as search results powered by Microsoft's Bing offering. Yahoo! generates most of its revenue through providing search and display advertising to Web operations in three categories: Communications & Communities (including Yahoo! Mail, Yahoo! Messenger, Yahoo! Groups, and Flickr), Search and Marketplaces (Yahoo! Search), and Media (Yahoo! Homepage, Yahoo! Finance, and Yahoo! Sports). Other revenues come from fee-based services such as premium e-mail; royalties, licenses, and mobile products; and broadband Internet access. Yahoo! publishes content in about 25 languages.",
+      "Mission":"",
+      "Website":"www.yahoo.com",
+      "GlassdoorAwards":"Highest Rated CEOs:2014 (#50)"
+   },
+   "Cognizant":{  
+      "Description":"Cognizant (NASDAQ: CTSH) is a leading provider of information technology, consulting, and business process services, dedicated to helping the world's leading companies build stronger businesses. Headquartered in Teaneck, New Jersey (U.S.), Cognizant combines a passion for client satisfaction, technology innovation, deep industry and business process expertise, and a global, collaborative workforce that embodies the future of work. With over 100 development and delivery centers worldwide and approximately 244,300 employees as of June 30, 2016, Cognizant is a member of the NASDAQ-100, the S&P 500, the Forbes Global 2000, and the Fortune 500 and is ranked among the top performing and fastest growing companies in the world. Visit us online at http://www.cognizant.com/careers or follow us on Twitter: http://www.twitter.com/USJobsCognizant",
+      "Mission":"Mission: Cognizant's single-minded mission is to dedicate our business process and technology innovation know-how, deep industry expertise and worldwide resources to working together with clients to make their businesses stronger.",
+      "Website":"www.cognizant.com",
+      "GlassdoorAwards":"Highest Rated CEOs:2015 (#33), 2014 (#25), 2013 (#6)"
+   },
+   "Dell":{  
+      "Description":"Dell Technologies is a unique family of businesses that provides the essential infrastructure for organizations to build their digital future, transform IT and protect their most important asset: information. The company services customers of all sizes across 180 countries – ranging from 98 percent of the Fortune 500 to individual consumers – with the industry’s most comprehensive and innovative portfolio from the edge to the core to the cloud.\n <br><br>Dell is a collective of customer-obsessed, industry-leading visionaries. At our core is a commitment to diversity, sustainability and our communities. We offer unparalleled growth and development opportunities for our team members. We believe that technology is essential for driving human progress, and we’re committed to providing that technology to people and organizations everywhere, so they can transform the way they work and live.",
+      "Mission":"",
+      "Website":"www.dell.com",
+      "GlassdoorAwards":"Highest Rated CEOs:2013 (#49)"
+   },
+   "EMC":{  
+      "Description":"Dell EMC is a collective of industry-leading visionaries. At our core is a commitment to diversity, sustainability and our communities. We believe in working together to build a brighter future, celebrating the entrepreneurial spirit that lives inside us, and marrying innovation with action. Dell EMC is proud to offer unparalleled growth and development opportunities for our team members. We believe that technology is essential for driving human progress, and we’re committed to providing that technology to people and organizations everywhere.",
+      "Mission":"",
+      "Website":"www.delltechnologies.com",
+      "GlassdoorAwards":"Highest Rated CEOs:2014 (#27), 2013 (#7)\nBest Places to Work:2010 (#33), 2009 (#37)"
+   },
+   "EP Software Technologies":{  
+      "Description":"",
+      "Mission":"",
+      "Website":"www.eptechindia.com",
+      "GlassdoorAwards":""
+   },
+   "EPAM Systems":{  
+      "Description":"Since 1993, EPAM Systems, Inc. (NYSE: EPAM), has leveraged its core engineering expertise to become a leading global product development and digital platform engineering services company. Through our ‘Engineering DNA’, we enable our clients’ business transformation by engaging multi-disciplinary teams who combine deep business expertise with design thinking, world-class engineering, modern operations practices and leading tools and frameworks for optimizing performance. We are a global team of consultants, designers, architects and engineers, delivering innovative solutions in over 25 countries across North America, Europe, Asia, and Australia. EPAM is a recognized market leader among independent research agencies and was ranked #8 on FORBES list of 25 Fastest Growing Public Tech Companies, as a top information technology services company on FORTUNE’S 100 Fastest Growing Companies, and as a top UK Digital Design & Build Agency. We invest in EPAMers around the world, helping to find and develop the brightest minds and to build dynamic, lasting careers. Explore our job opportunities here: www.epam.com/careers",
+      "Mission":"Mission: At EPAM, we believe that technology defines business success, and we relentlessly pursue the best solution for every client.",
+      "Website":"www.epam.com",
+      "GlassdoorAwards":""
+   },
+   "Genpact Limited":{  
+      "Description":"",
+      "Mission":"",
+      "Website":"www.genpact.com",
+      "GlassdoorAwards":""
+   },
+   "MindTree Limited":{  
+      "Description":"Mindtree is a global information technology solutions company. Our consulting-driven approach makes us a strategic partner to over 40 Fortune 500 enterprises.\nIn 2014 we received \"THE MOST PROMISING COMPANY OF THE YEAR\" award by CNBC-TV18 India Business Leader Awards. <br><br>Mindtree specializes in e-commerce, mobility, cloud enablement, digital transformation, business intelligence, data analytics, testing, infrastructure, EAI and ERP solutions. We are among the fastest growing technology firms globally with more than USD 500 Million in revenues, 200 clients and offices in 14 countries. Our 13,000+ domain experts engineer meaningful technology solutions by working on flexible and next generation global delivery models, agile methodologies and expert frameworks. <br><br>We're seeking technologists who have an engineering approach, business orientation and want to make a difference to businesses and societies they work in. Check out our latest careers at http://careeers.mindtree.com",
+      "Mission":"Mission: We engineer meaningful technology solutions to help businesses and societies flourish.\n<br><br>Our values - collaborative spirit, unrelenting dedication and expert thinking help us see possibilities where others see a full stop.<br><br>Welcome to possible.",
+      "Website":"www.mindtree.com",
+      "GlassdoorAwards":"Highest Rated CEOs:2013 (#28)"
+   },
+   "Visa, Inc.":{  
+      "Description":"Visa is a global payments technology company that connects consumers, businesses, financial institutions and governments in more than 200 countries and territories to fast, secure and reliable electronic payments. At the core of our business is our payment processing network, VisaNet, which is capable of handling more than 54,000 transaction messages a second, with fraud protection for consumers and guaranteed payment for merchants. We are one of the most recognized and respected brands in the world. Behind the Visa brand are our 11,000 talented and proud employees delivering the convenience and security of digital currency to customers around the world. Together, we are shaping the future of commerce. Visit www.visa.com/careers to learn more.",
+      "Mission":"",
+      "Website":"www.visa.com",
+      "GlassdoorAwards":""
+   },
+   "Allstate":{  
+      "Description":"We’re more than insurance agents and claims representatives. We’re individuals with hopes, plans and passions. The biggest of which is helping people live smarter, safer lives. Doing so means continuing to re-imagine how we do what we do, the impact we can make on the world, ways we can each succeed in our own careers and actions we can take as a company that are good for all. To do that, we need all kinds of people – including lawyers, accountants, building engineers, project managers, marketing professionals, human resource specialists and so many more.",
+      "Mission":"Mission: We are the Good Hands: We help customers realize their hopes and dreams by providing the best products and services to protect them from life's uncertainties and prepare them for the future.\n<br><br>LEADERSHIP PRINCIPLES: We empower every employee to lead and drive change. <br><br>TOGETHER <br>We're here to serve <br>We win together <br>We drive results <br>We're transparent <br>We continuously get better <br>We develop each other",
+      "Website":"www.allstate.jobs",
+      "GlassdoorAwards":""
+   },
+   "Anthem":{  
+      "Description":"Anthem, Inc. is one of the nation's leading health benefits insurer and a Fortune Top 50 company. At Anthem, Inc., we are working to transform health care with trusted and caring solutions and meaningfully advance affordability and better health outcomes for our health plan members.\n<br><br>Bring your expertise to our innovative, achievement-driven culture, and you will discover lasting rewards and the opportunity to help drive the future of health care.<br><br>Anthem, Inc. is ranked as one of America’s Most Admired Companies among health insurers by Fortune magazine and is a 2014 DiversityInc magazine Top 50 Company for Diversity. To learn more about our company please visit us at antheminc.com/careers. EOE.M/F/Disability/Veteran.",
+      "Mission":"Mission: Purpose Statement\nTogether, we are transforming health care with trusted and caring solutions.<br><br>Vision <br><br>To be America's valued health partner.",
+      "Website":"www.antheminc.com",
+      "GlassdoorAwards":""
+   },
+   "Blue Cross Blue Shield Association":{  
+      "Description":"Blue Cross Blue Shield Association is a national federation of 36 independent, community-based and locally operated Blue Cross and Blue Shield companies that collectively provide healthcare coverage for more than 106 million members – one-in-three Americans. For more information on the Blue Cross Blue Shield Association and its member companies, please visit www.BCBS.com.",
+      "Mission":"",
+      "Website":"www.bcbs.com",
+      "GlassdoorAwards":""
+   },
+   "CIGNA":{  
+      "Description":"",
+      "Mission":"",
+      "Website":"www.cigna.com",
+      "GlassdoorAwards":""
+   },
+   "Farmers Insurance":{  
+      "Description":"Farmers was founded In 1928. and grew and adapted to meet the changing needs of Americans. One constant has remained: We have an unwavering commitment to uphold our founding ideals to provide industry-leading products and first-rate services to the customers we’re privileged to serve.\n <br><br>Farmers not only prides itself on helping customers plan wisely for the unexpected, but also on helping restore order when it occurs, so you can keep moving along the road of your life’s plans.<br><br>Today, the companies comprising the Farmers Insurance Group of Companies® make up one of the country's largest insurers of vehicles, homes and small businesses and provide a wide range of other insurance and financial services products. The company serves more than 10 million households with more than 20 million individual policies across all 50 states through the efforts of over 50,000 exclusive and independent agents and nearly 24,000 employees.",
+      "Mission":"",
+      "Website":"www.farmers.com",
+      "GlassdoorAwards":""
+   },
+   "Metropolitan Life Insurance Company":{  
+      "Description":"MetLife, Inc. is a leading global provider of insurance, annuities and employee benefit programs. Through its subsidiaries and affiliates, MetLife holds leading market positions in the United States, Japan, Latin America, Asia, Europe, the Middle East and Africa.",
+      "Mission":"Mission: MetLife was founded on a simple, powerful insight: Everyone needs access to the right financial tools to pursue more from life.",
+      "Website":"www.metlife.com",
+      "GlassdoorAwards":"Best Places to Work:2009 (#40)"
+   },
+   "Nationwide Insurance":{  
+      "Description":"Call it truth in advertising -- Nationwide Mutual Insurance Company has offices throughout the US. The company is a leading US property/casualty insurer that also provides life insurance and retirement products through its Nationwide Financial Services subsidiary. Its property/casualty products range from general personal and commercial coverage to such specialty lines as professional liability, workers' compensation, agricultural insurance and loss-control, pet insurance, and other coverage. The company sells its products and provides services through ALLIED Group, Nationwide Agribusiness Insurance, GatesMcDonald, Scottsdale Insurance, and other subsidiaries.",
+      "Mission":"",
+      "Website":"www.nationwide.com",
+      "GlassdoorAwards":""
+   },
+   "UnitedHealthcare":{  
+      "Description":"",
+      "Mission":"",
+      "Website":"www.uhc.com",
+      "GlassdoorAwards":""
+   },
+   "Wellpoint (Anthem)":{  
+      "Description":"We believe it is important to call ourselves by the name that people know best—Anthem, Inc. .Changing the corporate brand from WellPoint to Anthem, Inc. is an important expression of our commitment to serve as a trusted partner in health. Visit our Anthem, Inc. Glassdoor page for more company information.",
+      "Mission":"",
+      "Website":"www.antheminc.com",
+      "GlassdoorAwards":""
+   },
+   "3M":{  
+      "Description":"3M is a global innovation company that never stops inventing. Over the years, our innovations have improved daily life for hundreds of millions of people all over the world. We have made driving at night easier, made buildings safer, and made consumer electronics lighter, less energy-intensive and less harmful to the environment. We even helped put a man on the moon. Every day at 3M, one idea always leads to the next, igniting momentum to make progress possible around the world.",
+      "Mission":"",
+      "Website":"www.3m.com",
+      "GlassdoorAwards":""
+   },
+   "Nike":{  
+      "Description":"NIKE, Inc. named for the Greek goddess of victory, is the world's leading designer, marketer, and distributor of authentic athletic footwear, apparel, equipment, and accessories for a wide variety of sports and fitness activities. Operating segments for the NIKE Brand are; North America, Western Europe, Central & Eastern Europe, Greater China, Japan, and Emerging Markets. The wholly-owned subsidiaries include Converse Inc., which designs, markets, and distributes casual footwear, apparel and accessories and Hurley International LLC, which designs, markets, and distributes action sports and youth lifestyle footwear, apparel and accessories. The company was founded by Bill Bowerman and Phi Knight in 1972 and is headquartered in Beaverton, OR.\n<br><br>For more information, visit our company site: www.nike.com or our career site: www.jobs.nike.com",
+      "Mission":"Mission: Bring Inspiration and Innovation to every Athlete* in the World.\n <br><br>*If you have a body, you are an athlete.",
+      "Website":"jobs.nike.com",
+      "GlassdoorAwards":""
+   },
+   "Broadcom":{  
+      "Description":"Broadcom harbors broad ambitions for its semiconductors' impact on broadband communications: it wants them to drive every part of the high-speed wired and wireless networks of the future. The core applications for its integrated circuits (ICs) are digital set-top boxes, cable modems, servers, and networking gear for homes and offices. Broadcom also makes semiconductors for carrier access, DSL, and wireless communications equipment, including mobile phones. Customers include Apple (13% of sales), Samsung Electronics (10% of sales) Cisco, Dell, Hewlett-Packard, LG, and Nokia.",
+      "Mission":"",
+      "Website":"www.broadcom.com",
+      "GlassdoorAwards":"Highest Rated CEOs:2013 (#45)"
+   },
+   "Emerson Process Management":{  
+      "Description":"Imagine being surrounded by intelligent, driven, and passionate innovators all working toward the same goal—to create groundbreaking solutions that leave our world in a better place than we found it. Emerson is a global technology and engineering company providing innovative solutions for customers in industrial, commercial, and residential markets.\n<br><br>Our Emerson Automation Solutions business helps process, hybrid, and discrete manufacturers maximize production, protect personnel and the environment while optimizing their energy and operating costs. Our Emerson Commercial and Residential Solutions business helps ensure human comfort and health, protect food quality and safety, advance energy efficiency, and create sustainable infrastructure.<br><br>A dynamic environment is what you’ll discover at Emerson, a Fortune 500 company with $14.5 billion in sales and 155 locations worldwide. Together, we’re changing the world, and we have all the resources to help you achieve your professional goals.",
+      "Mission":"Mission: Emerson’s performance over more than 125 years has been driven by a straightforward mission: we design and sell advanced technologies that help our customers solve their most complex challenges. Emerson is where technology and engineering come together to create solutions for the benefit of our customers, driven without compromise for a world in action.",
+      "Website":"www.emerson.com",
+      "GlassdoorAwards":""
+   },
+   "Flextronics":{  
+      "Description":"Flex is the leading sketch-to-scale™ solutions company that designs and builds intelligent products for a connected world™. With more than 200,000 professionals across 30 countries and a promise to help the world, the company provides innovative design, engineering, manufacturing, real-time supply chain insight and logistics services to companies of all sizes in various industries and end-markets. Flex – Live smarter™.\n <br><br>We believe in a brighter tomorrow and what people can do when our lives are connected. That’s why every day 200,000 of us set out to do one thing–-create a smarter, more connected world. Our focus is developing and empowering talented people to deliver on their potential, providing employees with a healthy, safe and secure workplace.<br><br>Join the Revolution! <br><br>flex.com",
+      "Mission":"Mission: To create a smarter, more connected world",
+      "Website":"www.flex.com",
+      "GlassdoorAwards":""
+   },
+   "Schneider Electric":{  
+      "Description":"Schneider Electric is the global specialist in energy management and automation with 144,000+ employees serving customers in over 100 countries, earning 24,7B Euro in revenue (FY2016).\n<br><br>We strongly believe that great people make Schneider Electric a great company. Satisfaction is not a guarantee — it’s a life goal. Schneider Electric™ provides the platform for professional and personal fulfillment, through employee well-being; unique and diverse collaborative teams; challenging roles; continual skill growth; and more. Find meaningful purpose working in engineering, field services, sales, marketing, or the global supply chain. It’s your talent within talent that Schneider wants, helping us put our customers at the center of it all.<br><br>From the simplest of switches to complex operational systems, our technology, software and services improve the way our customers manage and automate their operations. Our connected technologies reshape industries, transform cities and enrich lives.",
+      "Mission":"Mission: Our mission is to ensure that Life Is On for everyone, everywhere and at every moment. We embrace a high-performance culture by being straightforward, open, passionate and effective and challenging the status quo. We serve our customers by offering the largest portfolio of our industry, bringing expertise to our segments and partners. So be part of our energy revolution … one that champions efficient, safe, affordable power for everyone.",
+      "Website":"www.schneider-electric.com",
+      "GlassdoorAwards":""
+   },
+   "Siemens":{  
+      "Description":"",
+      "Mission":"",
+      "Website":"www.siemens.com",
+      "GlassdoorAwards":""
+   },
+   "Texas Instruments":{  
+      "Description":"As one of the world’s largest semiconductor companies with 30,000 employees in more than 30 countries, Texas Instruments has been leading innovation for more than 80 years.\n<br><br>With the industry’s broadest portfolio of about 100,000 analog and embedded processing products, software and tools, TI offers complete solutions for the consumer, transportation, industrial, communications, and computing industries.<br><br>Innovating a better world is not only what we do, it’s the core of who we are. From developing leading-edge technologies and practicing responsible manufacturing to caring for our employees and communities, innovating a better world is in our DNA.<br><br>TI is continually recognized as a 'best place to work' - offering a creative and friendly work environment, a variety of assignments, and extensive professional development & training opportunities.<br><br>Come change the world with us.",
+      "Mission":"Mission: We're changing the world, one chip at a time. Our analog and embedded processing products power electronics across every industry and help to make the world smarter, safer, greener, healthier and more fun.",
+      "Website":"www.ti.com",
+      "GlassdoorAwards":""
+   },
+   "PepsiCo":{  
+      "Description":"PepsiCo is a global food and beverage leader with net revenues of more than $65 billion and a product portfolio including 22 brands that generate more than $1 billion each in annual retail sales. Our main businesses – Quaker, Tropicana, Gatorade, Frito-Lay and Pepsi-Cola – make hundreds of enjoyable foods and beverages that are loved throughout the world.\n <br><br>We are focused on delivering sustainable long-term growth while leaving a positive imprint on society and the environment – what we call Performance with Purpose. Our focus includes transforming our portfolio and offering healthier options while making our food system more sustainable and communities more prosperous. In doing so we believe we will pave the way for PepsiCo’s future growth and help others thrive.",
+      "Mission":"Mission: Our 2025 Agenda: To substantially increase our efforts to improve the products we sell, protect our planet and empower people around the world in order to contribute solutions to shared challenges.",
+      "Website":"www.pepsico.com",
+      "GlassdoorAwards":""
+   },
+   "Mars, Inc.":{  
+      "Description":"Based in McLean, Virginia, the Mars, Incorporated family of companies has net sales of more than $33 billion, and six business segments including Petcare, Chocolate, Wrigley, Food, Drinks and Symbioscience. Every day, more than 80,000 Mars Associates worldwide put into action the Five Principles of Mars to make a difference for people and the planet. To learn more about Mars, please visit www.mars.com.",
+      "Mission":"Mission: Our objective as a company is to create a mutuality of benefits for all of our stakeholders through our operations. We strive to do this by putting our Principles into action every day to make a difference to people and the planet through our performance.",
+      "Website":"www.mars.com",
+      "GlassdoorAwards":""
+   },
+   "CareFusion":{  
+      "Description":"CareFusion cares about eliminating confusion and infection in hospital settings. The company's Pyxis brand automated medication dispensing units cut down on clinician error when dealing with patients in critical care settings. Its Alaris brand of infusion products include software to reduce IV medication errors. The company also makes AVEA respiratory ventilation devices, SensorMedics pulmonary care products, and V. Mueller surgical instruments. CareFusion's ChloraPrep and MedMined products and software help prevent the spread of hospital-acquired infections. Former parent Cardinal Health spun off CareFusion into a separate, publicly traded company in 2009.",
+      "Mission":"",
+      "Website":"www.carefusion.com",
+      "GlassdoorAwards":""
+   },
+   "Caterpillar":{  
+      "Description":"For over 90 years, Caterpillar Inc. has been making sustainable progress possible and driving positive change on every continent. Customers turn to Caterpillar to help them develop infrastructure, energy and natural resource assets. Caterpillar is the world’s leading manufacturer of construction and mining equipment, diesel and natural gas engines, industrial gas turbines and diesel-electric locomotives. We don't just build great products, we pair them with the newest digital technologies and analytics to solve problems and anticipate customer needs. We are bringing our industry into the Age of Smart Iron.\n<br><br>A lasting legacy of talented and committed employees give Caterpillar its competitive edge. It is our team that has allowed this company to accomplish great things. From the construction of the Hoover Dam, to earthquake relief in Indonesia, our employees have never failed to give customers enduring results through superior service and innovation.",
+      "Mission":"Mission: We win by delivering valued, quality products, services and solutions to our customers that provide the lowest total owning and operating lifecycle costs. This value proposition, enabled by our unmatched customer support, creates the largest global field population, highest customer loyalty and attractive profitability through the business cycle.",
+      "Website":"www.caterpillar.com",
+      "GlassdoorAwards":"Highest Rated CEOs:2013 (#30)\nBest Places to Work:2010 (#35), 2009 (#16)"
+   },
+   "Parker Hannifin":{  
+      "Description":"Parker can be found on and around everything that moves. We manufacture highly engineered components and systems that facilitate motion and the controlled flow of liquids and gasses for a wide variety of global markets t o increase our customers' productivity and profitability.\n<br><br>From flying aircraft and building infrastructure; to developing more efficient energy, advancing medical science,and engineered materials, providing clan food and water, and supporting military efforts; Parker's 55,000 employees bring it all together, partnering with our customers to help solve some of the worlds greatest engineering challenges. With sales of $13 Billion in 2015, we apply our Win Strategy to empower our employees as a foundation of our strategy and key to our success.<br><br>http://youtu.be/5DjlpyDgil0",
+      "Mission":"Mission: Parker partners with its customers to increase their productivity and profitability. Core Values: A Winning Culture, Passionate People, Valued Customers, Engaged Leadership.",
+      "Website":"www.parker.com",
+      "GlassdoorAwards":""
+   },
+   "United States Steel Corporation":{  
+      "Description":"Steel crazy after all these years, Pittsburgh-based United States Steel is the nation's #2 integrated steelmaker (behind ArcelorMittal). The company operates mills throughout the Midwest in the US; in Ontario, Canada; and in Serbia and Slovakia. U.S. Steel makes sheet and semifinished steel, tubular and plate steel, and tin products; its annual production capacity is more than 32 million tons of raw steel (though its actual production rate is less than that). The company's customers are primarily in the automotive, construction, chemical, and steel service center industries. In addition, U.S. Steel offers services such as mineral resource management and engineering and consulting.",
+      "Mission":"",
+      "Website":"www.ussteel.com",
+      "GlassdoorAwards":""
+   },
+   "Bayerische Motoren Werke AG (BMW)":{  
+      "Description":"In the world of automobiles, few acronyms evoke as much awe as BMW. Short for Bayerische Motoren Werke, the company is one of the world's top 10 automakers. BMW's premium lineup includes sedans, coupés, convertibles, and sport wagons in the 1, 3, 5, 6, and 7 Series. Other models include the M3 coupe and convertible, the X5 sport active, and the Z4 roadster. In addition, BMW is known for the automotive MINI and Rolls-Royce brands, as well as its motorcycles K 1200 GT, R 1200 RT, and F 800 S models, among others. Financial services bolster the company's bottom line, as well, with purchase financing and leasing, asset management, dealer financing, and corporate fleets. About 3,000 dealers worldwide sell BMWs.",
+      "Mission":"",
+      "Website":"www.bmwgroup.com",
+      "GlassdoorAwards":""
+   },
+   "Chrysler":{  
+      "Description":"Fiat Chrysler Automobiles (FCA), the seventh-largest automaker in the world, designs, engineers, manufactures and sells passenger cars, light commercial vehicles, components and production systems worldwide.\n<br><br>The Group’s automotive brands are: Abarth, Alfa Romeo, Chrysler, Dodge, Fiat, Fiat Professional, Jeep, Lancia, Ram​, Ferrari and Maserati and also the SRT performance vehicle designation and Mopar, the parts and service brand. The Group’s businesses also include Comau (production systems), Magneti Marelli (components) and Teksid (iron and castings). In addition, the Group provides retail and dealer finance, leasing and rental services in support of the car business through subsidiaries, joint ventures and commercial agreements with specialized financing services providers.<br><br>FCA is an international auto group engaged in industrial activities in the automotive sector through companies located in 40 countries and has commercial relationships with customers in approximately 150 countries.",
+      "Mission":"",
+      "Website":"www.fcagroup.com",
+      "GlassdoorAwards":""
+   },
+   "Ford Motor":{  
+      "Description":"Ford Motor Company is a global automotive and mobility company based in Dearborn, Michigan. With about 201,000 employees and 62 plants worldwide, the company’s core business includes designing, manufacturing, marketing and servicing a full line of Ford cars, trucks and SUVs, as well as Lincoln luxury vehicles. To expand its business model, Ford is aggressively pursuing emerging opportunities with investments in electrification, autonomy and mobility. Ford provides financial services through Ford Motor Credit Company. For more information regarding Ford and its products and services, please visit corporate.ford.com.",
+      "Mission":"Mission: One team. One plan. One goal. One Ford.",
+      "Website":"corporate.ford.com",
+      "GlassdoorAwards":"Highest Rated CEOs:2014 (#2)\nBest Places to Work:2015 (#35), 2011 (#42)"
+   },
+   "General Motors":{  
+      "Description":"General Motors (NYSE: GM, TSX: GMM) is a globally renowned mobility technology company with roots tracing back to 1908. Today, with 215,000+ employees spread across 396 facilities in more than 100 countries around the globe, GM offers exciting careers designing, engineering and building some of the world’s most advanced vehicles and personal mobility solutions.\n<br><br>Our culture is centered on being Made For More. It’s a concept reflecting our constant pursuit and confident expectation for more out of life—for our company, for our planet, for our customers, and for ourselves. Because our work goes beyond making cars; it’s about allowing people greater access to and more meaningful interactions with the world around them.<br><br>GM is committed to maintaining its position as an industry leader and establishing its innovative vision for the future of transportation. Learn more at http://careers.gm.com.<br><br>For more info on GM's Privacy Statement, please visit: http://www.gm.com/privacy-statement.html",
+      "Mission":"Mission: Design, build and sell the world's best vehicles.",
+      "Website":"www.gm.com",
+      "GlassdoorAwards":""
+   },
+   "Honda Motor":{  
+      "Description":"According to Honda, you might be in your Element if you do you Civic duty and get Fit. Honda Motor is Japan's #2 automaker (after Toyota) and the world's largest motorcycle producer. The company's car models include the Accord, CR-V, Civic, Element, and Fit; gasoline-electric hybrid versions of the Civic and Accord; and seven models of the luxury Acura line. Honda's line of motorcycles includes everything from scooters to superbikes. The company also makes a line of ATVs and personal watercraft. Honda's power products division makes commercial and residential machinery (lawn mowers, snow blowers, and tillers); portable generators; and outboard motors. Almost 70% of Honda Motor sales come from outside Japan.",
+      "Mission":"",
+      "Website":"world.honda.com",
+      "GlassdoorAwards":""
+   },
+   "Toyota":{  
+      "Description":"",
+      "Mission":"",
+      "Website":"www.toyota-global.com",
+      "GlassdoorAwards":""
+   },
+   "CBS Corporation":{  
+      "Description":"You might say this company has a real eye for broadcasting. CBS Corporation is a leading media conglomerate with operations in television, radio, online content, and publishing. Its portfolio is anchored by CBS Broadcasting, which operates the #1 rated CBS television network, along with a group of local TV stations. CBS also owns cable network Showtime and produces and distributes TV programming through CBS Television Studios and CBS Television Distribution. Other operations include CBS Radio, CBS Interactive, and book publisher Simon & Schuster. In addition, CBS Outdoor is a leading operator of billboards and outdoor advertising. Chairman Sumner Redstone controls CBS Corporation through National Amusements.",
+      "Mission":"",
+      "Website":"www.cbscorporation.com",
+      "GlassdoorAwards":""
+   },
+   "Walt Disney Company":{  
+      "Description":"The monarch of this magic kingdom is no man but a mouse -- Mickey Mouse. The Walt Disney Company is the world's largest media conglomerate, with assets encompassing movies, television, publishing, and theme parks. Its Disney/ABC Television Group includes the ABC television network and 10 broadcast stations, as well as a portfolio of cable networks including ABC Family, Disney Channel, and ESPN (80%-owned). Walt Disney Studios produces films through imprints Walt Disney Pictures, Disney Animation, and Pixar, and its Marvel Entertainment is a top comic book publisher and film producer. In addition, Walt Disney Parks and Resorts operates the company's popular theme parks including Walt Disney World and Disneyland.",
+      "Mission":"",
+      "Website":"www.disney.com",
+      "GlassdoorAwards":"Highest Rated CEOs:2015 (#37), 2014 (#21)\nBest Places to Work:2014 (#42)"
+   },
+   "Warner Bros. Entertainment, Inc.":{  
+      "Description":"WARNER BROS. ENTERTAINMENT is a global leader in all forms of entertainment and their related businesses across all current and emerging media and platforms. A Time Warner Company, the fully integrated, broad-based Studio is home to one of the most successful collections of brands in the world and stands at the forefront of every aspect of the entertainment industry from feature film, television and home entertainment production and worldwide distribution to DVD and Blu-ray, digital distribution, animation, comic books, video games, product and brand licensing, and broadcasting. The company’s vast library, one of the most prestigious and valuable in the world, consists of more than 61,000 hours of programming, including nearly 6,500 feature films and 3,000 television programs comprised of tens of thousands of individual episodes.",
+      "Mission":"",
+      "Website":"www.warnerbros.com",
+      "GlassdoorAwards":""
+   },
+   "ABC News":{  
+      "Description":"ABC News is a trusted news organization on-air and online. More Americans Get Their News From ABC News Than From Any Other Source.\n <br><br>The current president is Ben Sherwood. Some of the most popular network newscasts are \"World News with Diane Sawyer,\" \"Good Morning America,\" \"20/20,\" \"Nightline,\" and \"This Week.\" ABC News also produces the \"What Would You Do?\" series. Overnight broadcasts include \"World News Now\" and \"America This Morning.\"<br><br>Digital shows can be seen on broadband, mobile and cable through ABC News NOW. <br><br>ABC News is owned by The Walt Disney Company in Burbank, California. The news headquarters are located in New York City.",
+      "Mission":"",
+      "Website":"www.abcnews.com",
+      "GlassdoorAwards":""
+   },
+   "NBCUniversal":{  
+      "Description":"NBCUniversal is one of the world’s leading media and entertainment companies in the development, production and marketing of entertainment, news and information to a global audience. NBCUniversal owns and operates a valuable portfolio of news and entertainment television networks, a premier motion picture company, significant television production operations, a leading television stations group and world-renowned theme parks.",
+      "Mission":"Mission: We are in business to create and deliver content so compelling it entertains, informs and shapes our world.\n<br><br>We believe that the talent, creativity and diversity of our people are our greatest resources. <br><br>We take our business seriously, but do not take ourselves too seriously. <br><br>We have a pioneering spirit and are willing to take risks and embrace new technologies. <br><br>As we grow our businesses together, we will not just anticipate the future, but rather create, invent and deliver it.",
+      "Website":"www.nbcuni.com",
+      "GlassdoorAwards":"Highest Rated CEOs:2016 (#38)\nBest Places to Work:2015 (#31), 2014 (#44)"
+   },
+   "American Red Cross":{  
+      "Description":"The humanitarian mission of the American Red Cross connects us to people and communities across the nation and around the world. The common bonds of humanity and compassion unite us together, not just in the face of emergencies and disasters, but in helping our neighbors every day.\n<br><br>Since being founded by Clara Barton in 1881, the Red Cross has been a consistent lifeline for people when they need us the most. The depth and breadth of our services – whenever and wherever they're called for – is unmatched by any organization in the world.",
+      "Mission":"Mission: The American Red Cross prevents and alleviates human suffering in the face of emergencies by mobilizing the power of volunteers and the generosity of donors",
+      "Website":"www.redcross.org",
+      "GlassdoorAwards":""
+   },
+   "KBR":{  
+      "Description":"KBR, Inc. is a global technology, engineering, procurement and construction company serving the hydrocarbons and government services industries, employing approximately 25,000 people worldwide with customers in more than 70 countries and operations in 40 countries across three distinct global businesses: Technology & Consulting, Engineering & Construction and Government Services\n<br><br>KBR is proud to work with its customers across the globe to provide technology, value-added consulting services, integrated EPC delivery and Long Term Industrial Services to ensure consistent project delivery with predictable results. At KBR, we deliver.",
+      "Mission":"",
+      "Website":"www.kbr.com",
+      "GlassdoorAwards":""
+   },
+   "Chevron Corporation":{  
+      "Description":"At Chevron, we are relentlessly focused on producing safe, reliable energy now and for the future. How are we doing it? By applying the energy we have most in abundance: Human Energy.",
+      "Mission":"",
+      "Website":"www.chevron.com",
+      "GlassdoorAwards":"Highest Rated CEOs:2015 (#16)\nBest Places to Work:2016 (#39), 2015 (#6), 2014 (#14), 2013 (#13), 2012 (#16), 2011 (#26), 2010 (#20), 2009 (#25)"
+   },
+   "Exxon Mobil Corporation":{  
+      "Description":"ExxonMobil is the world’s largest publicly traded international oil and gas company. We hold an industry-leading inventory of global oil and gas resources. We are the world’s largest refiner and marketer of petroleum products, and our chemical company ranks among the world’s largest. We apply science and innovation to find better, safer and cleaner ways to deliver the energy the world needs.",
+      "Mission":"",
+      "Website":"www.exxonmobil.com",
+      "GlassdoorAwards":""
+   },
+   "Royal Dutch Shell plc":{  
+      "Description":"We are a global group of energy and petrochemicals companies with over 90,000 employees in more than 70 countries and territories. We use advanced technologies and take an innovative approach to help build a sustainable energy future. Our headquarters are in The Hague, the Netherlands, and our Chief Executive Officer is Ben van Beurden. The parent company of the Shell group is Royal Dutch Shell plc, which is incorporated in England and Wales.\n<br><br>Our strategy to generate profitable growth remains to drive forward with our investment programme, to deliver sustainable growth and provide competitive returns to shareholders, while helping to meet global energy demand in a responsible way.<br><br>Our core values of honesty, integrity and respect for people form the basis of the Shell General Business Principles. Discover more http://www.shell.com/global/aboutshell.html",
+      "Mission":"Mission: The objectives of the Shell group are to engage efficiently, responsibly and profitably in oil, oil products, gas, chemicals and other selected businesses and to participate in the search for and development of other sources of energy to meet evolving customer needs and the world’s growing demand for energy.\n<br><br>Our role is to ensure that we extract oil and gas and deliver them profitably and in environmentally and socially responsible ways.",
+      "Website":"www.shell.us",
+      "GlassdoorAwards":""
+   },
+   "Keller Williams Realty":{  
+      "Description":"When you join KWRI, you join a diverse team of more than 200 passionate professionals who are redefining the global real estate industry. We support and innovate on behalf of over 140,000 Keller Williams real estate professionals worldwide.\n<br><br>We are writers, coaches, developers, designers, accountants, filmmakers, planners, lawyers, and philanthropists. Each of us are trailblazers with the incredible opportunity to make a meaningful difference in the direction of this fast-growing company. <br><br>Interested in a role at headquarters? Get to know us at http://www.lifeatkwri.com/our-teams opportunities are waiting! <br><br>Interested in a career in real estate? Check out global opportunities: http://www.kw.com/kw/jobsearch.html.",
+      "Mission":"Mission: Our Mission: To build careers worth having, businesses worth owning, lives worth living, experiences worth giving, and legacies worth leaving!\n<br><br>Our Vision: To be the real estate company of choice for agents and their customers.",
+      "Website":"www.kw.com",
+      "GlassdoorAwards":"Best Places to Work:2017 (#31)"
+   },
+   "RE/MAX International":{  
+      "Description":"RE/MAX International knows there's no place like home, and it will help you get there. With some 90,000 real estate agents in a franchise network of independently owned offices in more than 75 nations, the real estate behemoth sells homes from Argentina to Zambia. Residential sales make up most of the company's business, but RE/MAX sells commercial property, too. RE/MAX also conducts real estate auctions and provides advisory and relocation services. The RE/MAX corporate logo, a red, white, and blue hot-air balloon, is more than symbolic: The company boasts the largest balloon fleet in the world. The company's colorful chairman Dave Liniger and vice chairman Gail Liniger co-founded RE/MAX in 1973.",
+      "Mission":"",
+      "Website":"www.remax.com",
+      "GlassdoorAwards":""
+   },
+   "Starbucks":{  
+      "Description":"Our employees, who we call partners, are at the heart of the Starbucks Experience. We believe in treating our partners with respect and dignity. Starbucks is committed to doing business responsibly and conducting ourselves in ways that earn the trust and respect of our customers, partners and neighbors.\n<br><br>Our story began in 1971. Back then we were a roaster and retailer of whole bean and ground coffee, tea and spices with a single store in Seattle’s Pike Place Market.<br><br>Today, we are privileged to connect with millions of customers every day with exceptional products in nearly 18,000 retail stores in 62 countries.<br><br>Our brands include Teavana, Tazo, Seattle’s Best Coffee, Evolution Fresh and La Boulange.",
+      "Mission":"Mission: Our mission is to inspire and nurture the human spirit – one person, one cup, and one neighborhood at a time.",
+      "Website":"www.starbucks.com",
+      "GlassdoorAwards":"Highest Rated CEOs:2015 (#31), 2014 (#9), 2013 (#19)\nBest Places to Work:2014 (#39), 2013 (#50), 2012 (#34)"
+   },
+   "Nordstrom, Inc.":{  
+      "Description":"Nordstrom, Inc. is a leading fashion specialty retailer based in the U.S. Founded in 1901 as a shoe store in Seattle, today Nordstrom operates 329 stores in 39 states and Canada, including 121 full-line stores in the United States and Canada, 200 Nordstrom Racks; two Jeffrey boutiques; and one clearance store. Nordstrom also serves customers online through Nordstrom.com, Nordstromrack.com and private sale site HauteLook. The company also owns Trunk Club, a personalized clothing service that takes care of customers online at TrunkClub.com and its five showrooms. Nordstrom, Inc.'s common stock is publicly traded on the NYSE under the symbol JWN.",
+      "Mission":"",
+      "Website":"www.nordstrom.com",
+      "GlassdoorAwards":"Highest Rated CEOs:2015 (#29), 2014 (#24), 2013 (#29)\nBest Places to Work:2012 (#44), 2009 (#27)"
+   },
+   "Target":{  
+      "Description":"From our Minneapolis-based headquarters to over 1,800 stores and 38 distribution centers across the U.S., Target offers a world of possibilities in an environment that empowers its team members to innovate and contribute ideas. Join a company that’s focused on moving forward to what’s next while giving back to the communities they serve. Since 1946, Target has given five percent of its profit through community grants and programs; today, that giving equals millions of dollars a week.",
+      "Mission":"",
+      "Website":"www.target.com",
+      "GlassdoorAwards":""
+   },
+   "Costco Wholesale Corporation":{  
+      "Description":"Costco Wholesale is the largest wholesale club operator in the US. The company operates more than 590 membership warehouse stores serving some 64 million cardholders in 40 US states and Australia, Canada, Japan, Mexico, Puerto Rico, South Korea, Taiwan, and the UK, primarily under the Costco Wholesale name. Stores offer discount prices on an average of about 4,000 products (many in bulk packaging), ranging from alcoholic beverages and appliances to fresh food, pharmaceuticals, and tires. Certain club memberships also offer products and services such as car and home insurance, mortgage and real estate services, and travel packages.",
+      "Mission":"",
+      "Website":"www.costco.com",
+      "GlassdoorAwards":"Highest Rated CEOs:2016 (#46), 2015 (#13), 2014 (#6)\nBest Places to Work:2017 (#34), 2016 (#40), 2015 (#29), 2014 (#16), 2013 (#46), 2012 (#23)"
+   },
+   "CenturyLink, Inc":{  
+      "Description":"",
+      "Mission":"",
+      "Website":"www.centurylink.com",
+      "GlassdoorAwards":""
+   },
+   "Comcast":{  
+      "Description":"Comcast Corporation (Nasdaq: CMCSA) is a global media and technology company with two primary businesses, Comcast Cable and NBCUniversal. Comcast Cable is one of the nation's largest video, high-speed Internet and phone providers to residential customers under the XFINITY brand and also provides these services to businesses. NBCUniversal operates news, entertainment and sports cable networks, the NBC and Telemundo broadcast networks, television production operations, television station groups, Universal Pictures and Universal Parks and Resorts. Visit www.comcastcorporation.com for more information.",
+      "Mission":"Mission: Shaping the future of media and technology to bring people the world's best entertainment and online experiences. Comcast Cable with advanced TV, Internet and voice, NBCUniversal with world-class news, sports, theme parks and entertainment.",
+      "Website":"www.comcastcareers.com",
+      "GlassdoorAwards":""
+   },
+   "DirecTV":{  
+      "Description":"DIRECTV takes television straight to the masses - no wires attached. The company operates the largest direct broadcast satellite (DBS) service in the US, ahead of #2 DISH Network, and in direct competition with leading cable providers Comcast and Time Warner. DIRECTV enjoys a 20% share of the pay-TV market. In addition to its more than 19 million US customers, the company serves 11 million subscribers in Latin America under the DIRECTV and SKY brands. Services include high-definition, 3D, and video-on-demand (VOD) programming. Phone companies such as Verizon and AT&T bundle the company's video services with their own traditional voice, digital telephone, and Internet packages.",
+      "Mission":"",
+      "Website":"www.directv.com",
+      "GlassdoorAwards":"Highest Rated CEOs:2014 (#31)"
+   },
+   "Time Warner Cable":{  
+      "Description":"Time Warner Cable Inc. (NYSE: TWC) is among the largest providers of video, high-speed data and voice services in the United States, connecting 15 million customers to entertainment, information and each other. Time Warner Cable Business Class offers data, video and voice services to businesses of all sizes, cell tower backhaul services to wireless carriers and enterprise-class, cloud-enabled hosting, managed applications and services. Time Warner Cable Media, the advertising sales arm of Time Warner Cable, offers national, regional and local companies innovative advertising solutions. More information about the services of Time Warner Cable is available at twc.com, twcbc.com and twcmedia.com. Time Warner Cable is an Equal Opportunity Employer M/F/D/V.",
+      "Mission":"",
+      "Website":"jobs.spectrum.com",
+      "GlassdoorAwards":""
+   },
+   "Nokia":{  
+      "Description":"From Finnish roots, Nokia has evolved to embrace and prepare for every fundamental shift in the way the world communicates and connects. We tap into the power of connectivity by combining network infrastructure, software and services with advanced technologies for smart devices. From the transistor to virtual reality, our people and inventions have transformed how the world connects and communicates.\n<br><br>We are focused on two business areas: <br><br>- Our four networks business units are leading the change to smart, virtual networks with one seamless service <br><br>- Our technologies business unit focuses on advanced R&D to reimagine the way technology blends into everyday life.",
+      "Mission":"Mission: For the past 150 years, Nokia has been reinventing itself.\nWith a long history of successful change and innovation, adopting to shifts in markets and technologies, we seek those who are up for the adventure to support the next technological shift where everything and everyone is connected.",
+      "Website":"www.nokia.com",
+      "GlassdoorAwards":""
+   },
+   "Motorola":{  
+      "Description":"From the invention of the DynaTAC in 1984 to the release of Moto X, Moto G, Moto E and the Moto 360 – each disruptive in their respective segments; we’re changing the way the world defines mobile technology.\n <br><br>At Motorola, we’re doing things differently. Here you’ll work in dynamic, supportive teams and collaborate with global colleagues who will inspire and motivate you. If you share our commitment to ingenuity, come help us define our world of tomorrow.<br><br>Since 1928, we’ve been at the forefront of technology, positively impacting the lives of people around the world. We’re one of the fastest growing smartphone providers, creating innovative and affordable products, designed and built with the customer in mind. And it’s our people that make it all happen. If you’re looking to create cutting-edge technology and deliver real-world solutions, join the Motorola journey.",
+      "Mission":"Mission: Put the power of choice in the hands of billions of people and let them choose how they connect to the world.",
+      "Website":"www.motorola.com",
+      "GlassdoorAwards":""
+   },
+   "Alcatel-Lucent, Inc.":{  
+      "Description":"Today, as part of Nokia, we are an innovation leader in the technologies that connect people and things. With our combined strengths, we’re shaping a new revolution in how people, businesses, and services connect with each other, creating new opportunities for our customers, partners, and communities.\n<br><br>Joining Nokia’s long history of successful change and innovation, adopting to shifts in markets and technologies, we seek those who are up for the adventure to support the next technological shift where everything and everyone is connected.",
+      "Mission":"",
+      "Website":"www.nokia.com",
+      "GlassdoorAwards":""
+   },
+   "AT&T":{  
+      "Description":"We understand that our customers want an easier, less complicated life.\n <br><br>We’re using our network, labs, products, services and people to create a world where everything works together seamlessly, and life is better as a result. How will we continue to drive for this excellence in innovation?<br><br>With you. <br><br>Our people, and their passion to succeed, are at the heart of what we do. Today, we’re poised to connect millions of people with their world, delivering the human benefits of technology in ways that defy the imaginable.<br><br>What are you dreaming of doing with your career? <br><br>Find stories about our talent, career advice, opportunities, company news, and innovations here on Glassdoor.",
+      "Mission":"",
+      "Website":"www.att.jobs",
+      "GlassdoorAwards":""
+   },
+   "Avaya":{  
+      "Description":"Avaya is the Communications Experience Company.\n <br><br>We are the trusted specialists in fully-integrated, digital communications software and services. We excel by creating and leveraging the world’s best technology to help our customers drive communication experiences – experiences that help their employees and their customers more effectively connect, transact, inform, create, buy and sell, compete, simplify, delight, and succeed.",
+      "Mission":"Mission: Leading business communications for the digital age.",
+      "Website":"www.avaya.com",
+      "GlassdoorAwards":""
+   },
+   "Research In Motion":{  
+      "Description":"Research In Motion (RIM), a global leader in wireless innovation, revolutionized the mobile industry with the introduction of the BlackBerry solution in 1999. Since then, BlackBerry products and services have continued to change the way millions of people around the world stay connected.\n<br><br>With the launch of BlackBerry® 10, we have re-designed, re-engineered and re-invented BlackBerry. Not only did we introduce a new mobile experience to our global community of BlackBerry users, but we are also introducing a new name for the company.<br><br>Research In Motion now operates globally under the iconic name BlackBerry.",
+      "Mission":"",
+      "Website":"global.blackberry.com",
+      "GlassdoorAwards":""
+   },
+   "Sprint":{  
+      "Description":"",
+      "Mission":"",
+      "Website":"www.sprint.com",
+      "GlassdoorAwards":"Highest Rated CEOs:2014 (#45)"
+   },
+   "FedEx":{  
+      "Description":"Holding company FedEx hopes its package of subsidiaries will keep delivering significant market share. Its FedEx Express unit is the world's #1 express transportation provider, delivering about 3.5 million packages daily to more than 220 countries and territories from about 2,000 FedEx Office shops. It maintains a fleet of about 690 aircraft and more than 50,000 motor vehicles and trailers. To complement the express delivery business, FedEx Ground provides small-package ground delivery in North America, and less-than-truckload (LTL) carrier FedEx Freight hauls larger shipments. FedEx Office stores offer a variety of document-related and other business services and serve as retail hubs for other FedEx units.",
+      "Mission":"",
+      "Website":"www.fedex.com",
+      "GlassdoorAwards":"Highest Rated CEOs:2015 (#30), 2014 (#19), 2013 (#24)\nBest Places to Work:2014 (#36), 2012 (#50), 2010 (#21), 2009 (#49)"
+   },
+   "UPS":{  
+      "Description":"At UPS, we love logistics.\n <br><br>But what's it really all about? <br><br>Every day, we choreograph the infinite movements of goods, funds, and information in more than 200 countries and territories.<br><br>From our early roots as a Seattle, Washington bike-messenger company to our present day, multi-billion-dollar global corporation, our team has held a singular focus – empowering commerce around the world. We have become the world's largest package delivery company and a leading global provider of specialized transportation and logistics services.<br><br>From global giants to local mom and pop businesses, we improve distribution networks and manage supply chains to help our customers to do what they do best. That’s how we make the world work better. And that’s how we build better careers and reward people like you for doing what they love to do most. Join us!",
+      "Mission":"Mission: Empowering careers & commerce around the globe takes more than the concerted efforts of innovative thinkers, collaborative teammates & incredible technology. It calls on the values, purpose & mission that have driven us right from the start. We build on our legacy as a caring & responsible corporate citizen through the conduct of our people and company in the communities we serve. Inspire our people & business partners to do their best, offering opportunities for personal development & success.",
+      "Website":"www.upsjobs.com",
+      "GlassdoorAwards":""
+   },
+   "Total Quality Logistics":{  
+      "Description":"Total Quality Logistics (TQL) is one of the largest freight brokerage firms in the nation, with more than $2 billion in annual sales and 3,700 employees nationwide. TQL connects customers with truckload freight that needs to be moved with quality carriers who have the capacity to move it. The company’s insistence on straightforward communications and 24/7/365 operations minimizes missed shipments, delays, and product shortages on store shelves.",
+      "Mission":"Mission: To exceed the customer's expectations at all times and handle their transportation requirements from the moment of pickup until delivery, 24 hours a day, 7 days a week, 365 days a year.",
+      "Website":"www.tql.com",
+      "GlassdoorAwards":"Highest Rated CEOs:2015 (#42)\nBest Places to Work:2016 (#48)"
+   },
+   "American Airlines, Inc":{  
+      "Description":"Together with regional partner American Eagle, we offer an average of nearly 6,700 flights daily to 350 destinations in 50 countries. We’re a founding member of the oneworld alliance, whose members and members-elect offer nearly 14,250 flights daily to 1,000 destinations in 150 countries. In 2016, American Airlines Group Inc. topped Fortune magazine’s list of best business turnarounds and its stock (NASDAQ: AAL) joined the S&P 500 index.",
+      "Mission":"",
+      "Website":"jobs.aa.com",
+      "GlassdoorAwards":""
+   },
+   "United Air Lines, Inc":{  
+      "Description":"With great people, the world’s most comprehensive global route network, the best current aircraft order book among U.S. network carriers and the industry-leading loyalty program, United is well positioned to deliver meaningful profitability and sustainable long-term value for our customers, the communities we serve, our shareholders and our co-workers around the world.\n <br><br>United Airlines and United Express operate more than 4,500 flights a day to 339 airports across five continents. In 2015, United and United Express operated more than 1.5 million flights carrying more than 140 million customers. United is proud to have the world’s most comprehensive route network, including U.S. mainland hubs in Chicago, Denver, Houston, Los Angeles, New York/Newark, San Francisco and Washington, D.C.",
+      "Mission":"",
+      "Website":"www.united.com",
+      "GlassdoorAwards":""
+   },
+   "Enterprise Rent-A-Car":{  
+      "Description":"Founded in 1957, Enterprise Rent-A-Car is part of a portfolio of rental brands operated by Enterprise Holdings. With more than 97,000 employees in 9,600 global locations, Enterprise Holdings and its affiliates own and operate the largest fleet of vehicles in the world.",
+      "Mission":"Mission: To be the best transportation service provider in the world ... to exceed our customers' expectations for service, quality and value ... to provide our employees with a great place to work ... and to serve our communities as a committed corporate citizen.",
+      "Website":"www.go.enterprise.com",
+      "GlassdoorAwards":""
+   },
+   "Hilton Worldwide":{  
+      "Description":"Hilton (NYSE: HLT) is a leading global hospitality company, spanning the lodging sector from luxury and full-service hotels and resorts to extended-stay suites and focused-service hotels. For 95 years, Hilton has been dedicated to continuing its tradition of providing exceptional guest experiences. The company's portfolio of twelve world-class global brands is comprised of more than 4,250 managed, franchised, owned and leased hotels and timeshare properties, with more than 700,000 rooms in 93 countries and territories, including Hilton Hotels & Resorts, Waldorf Astoria Hotels & Resorts, Conrad Hotels & Resorts, Curio - A Collection by Hilton, Canopy by Hilton, DoubleTree by Hilton, Embassy Suites Hotels, Hilton Garden Inn, Hampton Hotels, Homewood Suites by Hilton, Home2 Suites by Hilton and Hilton Grand Vacations. The company also manages an award-winning customer loyalty program, Hilton HHonors.",
+      "Mission":"Mission: To be the most hospitable company in the world – by creating heartfelt experiences for Guests, meaningful opportunities for Team Members, high value for Owners and a positive impact in our Communities.\n<br><br>Our Vision: Our vision is to fill the earth with the light and warmth of hospitality, by being the first choice of hotel guests, team members, and owners alike.<br><br>Our HILTON Values: <br><br>Hospitality/Integrity/Leadership//Teamwork/Ownership/Now",
+      "Website":"www.hiltonworldwide.com",
+      "GlassdoorAwards":""
+   },
+   "Accenture":{  
+      "Description":"With more than 394,000 people serving clients in more than 120 countries, Accenture drives innovation to improve the way the world works and lives.",
+      "Mission":"Mission: Accenture is a leading global professional services company, providing a broad range of services and solutions in strategy, consulting, digital, technology and operations. Combining unmatched experience and specialized skills across more than 40 industries and all business functions – underpinned by the world’s largest delivery network – Accenture works at the intersection of business and technology to help clients improve their performance and create sustainable value for their stakeholders.",
+      "Website":"www.accenture.com",
+      "GlassdoorAwards":"Highest Rated CEOs:2013 (#10)\nBest Places to Work:2012 (#43), 2009 (#48)"
+   },
+   "Sony":{  
+      "Description":"Many eyes and hands are on Sony -- or, most likely, on its high-profit consumer electronics products and gaming systems. The company, officially named Sony Kabushiki Kaisha, makes a host of products, including digital and video cameras, Walkman stereos, TVs, and semiconductors, through its more than 1,200 subsidiaries. A top media conglomerate worldwide, Sony boasts entertainment assets such as music (Sony Music Entertainment), motion pictures (Sony Pictures Entertainment and Sony Digital Production), DVDs (Sony Pictures Home Entertainment), and TV programs (Sony Pictures Television). Under its first non-Japanese leader, Sir Howard Stringer, Sony's realigning its business and shedding some longtime traditions.",
+      "Mission":"",
+      "Website":"www.sony.net",
+      "GlassdoorAwards":""
+   }
+}

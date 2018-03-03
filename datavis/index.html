@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+	<title>Blissful Careers</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500i,700|Shrikhand" rel="stylesheet">
+</head>
+<body>
+
+<div id="container"></div>
+
+<div id="top-wrap">
+
+	<div id="top">
+		<h1>Blissful Careers</h1>
+		<p id="currentCompany"></p>
+	</div>
+
+	<div id="top-right">
+		<br>
+		<form>
+		  <select class="view">
+		    <option value="perspective" selected="selected">Perspective</option>
+		    <option value="orthoFront">Orthographic Front</option>
+		    <option value="orthoTop">Orthographic Top</option>
+		    <option value="orthoSide">Orthographic Side</option>
+		  </select>
+		  <select class="yearDrop">
+		    <option value="2017" selected="selected">2017</option>
+		    <option value="2016">2016</option>
+		    <option value="2015">2015</option>
+		    <option value="2014">2014</option>
+		    <option value="2013">2013</option>
+		  </select>
+		</form>
+
+	</div>
+
+</div>
+
+<div id='chartWrap'>
+  <!-- /the chart goes here -->
+</div>
+
+<div id="colors">
+
+			<div class="colorKey">Accounting & Legal 						<span style="color:#80b1d5;">&#9724;</span></div> 
+			<div class="colorKey">Aerospace & Defense 					<span style="color:#fbb463;">&#9724;</span></div> 
+			<div class="colorKey">Biotech & Pharmaceuticals 				<span style="color:#bebadb;">&#9724;</span></div> 
+			<div class="colorKey">Business Services 						<span style="color:#fbb463;">&#9724;</span></div> 
+			<div class="colorKey">Construction, Repair & Maintenance 		<span style="color:#fbef6d;">&#9724;</span></div> 
+			<div class="colorKey">Finance 								<span style="color:#b3d56a;">&#9724;</span></div> 
+			<div class="colorKey">Government 								<span style="color:#10ad7b;">&#9724;</span></div> 
+			<div class="colorKey">Health Care 							<span style="color:#f9f5b6;">&#9724;</span></div> 
+			<div class="colorKey">Information Technology 					<span style="color:#6a67a9;">&#9724;</span></div> 
+			<div class="colorKey">Insurance 								<span style="color:#eb2533;">&#9724;</span></div> 
+			<div class="colorKey">Manufacturing 							<span style="color:#cee6c5;">&#9724;</span></div> 
+			<div class="colorKey">Media 									<span style="color:#4e7fff;">&#9724;</span></div> 
+			<div class="colorKey">Non-Profit 								<span style="color:#ef592d;">&#9724;</span></div> 
+			<div class="colorKey">Oil, Gas, Energy & Utilities 			<span style="color:#ef7db0;">&#9724;</span></div> 
+			<div class="colorKey">Real Estate 							<span style="color:#979997;">&#9724;</span></div> 
+			<div class="colorKey">Restaurants, Bars & Food Services 		<span style="color:#6c3993;">&#9724;</span></div> 
+			<div class="colorKey">Retail 									<span style="color:#8ed1c5;">&#9724;</span></div> 
+			<div class="colorKey">Telecommunications 						<span style="color:#facee1;">&#9724;</span></div> 
+			<div class="colorKey">Transportation & Logistics 				<span style="color:#bb80b8;">&#9724;</span></div> 
+			<div class="colorKey">Travel & Tourism 						<span style="color:#6fc077;">&#9724;</span></div> 
+			<div class="colorKey">undefined 								<span style="color:#dad9d9;">&#9724;</span></div>
+
+</div>
+<div id="about">
+	<h2 class="beginning">About this visualization</h2>
+	<p class="beginning">This data visualization was created for a data visualization course at CMU. The goal was to display the companies with the highest bliss ratings and give a way to dive in and explore why these companies have these rankings.</p>
+	<p id="aboutText"></p>
+	<p id="descriptionText"></p>
+</div>
+
+
+<!-- <script src="./bower_components/jquery/dist/jquery.min.js"></script> -->
+<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+<!-- <script src="./bower_components/three.js/three.js"></script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/85/three.min.js"></script>
+<script src="./js/vendor/OrbitControls.js"></script>
+<script src="./js/vendor/CSS3DRenderer.js"></script>
+<script src="./js/vendor/Detector.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.8.0/d3.min.js"></script>
+<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+<script src="./js/main.js"></script>
+
+</body>
+</html>

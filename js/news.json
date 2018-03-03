@@ -1,0 +1,55 @@
+{
+	"items": [{
+			"title": "Clare Graduates from CMU!",
+			"date": "August 4, 2017",
+			"url": "",
+			"description" : "Clare earns her Masters in Human-Computer Interaction with the completion of her capstone project at Bloomberg LP.",
+			"image": "img/news/graduation.jpg",
+			"tags": ""
+		}, {
+			"title": "VRB gets acquired by Samsung",
+			"date": "June 16, 2017",
+			"url": "http://t.umblr.com/redirect?z=https%3A%2F%2Ftechcrunch.com%2F2017%2F06%2F16%2Fsamsung-quietly-acquired-vr-app-studio-vrb-sources-say-for-5-5m%2F&t=MDYzYTNiMTVkZmZhYTFiOWQ2OWRjYTFjODA3Yzg4M2I0YmU2Y2E2OSx2S1Q1R1h1NQ%3D%3D&b=t%3A7famkaeusLSH5w6xFFtN6g&p=https%3A%2F%2Fclarenews.tumblr.com%2Fpost%2F162618723579%2Fvrb-gets-acquired-by-samsung&m=1",
+			"description":"Clare’s former team from the Samsung Accelerator (now known as Samsung Next) has been acquired by Samsung proper and will move to San Francisco in August 2017 to continue with the project",
+			"image": "img/news/vrb.png",
+			"tags":""
+		}, {
+			"title": "Robin takes 2nd Place in CHI Student Design Competition",
+			"date": "May 7, 2017",
+			"url": "http://t.umblr.com/redirect?z=https%3A%2F%2Fwww.hcii.cmu.edu%2Fnews%2F2017%2Fmhci-students-finalists-acm-sigchi-2017-design-competition&t=OGJmNGVlOTI3YjY4MWFmMTQyNTQzNjNiY2NlZTE5NDgwNDlhZTQ4OCwwNXZzV09wVg%3D%3D&b=t%3A7famkaeusLSH5w6xFFtN6g&p=https%3A%2F%2Fclarenews.tumblr.com%2Fpost%2F162595835314%2F2nd-place-chi-student-design-competition&m=1",
+			"description":"2nd place out of 70 entries for video, paper, and poster submission of <a href=\"http://t.umblr.com/redirect?z=http%3A%2F%2Fdl.acm.org%2Fcitation.cfm%3Fid%3D3049266&t=ZWYxMjA5YjQ2NWY1NjRkY2Y5NWM5ZmEwNGViM2RmZWE2MDU3M2ZhMSwwNXZzV09wVg%3D%3D&b=t%3A7famkaeusLSH5w6xFFtN6g&p=https%3A%2F%2Fclarenews.tumblr.com%2Fpost%2F162595835314%2F2nd-place-chi-student-design-competition&m=1\">Robin</a>.",
+			"image": "img/news/chi.png",
+			"tags":""
+		}, {
+			"title": "Delphix 2016 Annual Diversity in Tech Scholarship Winner",
+			"date": "January 3, 2017",
+			"url": "http://t.umblr.com/redirect?z=https%3A%2F%2Fwww.delphix.com%2Fblog%2Funiversity-relations%2Fdelphix-names-winner-of-2016-annual-diversity-tech-scholarship&t=NjE5OWQ3MjVhZjNlNWQ4MDFiZmNiOTgyOTRkNjg5OWQ1Y2Q5NWNmMCxGZnlqNDBPeQ%3D%3D&b=t%3A7famkaeusLSH5w6xFFtN6g&p=https%3A%2F%2Fclarenews.tumblr.com%2Fpost%2F162595879764%2Fwinner-of-the-delphix-2016-annual-diversity-in&m=1",
+			"description":"Scholarship received for design and implementation of <a href=\"../projects/mickey-mirror-2.0.html\">Mickey Ears 2.0.</a>",
+			"image": "img/news/delphix.png",
+			"tags":""
+		}, {
+			"title": "Reverie Innovation in Technology Scholarship Runner-Up",
+			"date": "December 21, 2016",
+			"url": "http://t.umblr.com/redirect?z=http%3A%2F%2Fwww.reverie.com%2Fwp%2Fscholarship-winners&t=MGY2YmVmNDdlMDRkMjc0ZmEwMGFmZjMyMjc0NmQwYzliNzVjODkxNSxnWUhNam42Uw%3D%3D&b=t%3A7famkaeusLSH5w6xFFtN6g&p=https%3A%2F%2Fclarenews.tumblr.com%2Fpost%2F162596059744%2Freverie-innovation-in-technology-scholarship&m=1",
+			"description" : "Scholarship received for innovation in design and technology.",
+			"image": "img/news/reverie.jpg",
+			"tags": ""
+		}, {
+			"title": "Live Mas Scholarship Winner",
+			"date": "July 25, 2016",
+			"url": "http://t.umblr.com/redirect?z=https%3A%2F%2Fwww.livemasscholarship.com%2Frecipients.html&t=MDQyNDBjNDUzNmJjMTBjY2YxOTI4MTQ3ZWZkNGNiNjU5NThiNDgzMiw4REN5a1IxSw%3D%3D&b=t%3A7famkaeusLSH5w6xFFtN6g&p=https%3A%2F%2Fclarenews.tumblr.com%2Fpost%2F162595908709%2Flive-mas-scholarship-winner&m=1",
+			"description" : "Scholarship for innovators, dreamers, and creators.",
+			"image": "img/news/livemas.jpg",
+			"tags": ""
+		}, {
+			"title": "Winner of the Max Goldstein Prize for Creativity in Computing",
+			"date": "May 2015",
+			"url": "http://t.umblr.com/redirect?z=http%3A%2F%2Fcims.nyu.edu%2Facademics%2Fstudent_recognition_archive.html&t=ZGJlOGE2MzE5NTZhYjc1YTIwMjllOTFhNjI4Y2NlOTNjODAwY2RkNCxJYnpkUXdOUQ%3D%3D&b=t%3A7famkaeusLSH5w6xFFtN6g&p=https%3A%2F%2Fclarenews.tumblr.com%2Fpost%2F162596015654%2Fwinner-of-the-max-goldstein-prize-for-creativity&m=1",
+			"description" : "NYU Courant’s annual prize for creativity in computing.",
+			"image": "img/news/maxgoldstein.png",
+			"tags": ""
+		}
+
+	]
+
+}

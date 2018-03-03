@@ -1,0 +1,400 @@
+/**
+
+ * @version    1.5
+
+ * @package    Corsa
+
+ * @author     WooRockets Team <support@woorockets.com>
+
+ * @copyright  Copyright (C) 2014 WooRockets.com. All Rights Reserved.
+
+ * @license    GNU/GPL v2 or later http://www.gnu.org/licenses/gpl-2.0.html
+
+ *
+
+ * Websites: http://www.woorockets.com
+
+ * The stylesheet for display on mobile and tablets device
+
+ */
+
+
+
+@media only screen and (max-width: 1200px) {
+
+	.site-main,
+
+	.content-bottom,
+
+	.site-footer {
+
+		padding-left: 15px;
+
+		padding-right: 15px;
+
+	}
+
+}
+
+@media only screen and (max-width: 960px), (max-device-width: 960px) {
+
+	.header-bot {
+
+		margin: 0;
+
+		padding: 15px 15px 20px;
+
+		width: auto;
+
+		float: none;
+
+	}
+
+	.header-top {
+
+		float: none;
+
+		width: auto;
+
+		padding: 15px 15px 0;
+
+	}
+
+	.site-description,
+
+	#menu-main > li > .sub-menu:before {
+
+		display: none;
+
+	}
+
+	.main-navigation .menu-toggle,
+
+	.main-navigation .menu-toggle i,
+
+	.main-navigation.active #menu-main li,
+
+	.main-navigation.active .menu-item-has-children .dashicons {
+
+		display: block;
+
+	}
+
+	.main-navigation .menu-toggle {
+
+		right: 15px;
+
+		top: 28px;
+
+		position: absolute;
+
+		line-height: inherit;
+
+		width: 20px;
+
+		text-align: center;
+
+	}
+
+	.main-navigation .menu-toggle i {
+
+		font-size: 25px;
+
+		position: absolute;
+
+		top: 6px;
+
+		right: 12px;
+
+	}
+
+	.main-navigation .menu {
+
+		opacity: 0;
+
+		visibility: hidden;
+
+		position: absolute;
+
+		width: 100%;
+
+		left: 0;
+
+		top: 94px;
+
+	}
+
+	.main-navigation.active .menu {
+
+		opacity: 1;
+
+		visibility: visible;
+
+		background: #191919;
+
+		z-index: 999;
+
+		text-align: left;
+
+	}
+
+	#menu-main > li > a::before {
+
+		display: none;
+
+	}
+
+	.main-navigation #menu-main li,
+
+	.main-navigation #menu-main li .sub-menu li {
+
+		padding: 0;
+
+	}
+
+	.main-navigation #menu-main li a,
+
+	.main-navigation #menu-main li .sub-menu li a {
+
+		padding: 15px 20px;
+
+		background: none !important;
+
+		color: #fff;
+
+		font-weight: 300;
+
+	}
+
+	.main-navigation #menu-main li a,
+
+	.main-navigation #menu-main li .sub-menu li:last-child > a,
+
+	.main-navigation #menu-main li .sub-menu li a {
+
+		border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+
+	}
+
+	.main-navigation #menu-main li .sub-menu {
+
+		border: 0;
+
+		width: 100%;
+
+		background: rgba(255, 255, 255, .04);
+
+		margin: 0;
+
+		top: 0 !important;
+
+		left: 0 !important;
+
+		-webkit-transition: none;
+
+		-moz-transition:    none;
+
+		transition:         none;
+
+		-webkit-transform: none;
+
+		-moz-transform:    none;
+
+		-ms-transform:     none;
+
+		-o-transform:      none;
+
+		transform:         none;
+
+	}
+
+	.main-navigation .menu-item-has-children .dashicons {
+
+		background: rgba(255, 255, 255, .05);
+
+		height: 32px;
+
+		position: absolute;
+
+		right: 8px;
+
+		top: 8px;
+
+		width: 32px;
+
+		line-height: 32px;
+
+		border-radius: 3px;
+
+		cursor: pointer;
+
+		z-index: 999;
+
+	}
+
+	.main-navigation .menu-item-has-children.active > .dashicons.dashicons-arrow-down:before {
+
+		content: "\f142";
+
+	}
+
+	.main-navigation li:hover > .sub-menu {
+
+		opacity: 0;
+
+		visibility: hidden;
+
+	}
+
+	.main-navigation .menu-item-has-children.active > .sub-menu {
+
+		position: inherit;
+
+		opacity: 1;
+
+		visibility: visible;
+
+	}
+
+	.main-navigation #menu-main .sub-menu li:last-child {
+
+		border: 0;
+
+	}
+
+	.widget {
+
+		margin-bottom: 15px;
+
+	}
+
+	.widget_search {
+
+		float: none;
+
+	}
+
+}
+
+@media only screen and (max-width: 768px), (max-device-width: 768px) {
+
+	.grid .columns {
+
+		width: 100%;
+
+		margin-right: 0;
+
+	}
+
+	.search-box {
+
+		display: none;
+
+	}
+
+	.site-main {
+
+		margin-bottom: 40px !important;
+
+	}
+
+	.site-info,
+
+	.site-network {
+
+		float: none;
+
+		width: auto;
+
+		text-align: center;
+
+		margin: 10px 0;
+
+	}
+
+	.site-network .social {
+
+		text-align: center;
+
+	}
+
+	.site-main .post.hentry {
+
+		width: auto;
+
+		float: none;
+
+		padding: 0;
+
+	}
+
+	.site-main .post.hentry:nth-child(2n) {
+
+		padding-left: 0;
+
+	}
+
+	.comments-area .children li {
+
+		padding-left: 0;
+
+	}
+
+	#menu-shortcode-list li {
+
+		width: 50%;
+
+	}
+
+}
+
+@media only screen and (max-width: 480px), (max-device-width: 480px) {
+
+	.comment-respond .comment-form .comment-form-author,
+
+	.comment-respond .comment-form .comment-form-email,
+
+	.comment-respond .comment-form .comment-form-url {
+
+		width: 100%;
+
+		margin: 0 0 20px;
+
+	}
+
+	#page {
+
+		margin-bottom: 0;
+
+	}
+
+	.site-footer {
+
+		padding: 30px 20px;
+
+	}
+
+	.entry-meta > span {
+
+		white-space: nowrap;
+
+	}
+
+	.entry-meta .comments-link,
+
+	.entry-meta .cat-links {
+
+		display: none;
+
+	}
+
+	#menu-shortcode-list li {
+
+		width: auto;
+
+		float: none;
+
+	}
+
+}
+

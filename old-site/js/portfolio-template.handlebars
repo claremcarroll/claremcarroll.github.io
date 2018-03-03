@@ -1,0 +1,17 @@
+
+    {{#each projects}}
+
+    <li>    
+
+        <a href="#projects" data-slideid="0" class="open-gallery-link ">
+        
+        <img src="{{this.cover}}" alt="{{this.name}}" title="{{this.name}}">
+
+        <div class="text">
+          <h2>{{this.name}}</h2>
+        </div>
+
+        </a>
+    </li>
+
+    {{/each}}

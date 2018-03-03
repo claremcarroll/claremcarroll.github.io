@@ -1,0 +1,597 @@
+/* ===============
+   VRB Site Css
+   =============== */
+
+@font-face {
+    font-family:'VRBFoto';
+    src: url("../fonts/VRBFoto-Regular.otf") format("opentype");
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    background-color: #2D1F51;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'VRBFoto', sans-serif;
+    letter-spacing: 1px;
+    font-size: 18px;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+p { 
+    line-height: 30px; 
+ }
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+a.svg:after {
+  content: ""; 
+  position: absolute; 
+  top: 0; 
+  right: 0; 
+  bottom: 0; 
+  left: 0;
+}
+
+.rel {
+    position: relative;
+}
+
+.abs {
+    position: absolute;
+}
+
+
+/*Main Photo Styles*/
+
+.lgfotowrap{
+    width: 75%;
+    display: inline-block;
+}
+
+
+.lgfoto{
+    width: 100%;
+}
+
+
+.mainfoto {
+    padding-top: 50px;
+}
+
+/*Arrow Styles*/
+
+.arrow {
+    vertical-align: middle;
+    width: 60px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+/*Main Photo Info Styles*/
+
+.info-text {
+    width: 100%;
+    margin: 0;
+    padding-bottom: 13px;
+    padding-right: 15px;
+}
+
+.ups {
+    width: 65px;
+}
+
+.username {
+    font-weight: 300;
+    letter-spacing: 2px;
+    padding-bottom: 10px;
+}
+
+.left {
+    float: left;
+    text-align: left;
+}
+
+.date {
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-right: 10px;
+}
+
+.right {
+    float: right;
+    text-align: right;
+    padding-top: 20px;
+}
+
+.info-text-bottom {
+    width: 100%;
+    margin: 0;
+}
+
+.left-bottom {
+    float: left;
+    text-align: left;
+}
+
+.right-bottom {
+    float: right;
+    text-align: right;
+}
+
+/*Photosphere Styles*/
+
+.photorow {
+    padding-right: 12%;
+    padding-left: 12%;
+}
+
+.photorow .img {
+    text-align: center;
+    padding: 22px;
+}
+
+.photorow .img .caption{
+/*    visibility: hidden;*/
+    /*display: none;*/
+    -webkit-opacity: 0;
+       -moz-opacity: 0;
+            opacity: 0;
+    -webkit-transition: all 0.25s ease-in-out;
+       -moz-transition: all 0.25s ease-in-out;
+        -ms-transition: all 0.25s ease-in-out;
+         -o-transition: all 0.25s ease-in-out;
+            transition: all 0.25s ease-in-out;
+}
+
+.photorow .img:hover .caption{
+/*    visibility: visible;*/
+    /*display: inline-block;*/
+    -webkit-opacity: 1;
+       -moz-opacity: 1;
+            opacity: 1;
+
+    -webkit-transition: all 0.25s ease-in-out;
+       -moz-transition: all 0.25s ease-in-out;
+        -ms-transition: all 0.25s ease-in-out;
+         -o-transition: all 0.25s ease-in-out;
+            transition: all 0.25s ease-in-out;
+}
+
+.scroll {
+
+    clip-path: circle(50% at center);
+        -webkit-clip-path: circle(50% at center); 
+    position:absolute;
+    width: 100%;
+    height: 100px;
+    background-size: auto 100% !important;
+    text-align: center;
+    float: center;
+    overflow: hidden;
+    background-position: 0px;
+    
+}
+
+.photo-section {
+    padding-bottom: 35px;
+    text-align: center;
+    background: #FFFFFF;
+    z-index: 10;
+    position: relative;
+}
+
+/* Nav Styles */
+
+.center-logo{
+    text-align: center;
+}
+
+.header {
+    background: #FFFFFF;
+    box-shadow: 0px 3px 5px rgba(0,0,0,0.3);
+    padding-top: 12px;
+    padding-bottom: 6px;
+
+    width: 100%;
+    height: 80px;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    -webkit-transition: height 0.3s;
+    -moz-transition: height 0.3s;
+    -ms-transition: height 0.3s;
+    -o-transition: height 0.3s;
+    transition: height 0.3s;
+
+    z-index: 100;
+}
+
+.header #vrblogo {
+    height: 50px;
+    -webkit-transition: height 0.3s;
+    -moz-transition: height 0.3s;
+    -ms-transition: height 0.3s;
+    -o-transition: height 0.3s;
+    transition: height 0.3s;
+}
+
+.header.smaller {
+    height: 50px;
+}
+.header.smaller #vrblogo {
+    height: 30px;
+    -webkit-transition: height 0.3s;
+    -moz-transition: height 0.3s;
+    -ms-transition: height 0.3s;
+    -o-transition: height 0.3s;
+    transition: height 0.3s;
+}
+
+.st0{fill:none;stroke:url(#SVGID_1_);stroke-width:20;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+.st1{fill:none;stroke:url(#SVGID_2_);stroke-width:20;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+
+
+
+/* Responsive Styles */
+
+
+/*XL*/
+@media(min-width: 1200px) {
+
+    /*Photosphere Styles*/
+
+    .photo-section {
+        padding-top: 100px;
+    }
+
+    .photorow {
+        padding-top: 30px;
+    }
+
+    .photorow .img {
+        padding: 22px;
+    }
+
+    .lgfotowrap{
+        width: 75%;
+    }
+
+    /*Photosphere Info Styles*/
+
+    .info-text-bottom { 
+        padding-top: 10px;  
+        padding-bottom: 20px;  
+        font-size: 22px; 
+    }
+
+    .date {
+        font-size: 19px;
+    }
+
+    .social-icon {
+        width: 26px;
+    }
+
+    .username {
+        color: #2A155C;
+        font-weight: 300;
+        font-size: 28px;
+        letter-spacing: 2px;
+        padding-bottom: 10px;
+
+    }
+
+    .eye {
+        width: 24px;
+        vertical-align: middle;
+        padding-bottom: 5px;
+    }
+
+    .heart {
+        width: 21px;
+        vertical-align: middle;
+        padding-bottom: 5px;
+    }
+
+    .right {
+        padding-top: 16px;
+    }
+
+    .left {
+        padding-bottom: 8px;
+    }
+
+    .info-text {
+        width: 100%;
+        margin: 0;
+        padding-bottom: 10px;
+        padding-right: 0px;
+    }
+
+}
+
+/* MD&LG */
+@media(max-width: 1199px) {
+
+
+   /*Photosphere Styles*/
+
+    .photo-section {
+        padding-top: 100px;
+    }
+
+    .photorow .img {
+        padding: 18px;
+    }
+
+    .lgfotowrap{
+        width: 75%;
+    }
+
+    /*Photosphere Info Styles*/
+
+    .date {
+        font-size: 19px;
+    }
+
+    .social-icon {
+        width: 26px;
+    }
+
+    .username {
+
+        color: #2A155C;
+        font-weight: 300;
+        font-size: 28px;
+        letter-spacing: 2px;
+        padding-bottom: 10px;
+
+    }
+
+    .eye {
+        width: 24px;
+        vertical-align: middle;
+        padding-bottom: 5px;
+    }
+
+    .heart {
+        width: 21px;
+        vertical-align: middle;
+        padding-bottom: 5px;
+    }
+
+    .right {
+        padding-top: 16px;
+    }
+
+    .left {
+        padding-bottom: 8px;
+    }
+
+    .info-text {
+        width: 100%;
+        margin: 0;
+        padding-bottom: 10px;
+        padding-right: 0px;
+    }
+
+    .info-text-bottom {
+        padding-top: 10px;  
+        padding-bottom: 30px;  
+        font-size: 22px;
+    }
+
+}
+
+/*SM*/
+@media(max-width:766px) {
+
+
+    /* Nav Section Styles */
+
+    .header {
+        height: 60px;
+    }
+
+    .header #vrblogo {
+        display: block;
+        float: none;
+        margin: 0 auto;
+        height: 40px;
+        line-height:100px;
+    }
+    
+    .header.smaller {
+        height: 45px;
+    }
+    .header.smaller #vrblogo {
+        height: 25px;
+        line-height: 40px;
+        font-size: 30px;
+    }
+
+
+    /* Arrow Styles */
+    .arrow {
+        width: 50px;
+        display: none;
+    }
+
+
+    /* Photosphere Styles */
+
+    .photo-section {
+        position: relative;
+        padding-top: 75px;
+    }
+
+    .photorow {
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+
+    .photorow img {
+        padding: 10px !important;
+    }
+
+    .lgfotowrap{
+        width: 100%;
+    }
+
+    /*Photosphere Info Styles*/
+
+    .date {
+        font-size: 16px;
+    }
+
+    .social-icon {
+        width: 22px;
+    }
+
+    .username {
+
+        color: #2A155C;
+        font-weight: 300;
+        font-size: 25px;
+        letter-spacing: 2px;
+        padding-bottom: 10px;
+
+    }
+
+    .eye {
+        width: 22px;
+        vertical-align: middle;
+        padding-bottom: 5px;
+    }
+
+    .heart {
+        width: 19px;
+        vertical-align: middle;
+        padding-bottom: 5px;
+    }
+
+    .ups {
+        width: 45px;
+    }
+
+    .right {
+        padding-top: 7px;
+    }
+
+    .left {
+        padding-bottom: 8px;
+    }
+
+    .info-text {
+        width: 100%;
+        margin: 0;
+        padding-bottom: 0px;
+        padding-right: 0px;
+    }
+
+    .info-text-bottom {
+        padding-top: 10px;  
+        padding-bottom: 30px;  
+        font-size: 20px;
+    }
+}
+
+ /* XS */ 
+@media only screen and (max-width : 480px) {
+
+    /* Main Photo Styles */
+    .lgfotowrap{
+        width: 95%;
+    }
+
+    .mainfoto {
+        padding-top: 10px;
+    }
+
+
+    /*Photosphere Styles*/
+    .photorow img {
+        padding: 8px;
+    }
+
+    .photorow {
+        padding-right: 2%;
+        padding-left: 2%;
+    }
+
+    .lgfotowrap{
+        width: 100%;
+    }
+
+
+
+    /* Photosphere Info Styles */
+
+    .date {
+        font-size: 13.5px;
+    }
+
+    .social-icon {
+        width: 20px;
+    }
+
+    .username {
+
+        color: #2A155C;
+        font-weight: 300;
+        font-size: 20px;
+        letter-spacing: 2px;
+        padding-bottom: 10px;
+
+    }
+
+    .eye {
+        width: 20px;
+        vertical-align: middle;
+        padding-bottom: 5px;
+    }
+
+    .heart {
+        width: 17px;
+        vertical-align: middle;
+        padding-bottom: 5px;
+    }
+
+    .ups {
+        width: 35px;
+    }
+
+    .right {
+        padding-top: 3px;
+    }
+
+    .left {
+        padding-bottom: 8px;
+    }
+
+    .info-text {
+        width: 100%;
+        margin: 0;
+        padding-bottom: 0px;
+        padding-right: 0px;
+    }
+
+    .info-text-bottom {
+        padding-top: 10px;  
+        padding-bottom: 30px;  
+        font-size: 18px;
+    }
+}
+
+

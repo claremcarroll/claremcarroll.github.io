@@ -1,0 +1,264 @@
+/**
+ * @version    1.5
+ * @package    Corsa
+ * @author     WooRockets Team <support@woorockets.com>
+ * @copyright  Copyright (C) 2014 WooRockets.com. All Rights Reserved.
+ * @license    GNU/GPL v2 or later http://www.gnu.org/licenses/gpl-2.0.html
+ *
+ * Websites: http://www.woorockets.com
+ */
+#col-left {
+	float: left;
+}
+.about-wrap .feature-section.line {
+	border-bottom: 1px solid #ddd;
+	box-shadow: 0 1px 0 rgba(255, 255, 255, 0.85);
+	margin-bottom: 50px;
+	padding-bottom: 0;
+}
+.corsa-welcome h2 {
+	font-size: 24px;
+	color: #444;
+	font-weight: 700;
+}
+.corsa-welcome .notice-success {
+	border-left-color: #7ad03a;
+	width: 100% !important;
+}
+.corsa-welcome .notice-success p {
+	margin: 0;
+	font-size: 13px;
+	color: #888;
+}
+.corsa-welcome .notice-success > div {
+	width: 65%;
+}
+.corsa-welcome .notice-success > span {
+	display: inline-block;
+	text-align: right;
+	width: 24%;
+	margin-top: 6px;
+}
+.corsa-features fieldset {
+	border: 1px solid #dadbdc;
+	padding: 20px 20px 35px;
+	margin-bottom: 50px;
+}
+.corsa-features fieldset h2 {
+	text-transform: uppercase;
+	padding: 10px 5px;
+}
+.corsa-welcome .dashicons {
+	color: #222;
+	margin-right: 6px;
+}
+.corsa-welcome .big-icon .dashicons {
+	font-size: 32px;
+}
+.corsa-welcome .big-icon a {
+	text-decoration: none;
+}
+.products {
+	text-align: center;
+}
+.corsa-welcome .head {
+	text-transform: uppercase;
+	position: relative;
+	margin: 0 0 25px 96px;
+	padding: 0;
+}
+.corsa-welcome .head:after {
+	content: "***";
+	position: absolute;
+	display: block;
+	left: 0;
+	right: 0;
+	top: 45px;
+}
+.corsa-welcome .products .three-col {
+	overflow: hidden;
+	padding-left: 96px;
+	margin-top: 70px;
+}
+.about-wrap .three-col>div {
+    position: relative;
+    width: 29.95%;
+    margin-right: 20px;
+    float: left;
+}
+.corsa-welcome .products .three-col > div a {
+	width: 170px;
+	height: 107px;
+	border: 2px solid #dadbdc;
+	position: relative;
+	display: block;
+	-webkit-border-radius: 1px;
+	-moz-border-radius:    1px;
+	-ms-border-radius:     1px;
+	border-radius:         1px;
+}
+.corsa-welcome .products .three-col > div img {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+}
+.about-wrap .two-col>div {
+    position: relative;
+    width: 47.95%;
+    margin-right: 20px;
+    float: left;
+}
+.corsa-welcome .footer {
+	text-align: center;
+}
+.corsa-welcome .footer a {
+	color: #c7c7c7;
+	text-decoration: none;
+}
+.corsa-welcome .footer a span {
+	display: block;
+	margin-top: 10px;
+}
+.corsa-welcome .footer h4 {
+	color: #444;
+	line-height: 26px;
+}
+.corsa-welcome .footer .button-primary {
+	height: 54px;
+	line-height: 50px;
+	color: #fff;
+	font-size: 24px;
+	padding: 0 50px;
+	margin-top: 20px;
+}
+#wpcontent .woorockets-welcome-message {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	z-index: 10000;
+	color: #fff;
+	background: #0074a2;
+}
+#wpcontent .woorockets-welcome-message .woorockets-logo {
+	float: left;
+	background: #005d82;
+	border-right: 1px solid #0080b1;
+	width: 70px;
+	height: 70px;
+	position: relative;
+}
+#wpcontent .woorockets-welcome-message .woorockets-logo img {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+}
+#wpcontent .woorockets-welcome-message p {
+	padding: 25px 90px 0;
+	margin: 0;
+}
+#wpcontent .woorockets-welcome-message p a {
+	color: #fff;
+	text-decoration: underline;
+}
+#wpcontent .woorockets-welcome-message .dismiss {
+	color: #005171;
+	text-decoration: none;
+}
+#wpcontent .woorockets-welcome-message .dismiss:hover {
+	color: #003b52;
+}
+#wpcontent .woorockets-welcome-message .dismiss span {
+	bottom: 0;
+	font-size: 36px;
+	line-height: 18px;
+	margin: auto;
+	position: absolute;
+	right: 20px;
+	top: 0;
+}
+#wr-promo-ab {
+	background: url(../img/welcome/bg-wr-promo.jpg) center top no-repeat;
+	background-size: auto 100%;
+	text-align: center;
+	overflow: hidden;
+	margin-bottom: 40px;
+}
+#wr-promo-ab h3 {
+	margin: 70px 0 30px;
+	color: #fff;
+	font-size: 32px;
+	font-weight: bold;
+	line-height: 1.1;
+}
+#wr-promo-ab ul {
+	margin: 0 10px 25px 10px;
+	padding: 0;
+	list-style: none;
+	color: #6c7885;
+}
+#wr-promo-ab li {
+	display: inline-block;
+	line-height: 31px;
+	margin: 0 5px 10px;
+}
+#wr-promo-ab li span {
+	background: #6c7886;
+	float: left;
+	border-radius: 50%;
+	-o-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	margin: 0 5px 0 0;
+}
+#wr-promo-ab li img {
+	margin: 8px;
+	float: left !important;
+}
+#wr-promo-ab .btn-premium {
+	margin: 0 0 60px 0;
+}
+#wr-promo-ab .btn-premium a {
+	display: inline-block;   
+	margin: 0;
+	background: #418858;
+	color: #fff;
+	padding: 10px 25px;
+	border-radius: 3px;
+	-o-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	font-size: 11px;
+	box-shadow: 0 4px 0 0 #2a6d40;
+	-o-box-shadow: 0 4px 0 0 #2a6d40;
+	-ms-box-shadow: 0 4px 0 0 #2a6d40;
+	-moz-box-shadow: 0 4px 0 0 #2a6d40;
+	-webkit-box-shadow: 0 4px 0 0 #2a6d40;
+	text-decoration: none;
+	transition: all 0.3s;
+	-o-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+}
+#wr-promo-ab .btn-premium strong {
+	font-size: 18px;
+	display: block;
+}
+#wr-promo-ab .btn-premium a:hover {
+	background: #2a6d40;
+	text-decoration:none;
+	box-shadow: 0 4px 0 0 #418858;
+	-o-box-shadow: 0 4px 0 0 #418858;
+	-ms-box-shadow: 0 4px 0 0 #418858;
+	-moz-box-shadow: 0 4px 0 0 #418858;
+	-webkit-box-shadow: 0 4px 0 0 #418858;
+}

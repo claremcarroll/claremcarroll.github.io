@@ -1,0 +1,412 @@
+<!-- /contents/page.hbs -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="apple-touch-icon" sizes="57x57" href="../img/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../img/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../img/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../img/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../img/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../img/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../img/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../img/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../img/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="../img/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../img/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="../img/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="../img/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta property="og:title" content="Clare Marie Carroll">
+    <meta property="og:description" content="Clare Marie Carroll : Creative Technologist">
+    <meta property="og:image" content="http://claremarie.info/img/coverphoto.png">
+    <meta property="og:url" content="claremarie.info">
+
+    <meta name="twitter:title" content="Clare Marie Carroll">
+    <meta name="twitter:description" content="Clare Marie Carroll : Creative Technologist">
+    <meta name="twitter:image" content="http://claremarie.info/img/coverphoto.png">
+    <meta name="twitter:card" content="claremarie.info">
+
+    <title>Clare Marie Carroll</title>
+
+    <meta name="description" content="Clare Marie Carroll : Creative Technologist" />
+    <meta name="keywords" content="clare, carroll, clare carroll, clare marie, clare marie carroll, design technologist, creative technologist, nyc" />
+
+    <link rel="stylesheet" type="text/css" href="../css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <link rel="stylesheet" type="text/css" href="../css/style-responsive.css" />
+    <link rel="stylesheet" type="text/css" href="../css/dropdown.css" />
+    <link rel="stylesheet" type="text/css" href="../css/modaal.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400|Roboto+Slab:300,400,700" rel="stylesheet">
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css' rel='stylesheet' type='text/css'>
+    
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+   <![endif]-->
+
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.sticky/1.0/jquery.sticky.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fitvids/1.2.0/jquery.fitvids.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-parallax/1.1.3/jquery-parallax-min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" type="text/javascript"></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.6/handlebars.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vivus/0.4.0/vivus.min.js"></script>
+    <script src="https://npmcdn.com/imagesloaded@4.1/imagesloaded.pkgd.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/ocanvas/2.8.3/ocanvas.min.js"></script>
+
+    <script src="../js/my3.js"></script>
+    <script src="../js/modaal.min.js"></script>
+    <script src="../js/main.js"></script>
+
+
+
+    <script>
+
+        Handlebars.registerHelper( "regex", function ( name ){
+            return "projects/"+ name.replace(/ +/g, '-').toLowerCase()+".html";
+        });
+
+
+    </script>
+
+
+
+    <link rel="stylesheet" type="text/css" href="../css/stylesub.css" />
+
+
+</head>
+
+<body>
+
+
+    <!-- <div class="modal">
+        <div class="modal-overlay">
+            <div class="modal-img">
+                <span class="x">x</span>
+                <img class="modal-image" src="">
+            </div>
+
+        </div>
+    </div> -->
+
+    <a href="#" aria-hidden="true" class="image-modal"></a>
+
+
+    <div class="container">
+
+        <!-- section menu -->
+
+        <section class="menu" id="menu" style="background:#15486a !important;">
+
+            
+            <div class="menu-content">
+
+                    <a href="../index.html" class="active menu-item"><div class="logo" id="logo">CLARE MARIE CARROLL</div></a>
+
+                    <ul id="menu">
+<!--                     <li><a href="index.html" class="menu-item">HOME</a>
+                    </li> -->
+                    <div class="dropdown">
+                      <li class="active"><a href="../work.html" class="../menu-item">WORK</a></li>
+                      <div class="dropdown-content">
+                      <a class="drop-link" href="../uxdesign.html">UX DESIGN</a>
+                        <a class="drop-link" href="../development.html">DEVELOPMENT</a>
+                        
+                        <a class="drop-link" href="../visualdesign.html">VISUAL DESIGN</a>
+                      </div>
+                    </div>
+                    <li><a href="../about.html" class="menu-item">ABOUT</a>
+                    </li>
+                    </ul>
+                </div>
+
+                
+
+            <div class="menu-drop" id="menu-drop">
+
+                <div class="content hidden">
+                    <ul id="menu">
+                        <li><a href="../index.html" class="menu-item">HOME</a>
+                        </li>
+                        <li><a href="../uxdesign.html" class="menu-item">UX DESIGN</a>
+                        </li>
+                        <li><a href="../development.html" class="menu-item">DEVELOPMENT</a>
+                        </li>
+                        <li><a href="../visualdesign.html" class="menu-item">VISUAL DESIGN</a>
+                        </li>
+                        <li><a href="../about.html" class="menu-item">ABOUT</a>
+                        </li>
+                        
+                    </ul>
+                </div>
+
+            </div>
+
+                <div id="hamburger">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+            </div>
+
+        </section>
+
+        <div class="project-nav">
+
+
+
+                <div class="prev">
+                    
+                </div>
+
+
+                <div class="section">
+                    <a href="../uxdesign.html">UX DESIGN PROJECTS</a>
+                </div>
+
+
+                <div class="next">
+                   <a href="robin.html">next project &#x2192;</a>
+                </div>
+
+        </div>
+
+
+
+        <div class="clear"></div>
+
+
+
+        <section class="project-body" id="">
+
+            <div class="project-row1">
+
+                <div class="header">
+
+                    <h1>MHCI Capstone + Bloomberg LP</h1>
+
+                </div>
+
+            </div>
+
+            <div class="project-row2">
+
+                <div class="desc">
+
+                    <p>This is my capstone project for Carnegie Mellon’s Masters in Human-Computer Interaction Program. For this project my team worked closely with Bloomberg to try to make financial visualizations more accessible to those who are visually impaired.<br><br> Click <a href="stockgrok.html">here</a> For more information about our prototyping and development process.</p>
+
+                </div>
+
+                <div class="facts">
+
+                    <table style="width:100%">
+
+                        <tr>
+                            <td class="category"><span class="type">Year: </span></td>
+                            <td class="result"><span class="value">2016 / 2017</span></td> 
+                        </tr>
+
+                        <tr>
+                            <td class="category"><span class="type">Client: </span></td>
+                            <td class="result"><span class="value">Bloomberg LP</span></td> 
+                        </tr>
+                        
+
+
+
+                        <tr>
+                            <td class="category"><span class="type">Role: </span></td>
+                            <td class="result"><span class="value">Tech Lead</span></td> 
+                        </tr>
+                        
+
+                        <tr>
+                            <td class="category"><span class="type">Duration: </span></td>
+                            <td class="result"><span class="value">9 Months</span></td> 
+                        </tr>
+
+
+
+
+                    
+
+                    
+
+
+
+
+                    </table>
+
+                </div>
+                
+            </div>
+
+                <hr>
+
+            
+
+                <div class="project-row">
+                    
+                        <div class="left"><h1>The Problem Space</h1></div> <div class="right"><p>Visual cues in charts are essential in financial decision-making. The sudden plummet of a stock price, the steady rise of an index fund, the outlier within a sector: these are all visual triggers that sighted finance experts regularly use to identify investment opportunities. <br><br>Because many financial data visualizations lack the necessary alternate text to be read by screen readers, people with visual impairments (PWVI) are at a huge disadvantage when it comes to making financial decisions as crucial information is being withheld. <br><br>For our masters' capstone project, we were asked to explore the domains of finance and visual accessibility, with the goal of giving PWVI better access to financial visualizations. </p></div>
+                        <hr>
+                </div>
+
+
+
+
+                <div class="project-row">
+                    
+                        <div class="left"><h1>Our Goals</h1></div> <div class="right"><p>In our domain analysis, we saw that “people with visual impairments in finance” encompasses people across the spectrums of sight and prior financial knowledge. We scoped our focus to the following goal: <br><br><i>We want to create a user interface to help financially literate people who are blind confidently investigate market trends to identify ideal entry/ exit points for investment decisions. </i> </p></div>
+                        <hr>
+
+                </div>
+
+
+
+
+                <div class="project-row">
+                    
+                        <div class="left"><h1>Our Questions</h1></div><div class="right"><p>Before we could design a user interface, we had to fully understand both the accessibility and financial visualizations domains. Some of our guiding questions for our research process were: <br><br><ol><li>How do people with visual impairments understand and use data?</li><li>What data and visualizations are most important to finance experts?</li><li> How do people across the sighted spectrum communicate with each other?</ol></p></div>
+                        <hr>
+                    
+                </div>
+
+
+
+
+                <div class="project-row">
+                    
+                        <div class="left"><h1>Research Process</h1></div><div class="right"><p><b>Question Storming:</b> We worked with our client to create a list of questions to set the project scope.<br><br><b>Empathy Exercise:</b> After researching best practices in empathy exercises, we targeted our exercise to familiar finance tasks using a screen reader, creating a protocol designed to reduce prejudice and better understand the barriers that PWVI face. <br><br><b>Literature Review:</b> We read a large assortment of academic research papers on topics ranging from accessibility, vision loss, cognition, and data visualization.<br><br><b>Emerging Tech Survey:</b> We did an emerging technology survey to make sure we were apprised of new technologies that could help our users, such as haptic and tactile interfaces and 3D sound and data sonification experiments.<br><br><b>Early Prototyping:</b> We created early prototypes to explore the forms of potential solutions. We experimented with tactile materials and audio cues, testing internally with blindfold simulation to identify directions for higher fidelity prototyping and user testing.<br><br><b>Expert Interviews:</b> We conducted interviews with accessibility and emerging technology researchers as well as industry accessibility and finance technologists in order to get a better understanding of our problem space.<br><br><b>User Interviews:</b> We conducted six interviews with finance experts and 10 interviews with users who are legally blind, five from birth or childhood and five who lost their sight later in life.<br><br><b>Interpretation Sessions:</b> In order to synthesize findings from our user interviews, we interpreted our notes by modeling user workflows and identifying user breakdowns and attitudes. <br><br><b>Affinity Diagram:</b> From over 600 notes created in our interpretation sessions, we clustered notes into layers of logical groupings developed from the bottom up. Notes were color coded by the user type in order to see which clusters applied to both sighted finance experts and PWVI.<br><br><img class="nodrop" src="../img/bloomberg/clare-secondary.jpg"></p></div>
+                        <hr>
+                    
+                </div>
+
+
+
+
+                <div class="project-row">
+                    
+                        <div class="left"><h1>Research Insights</h1></div><div class="right"><p><ol><li><b>People who help me are interfaces, too.</b><br>The transfer of information by a sighted individual is subject to that person’s interpretation and expertise. </li><li> <b>My AT can only provide one piece of info at a time.</b><br>It’s hard to view all parts of the puzzle at once because screen readers only provide one piece of information at a time. </li><li> <b>I use charts as a communication tool.</b><br>Highlighting visual cues in charts is the easiest way to persuade colleagues and clients of investment decisions. </li><li> <b>There is no normal.</b><br>Both PWVI and finance experts depend on their idiosyncratic workflows to get things done. </li><li>  <b>Changing tools is hard, so it better be worth it.</b><br>A product must offer a meaningful improvement to justify altering a hard-earned workflow. </li><li> <b>I use visuospatial metaphors as mnemonics.</b><br>Visual and spatial reference points help bridge communication between sighted and blind colleagues.</li></ol></p></div>
+                        <hr>
+                    
+                </div>
+
+
+
+
+                <div class="project-row">
+                    
+                        <div class="left"><h1>Opportunity Spaces</h1></div><div class="right"><p>From our research and insights, we narrowed down to the following opportunity spaces: <br> <br> <p><b>Context for Visualizations</b></p><ul><li>Provide better descriptions of charts</li><li>Create a bridge between visuals and language</li></ul><br><p><b>Control in Data Navigation</b><p><ul><li>Provide PWVI the ability to “jump around”</li><li>Allow users to dive in deeper</li><li>Prototype multi-modal tools</li><ul><p><br><b>Confidence in Data Accuracy</b></p><ul><li>Ensure that data is laid out correctly</li><li>Equally useful for sighted financial experts</li></ul><p><br><b>Communication of Data</b></p><ul><li>Help sighted and PWVI communicate</li><li>Share data and visualizations</li></ul></p></div>
+                        <hr>
+                    
+                </div>
+
+
+
+
+                <div class="project-row">
+                    
+                        <div class="left"><h1>Product Design</h1></div><div class="right"><p>Using our research, we began to rapidly generate as many ideas as possible in order to get a wide breadth of ideation. We then voted on the most promising ideas, and plotted them on a matrix that addressed the difficulty and impact of each idea. From this impact/difficulty matrix, we narrowed down to twelve ideas which we then rapidly prototyped and tested them with employees at Bloomberg.<br><br>From the results of our testing, we scoped down to one of our prototypes that allowed users to traverse through sonified price data, but in order to determine the best modality for this traversal we prototyped three different versions using a knob, keyboard, and drawing tablet. After user-testing these prototypes with people with visual impairments, we found that a keyboard system both made the most sense for the existing financial expert workflow and enabled users to navigate without purchasing any additional hardware. During this testing we also found that in order to allow our users to make meaningful financial decisions, we needed to provide more context to the price history.<br><br>In order to achieve this, we pivoted to sonifying the relationship between the price and a study or analysis over time. For the sake of our prototype and testing we used the 50 Day Simple Moving Average. We decided to build our solution as a web-based final product that it could be easily accessible on any operating system, and eventually across platforms (desktop, phone, tablet. etc.). We user-tested our final product with both people with visual impairment and sighted finance experts, and found that both were able to pick up on nonvisual cues about the changing trends in a security’s price history.</p></div>
+                        <hr>
+                    
+                </div>
+
+
+
+
+                <div class="project-row">
+                    
+                        <div class="left"><h1>Stockgrok</h1></div><div class="right"><p>Our final product can be found <a href="https://stockgrok.github.io/prototype/" target="_blank" >here<br><br><img class="dropshadow" src=" ../img/bloomberg/stockgrok.png"></a>.<br>Click <a href="stockgrok.html">here</a> for more information about how we developed Stockgrok.</p></div>
+                        <hr>
+
+                </div>
+
+
+
+
+                <div class="project-row">
+                    
+                        <div class="left"><h1>Team</h1></div><div class="right"><p><img src="../img/bloomberg/team.png" class="nodrop"><br><br>From left to right: Conrad Bassett-Bouchard, Emily Saltz, Nora Tane, Clare Carroll, and Jayanth Prathipati.</p></div>
+                        <hr>
+
+                </div>
+
+
+
+
+
+
+
+
+
+            <!-- <div class="project-content"> -->
+            
+<!--                 <div class="left">
+                    <img class="cover" src="../img/covers/b7g.png">   
+                </div>
+
+                <div class="right">
+                    <h1>MHCI Capstone + Bloomberg LP</h1>
+                    <br>
+                    PROJECT DETAILS<br>
+                    <br><br>
+
+                    TEAM<br>
+                    <br><Br>
+
+                    MY ROLE<br>
+                    <br><br>
+                    
+                   
+                </div> -->
+
+        <!--     </div> -->
+
+         <!--    <div class="project-description"> -->
+                <!--  -->
+           <!--  </div> -->
+
+
+
+
+            
+        </section>
+
+
+        <div class="clear"></div>
+
+
+
+        <section class="foot">
+            <div class="menu-footer">
+
+                <a href="#home">Home</a>
+                <a href="https://www.linkedin.com/in/claremcarroll" target="_blank">LinkedIn</a>
+                <a href="https://www.behance.net/claremariecarroll" target="_blank">Behance</a>
+                <a href="https://www.instagram.com/_claremarie/" target="_blank">Instagram</a>
+                <a href="https://github.com/claremcarroll" target="_blank">Github</a>
+
+            </div>
+
+            <div class="copyright">© Clare Marie Carroll 2017</div>
+
+
+        </section>
+
+
+    </div>
+    
+
+
+</body>
+
+</html>

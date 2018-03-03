@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>360 Holiday Card</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+
+
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,700,200,300,600,500,800,900' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body>
+
+<!-- NAV SECTION --> 
+
+    <div class="header">
+        <div class="container clearfix">
+            <div class="center-logo">
+                <img id="vrblogo" src="images/webbanner.png">
+            </div>
+        </div>
+    </div>
+
+<!-- INTRO SECTION -->
+
+    <section id="intro" class="intro-section">
+            <a href="desktop.html">
+             <div class="row" id="photorow" style="height: 100%; margin: 0px;">
+                <div class="col-sm-6 home" style="height: 100%;">
+                    <div id="overlay1" class="overlay">
+                        <div class="text-overlay">
+                            <div class="text-wrap">
+                                <span style="font-weight: 200;">DESKTOP</span><br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="fullscreen-bg">
+                    <video loop muted preload='auto' poster="video/desktop.png" id="home" class="fullscreen-bg__video">
+                        <source src="video/desktop.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </a>
+            <a href="mobile.html">
+                <div class="col-sm-6 foto" style="height: 100%;">
+                    <div id="overlay2" class="overlay" >
+                        <div class="text-overlay" >
+                            <div class="text-wrap">
+                                <span style="font-weight: 200; ">MOBILE</span> <br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="fullscreen-bg2" id="video2">
+                    <video loop muted preload='auto' poster="video/mobile.png" id="foto" class="fullscreen-bg__video">
+                        <source src="video/mobile.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </a>
+            </div>
+   
+    </section>
+
+
+
+ <!-- JS STUFF -->   
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Magnific Popup core JS file -->
+    <script src="js/jquery.magnific-popup.js"></script>
+
+    <script type="text/javascript">
+
+
+
+    $( document ).ready(function() {
+        if($(window).width() <= 766) {
+            var newheight = ($(window).height() - 30)/2;
+            $('.home').height( newheight -20 + "px");
+            $('.foto').height( newheight -20 + "px");
+            $('#overlay1').height( newheight + "px");
+            $('#overlay2').height( newheight + "px");
+            $('.fullscreen-bg').height( newheight + "px");
+            $('.fullscreen-bg__video').height( newheight + "px");
+            $('.fullscreen-bg2').height( newheight + "px");
+            $('.fullscreen-bg2').css({top: newheight});
+            $('.fullscreen-bg__video2').height( newheight + "px");
+            $('body').height(newheight*2  - 20 + "px");
+        }
+        else {
+            $('.home').height('100%');
+            $('.foto').height('100%');
+            $('#overlay1').height('100%');
+            $('#overlay2').height('100%');
+            $('.fullscreen-bg').height('100%');
+            $('.fullscreen-bg__video').height('100%');
+            $('.fullscreen-bg2').height('100%');
+            $('.fullscreen-bg__video2').height('100%');
+            $('.fullscreen-bg2').css({top: 0});
+            $('#photorow').height('100%'); 
+            $('body').height($(window).height());
+        }
+        
+      
+    });
+
+    $(window).resize(function() {
+        if($(window).width() <= 766) {
+            var newheight = ($(window).height() - 30)/2;
+            $('.home').height( newheight -20 + "px");
+            $('.foto').height( newheight -20 + "px");
+            $('#overlay1').height( newheight + "px");
+            $('#overlay2').height( newheight + "px");
+            $('.fullscreen-bg').height( newheight + "px");
+            $('.fullscreen-bg__video').height( newheight + "px");
+            $('.fullscreen-bg2').height( newheight + "px");
+            $('.fullscreen-bg2').css({top:newheight});
+            $('.fullscreen-bg__video2').height( newheight + "px");
+            $('body').height(newheight*2  - 20 + "px");
+        }
+        else {
+            $('.home').height('100%');
+            $('.foto').height('100%');
+            $('#overlay1').height('100%');
+            $('#overlay2').height('100%');
+            $('.fullscreen-bg').height('100%');
+            $('.fullscreen-bg__video').height('100%');
+            $('.fullscreen-bg2').height('100%');
+            $('.fullscreen-bg__video2').height('100%'); 
+            $('.fullscreen-bg2').css({top: 0});
+            $('#photorow').height("100%");
+            $('body').height($(window).height());
+        }
+
+    });
+   
+    // Play Video on Hover
+
+       var homeVid = $("#home");
+       var overlayH = $("#overlay1");
+
+       var video1 = $(homeVid).get(0);
+
+       $(overlayH).mouseenter(function(){
+
+        $(homeVid).get(0).play();
+
+        var isPlaying1 = video1.currentTime > 0 && !video1.paused && !video1.ended && video1.readyState > 2;
+
+        if (!isPlaying1) {
+          video1.play();
+        }
+
+          
+       }).mouseleave(function(){
+
+            if(!video1.paused) {
+                video1.pause();
+            }
+
+       });
+
+       var fotoVid = $("#foto");
+       var overlayF = $("#overlay2");
+
+       var video2 = $(fotoVid).get(0);
+
+       $(overlayF).mouseenter(function(){
+
+          $(fotoVid).get(0).play();
+
+        var isPlaying2 = video2.currentTime > 0 && !video2.paused && !video2.ended && video2.readyState > 2;
+
+          if (!isPlaying2) {
+            video2.play();
+          }
+
+       }).mouseleave(function(){
+
+          if(!video2.paused) {
+            video2.pause();
+          }
+       });
+
+
+
+
+    </script>
+    
+
+</body>
+
+</html>

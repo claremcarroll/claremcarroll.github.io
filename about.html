@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta property="og:title" content="Clare Marie Carroll">
+    <meta property="og:description" content="Clare Marie Carroll : Creative Technologist">
+    <meta property="og:image" content="http://claremarie.info/img/coverphoto.png">
+    <meta property="og:url" content="claremarie.info">
+
+    <meta name="twitter:title" content="Clare Marie Carroll">
+    <meta name="twitter:description" content="Clare Marie Carroll : Creative Technologist">
+    <meta name="twitter:image" content="http://claremarie.info/img/coverphoto.png">
+    <meta name="twitter:card" content="claremarie.info">
+
+    <title>Clare Marie Carroll</title>
+
+    <meta name="description" content="Clare Marie Carroll : Creative Technologist" />
+    <meta name="keywords" content="clare, carroll, clare carroll, clare marie, clare marie carroll, design technologist, creative technologist, nyc" />
+
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/style-responsive.css" />
+    <link rel="stylesheet" type="text/css" href="css/dropdown.css" />
+    <link rel="stylesheet" type="text/css" href="css/modaal.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400" rel="stylesheet">
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.css" />
+
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+   <![endif]-->
+
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.sticky/1.0/jquery.sticky.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fitvids/1.1.0/jquery.fitvids.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-parallax/1.1.3/jquery-parallax-min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.1.1/masonry.pkgd.min.js"></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.6/handlebars.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vivus/0.4.0/vivus.min.js"></script>
+    <script src="https://npmcdn.com/imagesloaded@4.1/imagesloaded.pkgd.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/ocanvas/2.8.3/ocanvas.min.js"></script>
+    
+    <script src="js/pathformer.js"></script>
+    <script src="js/my3.js"></script>
+    <script src="js/modaal.min.js"></script>
+    <script src="js/main.js"></script>
+    
+    <script>
+
+        Handlebars.registerHelper( "regex", function ( name ){
+            return "projects/"+ name.replace(/ +/g, '-').toLowerCase()+".html";
+        });
+
+    </script>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="img/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="img/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+
+</head>
+
+<body>
+
+    <a href="#" aria-hidden="true" class="image-modal"></a>
+
+    <div id="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <div class="menu-drop" id="menu-drop">
+
+        <div class="content hidden">
+            <ul id="menu">
+                <li><a href="index.html" class="menu-item">HOME</a>
+                </li>
+                <li><a href="uxdesign.html" class="menu-item">UX DESIGN</a>
+                </li>
+                <li><a href="development.html" class="menu-item">DEVELOPMENT</a>
+                </li>
+                
+                <li><a href="visualdesign.html" class="menu-item">VISUAL DESIGN</a>
+                </li>
+                <li><a href="about.html" class="menu-item">ABOUT</a>
+                </li>
+<!--                 <li><a href="news.html" class="menu-item">NEWS</a>
+                </li> -->
+                
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="container">
+
+
+        <header id="subpage">
+
+            <div class="overlay">
+                <div class="menu-content">
+
+                    <a href="index.html" class="active menu-item"><div class="logo" id="logo">CLARE MARIE CARROLL</div></a>
+
+                    <ul id="menu">
+<!--                     <li><a href="index.html" class="menu-item">HOME</a>
+                    </li> -->
+                    <div class="dropdown">
+                      <li><a href="work.html" class="menu-item">WORK</a></li>
+                      <div class="dropdown-content">
+                        <a class="drop-link" href="uxdesign.html">UX DESIGN</a>
+                        <a class="drop-link" href="development.html">DEVELOPMENT</a>
+                        
+                        <a class="drop-link" href="visualdesign.html">VISUAL DESIGN</a>
+                      </div>
+                    </div>
+                    <li class="active"><a href="about.html" class="menu-item">ABOUT</a>
+                    </li>
+<!--                     <li><a href="news.html" class="menu-item">NEWS</a>
+                    </li> -->
+                    </ul>
+                </div>
+
+                
+
+                
+
+                
+
+<!--                 <div class="h1holder">
+                    <h2>WORK</h2>
+                </div> -->
+            </div>
+
+        </header>
+
+        <div class="clear"></div>
+
+
+        <section class="about">
+
+            <div class="about-row">
+
+                <div class="left">
+                    <img src="img/headshot.jpg">
+                </div>
+
+                <div class="right">
+                    <h1>Hi, I'm Clare.</h1>
+                    <p class="emph">I have a passion for creating interactive experiences with emerging technologies.<p>
+                        
+                    <a target="_blank" href="ClareCarroll_Resume.pdf"><button>Resume</button></a>
+                </div>
+
+
+            </div>
+
+            
+
+            <div class="additional">
+                <hr>
+
+                    <p class="reg">I recently finished my Master's degree in Human-Computer Interaction at Carnegie Mellon University with a capstone project in accessible technology at Bloomberg LP. Currently, I am an intern at Disney Imagineering R&D, designing and developing user interfaces for theme park attractions. I will be seeking full-time roles starting in December 2017.<br><br>Before graduate school, I worked for startups in New York City designing user interfaces for complex tools and virtual reality applications. In the future I hope to continue designing and developing interfaces and experiences for unique and innovative platforms and technologies.
+
+
+
+                    <p class="location"><img style="width:18px; margin-bottom: -4px;" src="http://www.myiconfinder.com/uploads/iconsets/2f1b3016a2166ee3fc7f40e802c71039-pin.png">&nbsp;&nbsp;Pasadena, CA </p>
+
+                </p>
+
+                <br><br>
+
+                <!-- <div id="accordion">
+                  <h3>Awards</h3>
+                  <div>
+                    <p>
+                        2nd Place, CHI Student Design Competition<br>
+                        Delphix Diversity in Computing Scholarship<br>
+                        Reverie Innovation Scholarship<br>
+                        Liv Mas Scholarship for dreamers, creators & innovators<br>
+                        Max Goldstein Prize for Creativity in Computing<br>
+                    </p>
+                  </div>
+                  <h3>Places my work has been presented</h3>
+                  <div>
+                    <p>
+                    CHI, SIGGRAPH, CES, Microsoft NYC, CMU Design Showcase, ITP Showcase, NYU Computer Science Showcase.
+                    </p>
+                  </div>
+                  <h3>Section 3</h3>
+                  <div>
+                    <p>
+                    Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
+                    Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
+                    ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
+                    lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
+                    </p>
+                    <ul>
+                      <li>List item one</li>
+                      <li>List item two</li>
+                      <li>List item three</li>
+                    </ul>
+                  </div>
+                  <h3>Section 4</h3>
+                  <div>
+                    <p>
+                    Cras dictum. Pellentesque habitant morbi tristique senectus et netus
+                    et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
+                    faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
+                    mauris vel est.
+                    </p>
+                    <p>
+                    Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
+                    Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+                    inceptos himenaeos.
+                    </p>
+                  </div>
+                </div> -->
+                
+     
+
+                
+
+            </div>
+
+        </section>
+
+
+        
+
+
+        <div class="clear"></div>
+
+
+
+        <section class="foot">
+            <div class="menu-footer">
+                <a href="https://www.linkedin.com/in/claremcarroll" target="_blank">LinkedIn</a>
+                <a href="https://www.behance.net/claremariecarroll" target="_blank">Behance</a>
+                <a href="https://www.instagram.com/_claremarie/" target="_blank">Instagram</a>
+                <a href="https://github.com/claremcarroll" target="_blank">Github</a>
+
+            </div>
+
+            <div class="copyright">© Clare Marie Carroll 2017</div>
+
+
+        </section>
+
+
+    </div>
+    
+
+
+</body>
+
+</html>

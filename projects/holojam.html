@@ -1,0 +1,396 @@
+<!-- /contents/page.hbs -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="apple-touch-icon" sizes="57x57" href="../img/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../img/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../img/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../img/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../img/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../img/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../img/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../img/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../img/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="../img/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../img/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="../img/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="../img/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta property="og:title" content="Clare Marie Carroll">
+    <meta property="og:description" content="Clare Marie Carroll : Creative Technologist">
+    <meta property="og:image" content="http://claremarie.info/img/coverphoto.png">
+    <meta property="og:url" content="claremarie.info">
+
+    <meta name="twitter:title" content="Clare Marie Carroll">
+    <meta name="twitter:description" content="Clare Marie Carroll : Creative Technologist">
+    <meta name="twitter:image" content="http://claremarie.info/img/coverphoto.png">
+    <meta name="twitter:card" content="claremarie.info">
+
+    <title>Clare Marie Carroll</title>
+
+    <meta name="description" content="Clare Marie Carroll : Creative Technologist" />
+    <meta name="keywords" content="clare, carroll, clare carroll, clare marie, clare marie carroll, design technologist, creative technologist, nyc" />
+
+    <link rel="stylesheet" type="text/css" href="../css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <link rel="stylesheet" type="text/css" href="../css/style-responsive.css" />
+    <link rel="stylesheet" type="text/css" href="../css/dropdown.css" />
+    <link rel="stylesheet" type="text/css" href="../css/modaal.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400|Roboto+Slab:300,400,700" rel="stylesheet">
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css' rel='stylesheet' type='text/css'>
+    
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+   <![endif]-->
+
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.sticky/1.0/jquery.sticky.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fitvids/1.2.0/jquery.fitvids.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-parallax/1.1.3/jquery-parallax-min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" type="text/javascript"></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.6/handlebars.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vivus/0.4.0/vivus.min.js"></script>
+    <script src="https://npmcdn.com/imagesloaded@4.1/imagesloaded.pkgd.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/ocanvas/2.8.3/ocanvas.min.js"></script>
+
+    <script src="../js/my3.js"></script>
+    <script src="../js/modaal.min.js"></script>
+    <script src="../js/main.js"></script>
+
+
+
+    <script>
+
+        Handlebars.registerHelper( "regex", function ( name ){
+            return "projects/"+ name.replace(/ +/g, '-').toLowerCase()+".html";
+        });
+
+
+    </script>
+
+
+
+    <link rel="stylesheet" type="text/css" href="../css/stylesub.css" />
+
+
+</head>
+
+<body>
+
+
+    <!-- <div class="modal">
+        <div class="modal-overlay">
+            <div class="modal-img">
+                <span class="x">x</span>
+                <img class="modal-image" src="">
+            </div>
+
+        </div>
+    </div> -->
+
+    <a href="#" aria-hidden="true" class="image-modal"></a>
+
+
+    <div class="container">
+
+        <!-- section menu -->
+
+        <section class="menu" id="menu" style="background:#9974af !important;">
+
+            
+            <div class="menu-content">
+
+                    <a href="../index.html" class="active menu-item"><div class="logo" id="logo">CLARE MARIE CARROLL</div></a>
+
+                    <ul id="menu">
+<!--                     <li><a href="index.html" class="menu-item">HOME</a>
+                    </li> -->
+                    <div class="dropdown">
+                      <li class="active"><a href="../work.html" class="../menu-item">WORK</a></li>
+                      <div class="dropdown-content">
+                      <a class="drop-link" href="../uxdesign.html">UX DESIGN</a>
+                        <a class="drop-link" href="../development.html">DEVELOPMENT</a>
+                        
+                        <a class="drop-link" href="../visualdesign.html">VISUAL DESIGN</a>
+                      </div>
+                    </div>
+                    <li><a href="../about.html" class="menu-item">ABOUT</a>
+                    </li>
+                    </ul>
+                </div>
+
+                
+
+            <div class="menu-drop" id="menu-drop">
+
+                <div class="content hidden">
+                    <ul id="menu">
+                        <li><a href="../index.html" class="menu-item">HOME</a>
+                        </li>
+                        <li><a href="../uxdesign.html" class="menu-item">UX DESIGN</a>
+                        </li>
+                        <li><a href="../development.html" class="menu-item">DEVELOPMENT</a>
+                        </li>
+                        <li><a href="../visualdesign.html" class="menu-item">VISUAL DESIGN</a>
+                        </li>
+                        <li><a href="../about.html" class="menu-item">ABOUT</a>
+                        </li>
+                        
+                    </ul>
+                </div>
+
+            </div>
+
+                <div id="hamburger">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+            </div>
+
+        </section>
+
+        <div class="project-nav">
+
+
+
+                <div class="prev">
+                    <a href="body-labs-blue.html">&#x2190; previous project </a>
+                </div>
+
+
+                <div class="section">
+                    <a href="../uxdesign.html">UX DESIGN PROJECTS</a>
+                </div>
+
+
+                <div class="next">
+                    
+                </div>
+
+        </div>
+
+
+
+        <div class="clear"></div>
+
+
+
+        <section class="project-body" id="">
+
+            <div class="project-row1">
+
+                <div class="header">
+
+                    <h1>Holojam</h1>
+
+                </div>
+
+            </div>
+
+            <div class="project-row2">
+
+                <div class="desc">
+
+                    <p>Holojam is an experience created by my team at the NYU Media Research Lab under the direction of Ken Perlin. We created an experience where up to five people can draw collaboratively in virtual reality. This version of Holojam was showcased at the SIGGRAPH 2015 VR Village.</p>
+
+                </div>
+
+                <div class="facts">
+
+                    <table style="width:100%">
+
+                        <tr>
+                            <td class="category"><span class="type">Year: </span></td>
+                            <td class="result"><span class="value">2015</span></td> 
+                        </tr>
+
+
+                        <tr>
+                            <td class="category"><span class="type">Group: </span></td>
+                            <td class="result"><span class="value">NYU Media Research Lab</span></td> 
+                        </tr>
+
+
+                        <tr>
+                            <td class="category"><span class="type">Role: </span></td>
+                            <td class="result"><span class="value">User Experience Designer</span></td> 
+                        </tr>
+                        
+
+
+
+
+                        <tr>
+                            <td class="category"><span class="type">Demos: </span></td>
+                            <td class="result"><span class="value">SIGGRAPH 2015</span></td> 
+                        </tr>
+
+                    
+
+                    
+
+
+
+
+                    </table>
+
+                </div>
+                
+            </div>
+
+
+                <div class="project-row3" id="project-row3" style="padding-bottom:56.25%; height: 0;">
+                    
+                    <div class="video-responsive" id="main-vid">
+                        
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/kzx5igORwk4" frameborder="0" allowfullscreen></iframe>
+
+                    </div>
+                    
+                </div>
+
+
+
+                <div class="project-row">
+                    
+                        <div class="left"><h1>About the Experience</h1></div> <div class="right"><p>Up to five people in a 36ft x 34ft physical space can run around freely, untethered, seeing each other as avatars.  Each person wears a headset, wrist straps and ankle straps (it takes about 30 seconds to put these on).  All info needed by the software to build a full human avatar comes from these five strapped on markers. In addition, participants will hold wands, which they can use to paint and sculpt in the 3D space.<br><br>Unlike much shared VR, this is a highly physical experience.  Participants see each other in their true physical locations, re-created as avatars in an alternate “magical” world.  They are free to talk to each other and physically interact with each other, while they walk and run around in the shared space.  With their magic wand they can draw sculptural shapes in the air.  In this way, each participant contributes to an on-going three dimensional sculptural art work, which is collective created by all participants over the course of the day.<br><br>The participating artists are able to choose different kinds of brushes and colors to paint with. In some versions of Holojam, these may be chosen with palettes placed around the room, or by touching exotic colorful textured creatures that swim/float/fly by in the air.  A participant who runs up to one of these creatures before it leaves the space can touch the creature with his/her wand, and will then be able to draw in the air with that color and texture.<br><br>Over the course of a day, participants collectively create a cadavre exquis, in the form of an evolving space-time sculpture.  At any given moment, participants see only a time-slice of this sculpture.  After a few minutes, earlier portions of the sculpture appear to fade away, as those portions recede into the past.</p></div>
+                        <hr>
+                </div>
+
+
+
+
+                <div class="project-row">
+                    
+                        <div class="left"><h1>WHY THE EXPERIENCE IS UNIQUE</h1></div><div class="right"><p>Our shared VR experience is different from all previous shared VR experiences in that participants can run around freely, unconstrained by cables or bulky backpacks, interacting with other participants in a magical, people-centered way, doing impossible things together like drawing in the air.  It is designed to be a highly social experience for participants, and also lots of fun for other people watching.<br><br>Participants can talk to, observe, and physically interact with one and other in the space. More participants provides more activity to observe.<br><br>People who experienced Holojam at SIGGRAPH 2015 created a large and spectacular shared drawing, using their own physical movement.  This is a unique example of community-created art in a shared VR world – the first instance in history, we believe, of a work of community-created space-time art in shared virtual reality.</p></div>
+                        <hr>
+
+                </div>
+
+
+
+
+                <div class="project-row">
+                    
+                        <div class="left"><h1>Process and Ideation</h1></div><div class="right"><p>Holojam was built collaboratively with a large team of brilliant developers, designers, and animators. The final product is a result of freeform research and ideation. Here are some of the design ideas I came up for our initial implementation.<br><br><div class="sketchfab-embed-wrapper"><iframe width="100%" height="300" src="https://sketchfab.com/models/1684c84a8c98458499ec49c750bdcc17/embed" frameborder="0" allowvr allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel=""></iframe></div><br><br><div class="sketchfab-embed-wrapper"><iframe width="100%" height="300" src="https://sketchfab.com/models/e7ca705bb70e48618d15b956b86b6c78/embed" frameborder="0" allowvr allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel=""></iframe></div></p></div>
+                        <hr>
+                    
+                </div>
+
+
+
+
+                <div class="project-row">
+                    
+                        <div class="left"><h1>SIGGRAPH VR Village</h1></div><div class="right"><p><div class=" video-responsive"><iframe width="560" height="315" src="https://www.youtube.com/embed/zB9Vw1vPo20" frameborder="0" allowfullscreen></iframe></div></p></div>
+                        <hr>
+                    
+                </div>
+
+
+
+
+                <div class="project-row">
+                    
+                        <div class="left"><h1>Team</h1></div> <div class="right"><p>Connor Defanti, Zach Cimafonte, Laura Juo-Hsin Chen, Sebastian Herscher, Will Field-Thompson, Daren Liu, David Lobser, Ken Perlin.</p></div>
+                        <hr>
+                    
+                </div>
+
+
+
+
+                <div class="project-row">
+                    
+                        <div class="left"><h1>Press</h1></div> <div class="right"><p>Motherboard, MIT Technology Review, UploadVR, WSN, VRR</p></div>
+                        <hr>
+                    
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <!-- <div class="project-content"> -->
+            
+<!--                 <div class="left">
+                    <img class="cover" src="../img/covers/holojam.png">   
+                </div>
+
+                <div class="right">
+                    <h1>Holojam</h1>
+                    <br>
+                    PROJECT DETAILS<br>
+                    <br><br>
+
+                    TEAM<br>
+                    <br><Br>
+
+                    MY ROLE<br>
+                    <br><br>
+                    
+                   
+                </div> -->
+
+        <!--     </div> -->
+
+         <!--    <div class="project-description"> -->
+                <!-- <p><br><center><a href="http://mrlholojam.tumblr.com">Official Website</a></center> -->
+           <!--  </div> -->
+
+
+
+
+            
+        </section>
+
+
+        <div class="clear"></div>
+
+
+
+        <section class="foot">
+            <div class="menu-footer">
+
+                <a href="#home">Home</a>
+                <a href="https://www.linkedin.com/in/claremcarroll" target="_blank">LinkedIn</a>
+                <a href="https://www.behance.net/claremariecarroll" target="_blank">Behance</a>
+                <a href="https://www.instagram.com/_claremarie/" target="_blank">Instagram</a>
+                <a href="https://github.com/claremcarroll" target="_blank">Github</a>
+
+            </div>
+
+            <div class="copyright">© Clare Marie Carroll 2017</div>
+
+
+        </section>
+
+
+    </div>
+    
+
+
+</body>
+
+</html>

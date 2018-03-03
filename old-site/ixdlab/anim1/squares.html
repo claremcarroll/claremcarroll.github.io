@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>horizontalLeft</title>
+  <meta charset="utf-8">
+  <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <section class="frame" id="cmulogo_background">
+
+        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+     viewBox="0 0 1920 1080" enable-background="new 0 0 1920 1080" xml:space="preserve">
+<g id="one">
+    
+        <rect class="sq"  x="-201" y="460.1" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -417.3272 72.6069)" fill="#CD6829" stroke="#010101" stroke-width="11" stroke-miterlimit="10" width="160" height="160"/>
+
+</g>
+<g id="two">
+    
+        <rect class="sq"  x="879.9" y="-201.1" transform="matrix(0.7071 -0.7071 0.7071 0.7071 366.8206 643.2966)" fill="#CFAF2B" stroke="#010101" stroke-width="11" stroke-miterlimit="10" width="160" height="160"/>
+
+</g>
+<g id="three">
+    
+        <rect class="sq"  x="1961.1" y="459.9" transform="matrix(0.7071 -0.7071 0.7071 0.7071 216.0432 1601.4504)" fill="#4DA9A8" stroke="#010101" stroke-width="11" stroke-miterlimit="10" width="160" height="160"/>
+
+</g>
+<g id="four">
+    
+        <rect class="sq" x="880.1" y="1121.1" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -568.1409 1030.6731)" fill="#935293" stroke="#010101" stroke-width="11" stroke-miterlimit="10" width="160" height="160"/>
+
+</g>
+</svg>
+
+    </section>
+
+  <script src="anime.js"></script>
+  <script>
+
+        var moveAnimation = anime({
+            
+            targets: '#one ',
+            translateX: (1920/2)+8, 
+            /*
+            350 = start position 
+            1920/2 = half the horzirontal viewing area */
+            
+            delay: 1000,
+            duration: 1366,
+            autoplay: false,
+            easing: 'easeInOutCirc',
+        });
+        moveAnimation.play();
+      
+        var moveAnimation2 = anime({
+            targets: '#two',
+            
+            translateY: (1080/2)+8, 
+            /*
+            -770 = start position 
+            1080/2 = half the verical viewing area */
+            
+            delay: 1000,
+            duration: 1366,
+            autoplay: false,
+            easing: 'easeInOutCirc',
+        });
+        moveAnimation2.play();
+
+        var moveAnimation3 = anime({
+            targets: '#three',
+            
+            translateX: -((1920/2)+8), 
+            /*
+            -770 = start position 
+            1080/2 = half the verical viewing area */
+            
+            delay: 1000,
+            duration: 1366,
+            autoplay: false,
+            easing: 'easeInOutCirc',
+        });
+        moveAnimation3.play();
+
+        var moveAnimation4 = anime({
+            targets: '#four',
+            
+            translateY: -((1080/2)+8), 
+            /*
+            -770 = start position 
+            1080/2 = half the verical viewing area */
+            
+            delay: 1000,
+            duration: 1366,
+            autoplay: false,
+            easing: 'easeInOutCirc',
+        });
+        moveAnimation4.play();
+
+        var moveAnimation5 = anime({
+            targets: '.sq' ,
+            strokeWidth: {
+                value: 0,
+                easing: 'linear',
+                delay: 0,
+                duration: 500,
+                autoplay: false, 
+                },
+            duration: 500,
+            autoplay: false,
+        });
+
+
+        var moveAnimation6 = anime({
+            targets: 'svg' ,
+            rotate: 90,
+            delay: 0,
+            duration: 1366,
+            autoplay: false,
+        });
+
+        var moveAnimationr2 = anime({
+            targets: 'svg' ,
+            rotate: 180,
+            delay: 0,
+            duration: 1366,
+            autoplay: false,
+        });
+
+        var moveAnimationr3 = anime({
+            targets: 'svg' ,
+            rotate: 270,
+            delay: 0,
+            duration: 1366,
+            autoplay: false,
+        });
+
+        var moveAnimationr4 = anime({
+            targets: 'svg' ,
+            rotate: 360,
+            delay: 0,
+            duration: 1366,
+            autoplay: false,
+        });
+
+        var moveAnimation7 = anime({
+            targets: '.sq' ,
+            strokeWidth: {
+                value: 13,
+                easing: 'linear',
+                delay: 0,
+                duration: 1000,
+                autoplay: false, 
+                },
+            duration: 1000,
+            autoplay: false,
+        });
+
+        var moveAnimationex1 = anime({
+            
+            targets: '#one ',
+            translateX: -((1920/2)+8), 
+            /*
+            350 = start position 
+            1920/2 = half the horzirontal viewing area */
+            
+            delay: 1000,
+            duration: 1366,
+            autoplay: false,
+            easing: 'easeInOutCirc',
+        });
+      
+        var moveAnimationex2 = anime({
+            targets: '#two',
+            
+            translateY: -((1080/2)+8), 
+            /*
+            -770 = start position 
+            1080/2 = half the verical viewing area */
+            
+            delay: 1000,
+            duration: 1366,
+            autoplay: false,
+            easing: 'easeInOutCirc',
+        });
+
+        var moveAnimationex3 = anime({
+            targets: '#three',
+            
+            translateX: ((1920/2)+8), 
+            /*
+            -770 = start position 
+            1080/2 = half the verical viewing area */
+            
+            delay: 1000,
+            duration: 1366,
+            autoplay: false,
+            easing: 'easeInOutCirc',
+        });
+
+        var moveAnimationex4 = anime({
+            targets: '#four',
+            
+            translateY: ((1080/2)+8), 
+            /*
+            -770 = start position 
+            1080/2 = half the verical viewing area */
+            
+            delay: 1000,
+            duration: 1366,
+            autoplay: false,
+            easing: 'easeInOutCirc',
+        });
+
+        backgroundColor: '#FFF',
+
+        moveAnimation4.settings.complete = function(){
+          moveAnimation5.play();
+        }
+
+        moveAnimation5.settings.complete = function(){
+          moveAnimation6.play();
+        }
+
+
+        moveAnimation6.settings.complete = function(){
+            moveAnimationr2.play();
+        }
+        moveAnimationr2.settings.complete = function(){
+            moveAnimationr3.play();
+        }
+
+        moveAnimationr3.settings.complete = function(){
+            moveAnimationr4.play();
+        }
+
+        moveAnimationr4.settings.complete = function(){
+            moveAnimation7.play();
+        }
+
+        moveAnimation7.settings.complete = function(){
+            moveAnimationex1.play();
+            moveAnimationex2.play();
+            moveAnimationex3.play();
+            moveAnimationex4.play();
+        }
+      
+  </script>
+</body>
+</html>
